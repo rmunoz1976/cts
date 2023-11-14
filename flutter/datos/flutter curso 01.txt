@@ -1,0 +1,435 @@
+flutter
+
+Legacy - Flutter: Tu guía completa para IOS y Android
+
+
+3. intalaciones requeridas 
+link de descargas
+https://gist.github.com/Klerith/67058c9ad01e32214901fab5f664ec4f
+
+
+9. Tipo de datos
+final en ejecucion
+const en compilacion
+int 
+double
+
+10. Tipo de datos bool
+bool
+bool? puede ser null 
+
+11. tipo de datos lista
+List numeros = []; // no puede tener valores nulos
+List? numeros = null; // puede tener valores nulos
+
+List int numeros = null; // solo puede tener valores numericos
+
+Metodo estatico es una funcion que se puede llmar sin ceaar una instancia  de la misma
+
+final masNumeros = List.generate(100);
+
+
+12. Tipo dato MAP
+Especificar el tipo de dato
+( otros lenguajes objetos literales diccionario )
+
+Map <tipo de dato de la llave, tipo de sato del valor >
+
+13. Funciones
+
+saludar( [String nombre = 'no name'] )
+// los corchetes indicando que el  valor puede ser opcional
+
+saludar( { String nombre , String mensaje } )
+//las llaves {} es para no obligar el orden de los argumentos
+
+required // debe enviar 
+
+14. Clases
+return 'Heroe: nombre:  ${this.nombre}';
+el constructor tiene el mismo nombre de la clase
+
+class Heroe{ --> clase
+Heroe() --> Constructor : no es mas que una funcion, solo que como esta dentro de la clase se conoce como metodo
+}
+
+String? nombre ( ? es para permitir el nulo)
+
+15. Constructores con nombre
+Cuando recibo un MAP
+json
+fromJson
+los ':' se va a ejecutar en el momento que se está creando la instancia de la clase
+
+Heroe.fromJson( Map<String, String > json)
+
+
+16. Getter Setter
+
+Son tipo de metodo especiales
+
+Getter: es un metodo, que luce como metodo pero se llama como una propiedad
+no envio nada 
+
+Setter: 
+si envio el tipo de dato
+
+Se utiliza como una propiedad se puede ejecutar cierto tipo de logica 
+a la hora de establecer jun valor a una propiedad de nuestra clase
+
+import 'dart.math' as math2
+math2.sqrt(valor)
+
+17. Clases abstractas
+no se puede iniciliazar
+sirven para que otras clases puedan implementar lo que tiene la clase abstracta
+la nueva clase tiene que tener los metodos y propiedades de la clase abstracta
+
+18. Extends
+palabra reservada
+
+19. Mixins
+
+Mezclar con ciertas caracteristicas independientes
+link de documento
+Ejemplo:
+class Delfin extends Mamifero with Nadador
+class Murciegalo extends Mamifero with caminante, Voldador
+
+20. Futures
+***muy importante***
+java es una promesa
+tarea asincrona 
+peticion http (a un servicio) y esperando una respuesta y cuando la obtenemos seguimos ejecutando
+
+21 Async - Await
+
+Async = una funcion marcada como async retorna un tipo Future
+primero todo el codigo de manera asincrona, y todo lo que es peticion, string o future 
+termina en segundo plano y cuandotenga tiempo se va a ejecutar 
+
+Future<String>
+ejecuta en 2do plano
+
+Await 
+el await solo puede ser utilizado dentro de una funcion async
+
+
+
+Seccion 3
+
+25 ints fultter winw 
+descargar flutter
+20 gigas
+instalar flutter en otra carpeta diferente a la del c program
+
+buscar flutter  corta en raiz ( bin carpeta mas importante)
+
+editar variables de entorno
+buscar la caprta bin y copiar la ruta
+
+flutter --version
+flutter doctor
+
+
+26 ints android stu winw 
+descargar  android studio
+
+update 
+
+en plugins 
+dart 
+flutter
+
+more actiones AVD Manager
+
+26 Windows: Crear proyectos desde visual studio code
+
+
+Seccion 4
+
+36 conceptos:
+
+widgets : una clase que contine argumentos posicionales y o argumentos con nombres, todo son widgwtes
+menos las clases que se usan para mantener la informacion y los modelos de datos
+
+Stateless : sin estado - no puede redibujarse por que no tiene este metodo (la propiedad no calmbia)
+con final
+Puede ser un boton con un icono
+
+Stateful  : con estado (si cambia la propiedad) - Redibujarse asi mismo 
+con String
+
+Ambos son abstractos
+
+37. Arbol widgets
+
+Scaffold : --> toda la pantalla
+  AppBar --> parte de arriba
+  TabBar --> parte de abajo
+  Container -- todo lo demas 
+    Text
+	Row
+
+Widget personalizados
+
+38 Estructura Proyecto
+
+.gitignore -- ignorar los archivos en git
+pubspec.yaml -- instalar dependencias
+pubspec.lock --como fue construido  cada una de las dependencias del proyecto
+mi_app.iml -- es de intellij
+
+android -- config propias de android
+ios -- config propias de ios
+
+test -- tenga la misma estruc del la carptea lib
+web -- similar a android o ios pero para web
+lib -- crece segun el codigo, está el main
+
+
+Seccion 5
+
+42 crea carpeta
+nombre aplicacion  : no mayusculas
+
+flutter select device
+
+44. Nuestro primer Widget 
+material app class
+no cambiar el main
+
+para que sea un widget se deb extender de StatelessWidget o StatefulWidget
+
+
+-- ctrl . : informacion
+
+azul es un warninig
+flutter_lints
+
+ctrlo espaciadora
+
+45 Prefer Const
+
+constructor: el primer metodo que se llama cuando se crea una instancia de una clase
+
+El ancestro mas alto que sea constante
+
+
+El key sirve para identificar un wigdet propiamente dento del contexto
+es una buena practica para hacer referecnia al widget
+
+46. Separando logica en varios archivos
+
+se debe escribir aaaaa para folders
+se debe escribir aaaa_bbb para archivos (Snake Case)
+el widget se escribe Upper Camel Case AaaaBbbbb
+
+47 BuildContext y Scaffold
+
+ctrl o ?? 
+casi todos reciben un chlid o un chlidren
+Scaffold tiene un widget de body, tambien un appbar un backgroundcolor , un floatingactionbutton
+Lienzo donde puedo poner widget
+
+BuildContext: todo el arbol de widget, la informacion de los widget que está dentro de el buil context.
+sirve para saber cual es el contexto en el cual nuestro widget está siendo construido.
+
+48 Columnas
+se debe saber que tipo de widget es
+la mayoria de widget solo tienen un chil (hijo)
+
+
+49 soluc tarea columnas
+
+<Widget>[ --todo lo que este entre los corchetes debe ser un widget ]
+
+
+50 Estilos de texto
+
+text('nro: ', style: textstyle()fontSize : 30), ),
+
+se puede crar como una constante de tipo textstyle
+
+51 Boton flotante
+
+floatingactionbutton :
+chlid: const Icon (Icons.add)
+ctrl espaciadora
+
+52. cambiar la posicion del boton
+floatingactionbuttonlocation :
+
+53. contador
+statelesswidget necesito cambiar el estado
+
+counter.toString()--- es mejor '$counter'
+'$counter.valor'
+Gestor de estado: un objeto que meneje el estado
+
+un statelesswidget se dibuja y se queda asi
+
+54. statefullwidget
+click derecho y conver, hace un refactor
+
+counter++;
+setState((){}); Notifica que hay un cambio 
+
+{} funcion anomina
+
+se saca y se pone como una propiedad 
+
+clase
+  propiedad
+@override
+Widget
+ variable
+ 
+55. creando acciones adicionales
+
+va en orden del widget
+sizedBox : caja de separacion
+
+56. optimizando del codigo
+
+onPressed : () => setState(() => counter(+)
+
+onPressed : () { 
+counter = 0;
+setState((){});
+}
+
+Extrac Widget 
+
+57 envinado fnc como arg
+
+void increase () metodo
+final Function resetFn
+
+SECCION 6
+
+63 inicio proyecto
+view command pallete
+ 
+Siempre el key en los widget
+
+64 List View lista de elementos
+crear screens o pages
+crear dentro list view 1 screens
+crear un snippet : view / command pallete / configure user snippet
+seleccionar  dart.json
+fls TAB
+
+no todos tiene un AppBar
+
+ListView
+tiene un children cada uno es un widget
+
+65 ListTiles
+se crea una lista 
+
+66 ListView 
+Divider()
+custom
+builder
+separated
+
+ListView.separated
+
+Builder = siginifica que construye o vuelve a realiar algun widget o elemento
+
+(_, __) = no enviar argumentos
+
+67. Taps sobre los ListTiles
+Propiedad  que recibe una funcion onTap
+
+cambiar sobra y color
+en el AppBar
+
+68. HomeScreen
+
+Rutas dispnibles
+Archivo de barril o archivo de exportacion: debe terner el mismo  nomrbe de la carpeta con extension .dart
+se copian las rutas pero con la palara export
+
+en el main se definie  routes
+
+routes {}
+
+69 Diseño home screen
+
+70 Navegar a una nueva pantalla
+
+Navigator.push( ) el context, sirve como una memoria de como está construida la aplicacion.
+onGenerateRoute --para rutas que on existen o no tinene datos 
+
+71 AppRouter
+
+crear directorio Routes y dentro un archivo llamado app_routes.dart
+en esa una classe 
+
+propiedades o metodo estaticos: se puede acceder sin necsida de instancair la clase
+static const inititalRoute = 'home'
+
+72. Modelo y listado de rutas
+Se crea un carpeta models y models.dart y menu_options.dart
+
+MenuOption
+
+73 Crear metodo con las rutas de mi aplicacion
+
+74 tema global para app
+theme 
+themeData.liogth().copyWith (
+)
+
+75 tema global 
+se crea floder Theme y archivo app_theme.dart
+
+76 card widget
+Tarjetas
+Card()
+  child: 
+    children: 
+	  ListTiles
+	  
+padding : añadir sepracion , es del mismo tamaño 
+EdgeInsets
+
+77 Centralizar los widgets
+
+se deja el curso sobre Card  , click derecho y extaer widget
+
+se debe pasar el widget para la nueva carpeta widgets
+y se crea tambine un archivo con el mismo nombre de la clase
+y se pega el  widget
+
+
+78 imagen y Fadeln
+NetworkImage
+FadeInImage
+placeholder
+
+crear  carpeta assets --dentro de ea una que se llame imagen
+en pubspec.yaml
+en assets 
+
+79 Ajustar atamñao de imagen
+width doueble.infinity
+
+clipBehavior recortar los bordes
+
+shadowColor
+
+80 Argumentos en los widgets
+
+------------------------------------------------------------------------------------------
+
+Salté de la seccion para ver sql
+
+------------------------------------------------------------------------------------------
+
+Seccion 10
+
+159 QR Scaner
+

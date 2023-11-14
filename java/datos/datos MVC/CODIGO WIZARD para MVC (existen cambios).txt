@@ -1,0 +1,365 @@
+
+----------------------------------------
+---------------------------------------- controller
+----------------------------------------
+
+package com.proyecto.cts.controller;
+
+import com.proyecto.cts.entity.ColorEntity;
+import com.proyecto.cts.service.ColorService;
+import com.proyecto.cts.zgeneral.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Objects;
+
+@RestController
+@RequestMapping("/cts/color")
+public class ColorController {
+    GeneralValidationImpl generalValidationImpl = new GeneralValidationImpl();
+    @Autowired
+    private ColorService servicio;
+
+    // Listar
+    @GetMapping("/List")
+    public List<ColorEntity> list() {
+        return servicio.list();
+    }
+
+    @GetMapping("/ListO")
+    public Object listO() {
+        return servicio.listO();
+    }
+
+    //Insertar
+    @PostMapping("/Save")
+    public ResponseEntity<GeneralResponse> save(@Validated @RequestBody ColorEntity entidad) throws Exception {
+        try {
+            if (Objects.nonNull(servicio.save(entidad))) {
+                return ResponseEntity.status(HttpStatus.OK).body(GeneralResponse.builder()
+                        .success(true)
+                        .estado(EnumResult.mensajeError.getSaved())
+                        .codigo(EnumMsgstatus.MSG1001.getErrorNumero())
+                        .mensaje1(EnumMsgstatus.MSG1001.getErrorMensaje())
+                        .mensaje2(String.valueOf(HttpStatus.OK))
+                        .build());
+            } else {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(true)
+                        .estado(EnumResult.mensajeError.getSavedError())
+                        .codigo(EnumMsgstatus.MSG1002.getErrorNumero())
+                        .mensaje1(EnumMsgstatus.MSG1002.getErrorMensaje())
+                        .mensaje2(String.valueOf(HttpStatus.BAD_REQUEST))
+                        .build());
+            }
+        } catch (Exception error) {
+            if (error.getMessage().contains("ERR1")) {
+
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(false)
+                        .codigo(error.getMessage())
+                        .estado(EnumResult.mensajeError.getSavedError())
+                        .mensaje1(EnumMsgstatus.valueOf(error.getMessage()).getErrorMensaje())
+                        .mensaje2("")
+                        .build());
+            } else {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(false)
+                        .codigo(generalValidationImpl.validarmensajeError1(String.valueOf(error.getCause().getCause())))
+                        .estado(EnumResult.mensajeError.getSavedError())
+                        .mensaje1(generalValidationImpl.validarmensajeError1(generalValidationImpl.validarmensajeError1(String.valueOf(error.getCause().getCause()))))
+                        .mensaje2(String.valueOf(error.getCause().getCause()))
+                        .build());
+            }
+        }
+    }
+
+    // Actualizar
+    @PutMapping("/Update/{id}")
+    public ResponseEntity<GeneralResponse> update(@Validated @RequestBody ColorEntity entidad,
+                                                  @PathVariable("id") Long id) {
+        try {
+            if (Objects.nonNull(servicio.update(entidad, id))) {
+                return ResponseEntity.status(HttpStatus.OK).body(GeneralResponse.builder()
+                        .success(true)
+                        .estado(EnumResult.mensajeError.getUpdated())
+                        .codigo(EnumMsgstatus.MSG1003.getErrorNumero())
+                        .mensaje1(EnumMsgstatus.MSG1003.getErrorMensaje())
+                        .mensaje2(String.valueOf(HttpStatus.OK))
+                        .build());
+            } else {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(true)
+                        .estado(EnumResult.mensajeError.getUpdatedError())
+                        .codigo(EnumMsgstatus.MSG1004.getErrorNumero())
+                        .mensaje1(EnumMsgstatus.MSG1004.getErrorMensaje())
+                        .mensaje2(String.valueOf(HttpStatus.BAD_REQUEST))
+                        .build());
+            }
+        } catch (Exception error) {
+            if (error.getMessage().contains("ERR1")) {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(false)
+                        .codigo(error.getMessage())
+                        .estado(EnumResult.mensajeError.getUpdatedError())
+                        .mensaje1(EnumMsgstatus.valueOf(error.getMessage()).getErrorMensaje())
+                        .mensaje2("")
+                        .build());
+            } else {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(false)
+                        .codigo(generalValidationImpl.validarmensajeError1(String.valueOf(error.getCause().getCause())))
+                        .estado(EnumResult.mensajeError.getUpdatedError())
+                        .mensaje1(generalValidationImpl.validarmensajeError1(generalValidationImpl.validarmensajeError1(String.valueOf(error.getCause().getCause()))))
+                        .mensaje2(String.valueOf(error.getCause().getCause()))
+                        .build());
+            }
+        }
+    }
+
+    // Borrar
+    @DeleteMapping("/Delete/{id}")
+    public ResponseEntity<GeneralResponse> deleteById(@PathVariable("id") Long id) throws Exception {
+        try {
+            servicio.deleteById(id);
+            return ResponseEntity.status(HttpStatus.OK).body(GeneralResponse.builder()
+                    .success(true)
+                    .estado(EnumResult.mensajeError.getDeleted())
+                    .codigo(EnumMsgstatus.MSG1005.getErrorNumero())
+                    .mensaje1(EnumMsgstatus.MSG1005.getErrorMensaje())
+                    .mensaje2(String.valueOf(HttpStatus.OK))
+                    .build());
+        } catch (Exception error) {
+            if (error.getMessage().contains("ERR1")) {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(false)
+                        .codigo(error.getMessage())
+                        .estado(EnumResult.mensajeError.getDeleteError())
+                        .mensaje1(EnumMsgstatus.valueOf(error.getMessage()).getErrorMensaje())
+                        .mensaje2("")
+                        .build());
+            } else {
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(GeneralResponse.builder()
+                        .success(false)
+                        .codigo(generalValidationImpl.validarmensajeError1(String.valueOf(error.getCause().getCause())))
+                        .estado(EnumResult.mensajeError.getDeleteError())
+                        .mensaje1(generalValidationImpl.validarmensajeError1(generalValidationImpl.validarmensajeError1(String.valueOf(error.getCause().getCause()))))
+                        .mensaje2(String.valueOf(error.getCause().getCause()))
+                        .build());
+            }
+        }
+    }
+}
+
+
+
+----------------------------------------
+---------------------------------------- entity
+----------------------------------------
+
+
+package com.proyecto.cts.entity;
+
+import lombok.*;
+import org.springframework.validation.annotation.Validated;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+import java.time.LocalDateTime;
+
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@Getter
+@Setter
+@Validated
+@Table(name = "t344e_color")
+public class ColorEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "codigo", nullable = false)
+    @NotEmpty(message = "El código no debe estar vacío.")
+    private String codigo;
+
+    @Column(name = "descripcion", nullable = false)
+    @NotEmpty(message = "La descripción no debe estar vacía.")
+    private String descripcion;
+
+    @Column(name = "id_empresa")
+    private Long idEmpresa;
+
+    @Column(name = "id_estado_registro")
+    private Long idEstadoRegistro;
+
+    @Column(name = "id_usuario_creacion")
+    private Long idUsuarioCreacion;
+
+    @Column(name = "fecha_creacion")
+    private LocalDateTime fechaCreacion;
+
+    @Column(name = "id_usuario_modificacion")
+    private Long idUsuarioModificacion;
+
+    @Column(name = "fecha_modificacion")
+    private LocalDateTime fechaModificacion;
+
+}
+
+
+
+
+----------------------------------------
+---------------------------------------- repository
+----------------------------------------
+
+package com.proyecto.cts.repository;
+
+import com.proyecto.cts.entity.ColorEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ColorRepository extends JpaRepository<ColorEntity, Long> {
+    String sqlTabla = "t344e_color";
+
+    @Query(value = "SELECT COUNT(*) FROM " + sqlTabla + " t WHERE t.id <> ?1 AND t.codigo = ?2", nativeQuery = true)
+    Long valDuplicadoCodigo(Long param01, String param02);
+
+    @Query(value = "SELECT COUNT(*) FROM " + sqlTabla + " t WHERE t.id <> ?1 AND  t.descripcion = ?2", nativeQuery = true)
+    Long valDuplicadoDescripcion(Long param01, String param02);
+
+    @Query(value = "SELECT COUNT(*) FROM " + sqlTabla + " t WHERE t.id = ?1", nativeQuery = true)
+    Long searchById(Long param01);
+}
+
+
+----------------------------------------
+---------------------------------------- service
+----------------------------------------
+
+package com.proyecto.cts.service;
+
+import com.proyecto.cts.entity.ColorEntity;
+
+import java.util.List;
+
+public interface ColorService {
+    // Listar
+    List<ColorEntity> list();
+
+    // ListarO
+    Object listO();
+
+    // Insertar
+    ColorEntity save(ColorEntity entidad) throws Exception;
+
+    // Actualizar
+    ColorEntity update(ColorEntity entidad, Long id) throws Exception;
+
+    // Borrar
+    ColorEntity deleteById(Long id) throws Exception;
+
+    // Convertir a Mayusculas
+    ColorEntity aMayusculas(ColorEntity entidad);
+
+}
+
+
+----------------------------------------
+---------------------------------------- service Impl
+----------------------------------------
+
+package com.proyecto.cts.service;
+
+import com.proyecto.cts.entity.ColorEntity;
+import com.proyecto.cts.repository.ColorRepository;
+import com.proyecto.cts.zgeneral.EnumMsgstatus;
+import com.proyecto.cts.zgeneral.GeneralValidationImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Service
+public class ColorServiceImpl implements ColorService {
+    GeneralValidationImpl general = new GeneralValidationImpl();
+    @Autowired
+    private ColorRepository repositorio;
+
+    @Override
+    public List<ColorEntity> list() {
+        return (List<ColorEntity>) repositorio.findAll();
+    }
+
+    @Override
+    public Object listO() {
+        return (List<ColorEntity>) repositorio.findAll();
+    }
+
+    @Override
+    public ColorEntity save(ColorEntity entidad) throws Exception {
+        entidad.setId(0L);
+        entidad.setFechaCreacion(LocalDateTime.parse(general.fechaActual(2)));
+        if (validaciones(aMayusculas(entidad))) {
+            return repositorio.save(entidad);
+        } else {
+            throw new Exception(EnumMsgstatus.ERR1801.getErrorNumero());
+        }
+    }
+
+    @Override
+    public ColorEntity update(ColorEntity entidad, Long id) throws Exception {
+        if (repositorio.searchById(id) > 0) {
+            ColorEntity entidadDb = repositorio.findById(id).get();
+            entidad.setId(id);
+            entidad.setIdUsuarioCreacion(entidadDb.getIdUsuarioCreacion());
+            entidad.setFechaCreacion(entidadDb.getFechaCreacion());
+            entidad.setFechaModificacion(LocalDateTime.parse(general.fechaActual(2)));
+            if (validaciones(aMayusculas(entidad))) {
+                return repositorio.save(entidad);
+            } else {
+                throw new Exception(EnumMsgstatus.ERR1802.getErrorNumero());
+            }
+        } else {
+            throw new Exception(EnumMsgstatus.ERR1998.getErrorNumero());
+        }
+    }
+
+    @Override
+    public ColorEntity deleteById(Long id) throws Exception {
+        if (repositorio.searchById(id) > 0) {
+            repositorio.deleteById(id);
+        } else {
+            throw new Exception(EnumMsgstatus.ERR1998.getErrorNumero());
+        }
+        return null;
+    }
+
+    public ColorEntity aMayusculas(ColorEntity entidad) {
+        entidad.setCodigo(entidad.getCodigo().toUpperCase());
+        entidad.setDescripcion(entidad.getDescripcion().toUpperCase());
+        return entidad;
+    }
+
+    public boolean validaciones(ColorEntity entidad) throws Exception {
+        if (repositorio.valDuplicadoCodigo(entidad.getId(), entidad.getCodigo()) != 0) {
+            throw new Exception(EnumMsgstatus.ERR1001.getErrorNumero());
+        }
+        if (repositorio.valDuplicadoDescripcion(entidad.getId(), entidad.getDescripcion()) != 0) {
+            throw new Exception(EnumMsgstatus.ERR1002.getErrorNumero());
+        }
+        return true;
+    }
+}
+
+

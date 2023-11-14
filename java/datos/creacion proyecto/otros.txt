@@ -1,0 +1,137 @@
+
+spring.datasource.url=jdbc:mysql://localhost:3306/bdintermediary
+spring.datasource.username=root
+spring.datasource.password=!1976_34SY@_R00t
+
+#Mostrar SQL queries que se realizan
+spring.jpa.show-sql = true 
+
+#generate optimization hibernate SQL
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+
+
+#server.servlet.context-path=/api/proyecto/ws
+#server.port=8085
+
+# App Properties
+#bezkoder.app.jwtSecret=  bezKoderSecretKey
+#bezkoder.app.jwtExpirationMs= 86400000
+
+--------
+
+package co.com.cts;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Main {
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class,args);
+    }
+}
+
+
+-------- bg mysqladapter
+
+plugins {
+    id 'java'
+}
+
+group 'co.com.cts'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+-------- bg entrypoint
+
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.0.12'
+}
+
+group 'co.com.cts'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.0.12'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+-------- bg intermediary
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.0.12'
+	id 'io.spring.dependency-management' version '1.1.3'
+}
+
+group = 'co.com.cts'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+
+-------- sg
+
+rootProject.name = 'intermediary'
+
+include 'model'
+include 'usecase'
+include 'entry-point'
+include 'mysql-dbadapter'
+
+project(':model').projectDir = file('./domain/model')
+project(':usecase').projectDir = file('./application/usecase')
+project(':entry-point').projectDir = file('./infrastructure/entry-point')
+project(':mysql-dbadapter').projectDir = file('./infrastructure/driven-adapter/mysql-dbadapter')
+
+--------
+
+
+--------
+

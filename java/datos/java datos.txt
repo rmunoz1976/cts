@@ -1,0 +1,136 @@
+&& = AND
+|| = OR
+
+
+https://mvnrepository.com/
+
+https://start.spring.io/
+
+
+Install spring tools
+https://programmerclick.com/article/84661793585/
+
+
+https://github.com/tericcabrel/blog-tutorials
+
+buscar expresiones regulares
+ver anotaciones
+https://docs.jboss.org/hibernate/beanvalidation/spec/2.0/api/javax/validation/constraints/PositiveOrZero.html
+
+https://www.javatpoint.com/spring-mvc-number-validation
+
+
+Desarrollando una aplicación Spring Framework MVC v4 + JPA paso a paso
+https://www.uv.es/grimo/teaching/SpringMVCv4PasoAPaso/
+
+datos de intelij
+https://www.jetbrains.com/idea/guide/tutorials/migrating-junit4-junit5/adding-dependencies/
+
+
+Spring Boot CRUD Operations
+https://www.javatpoint.com/spring-boot-crud-operations
+--books
+
+Spring Boot + MySQL Database example (CRUD) in Java [Tutorial]
+https://javarevisited.blogspot.com/2022/03/spring-boot-mysql-database-example-crud.html#ixzz7kiIstqmr
+--Student 
+
+Validate Request Body and Parameter in Spring Boot
+https://medium.com/@tericcabrel/validate-request-body-and-parameter-in-spring-boot-53ca77f97fe9
+--AddressDto
+
+Spring Boot, Spring Data JPA – Rest CRUD API example
+https://www.bezkoder.com/spring-boot-jpa-crud-rest-api/
+--tutorials
+
+Spring Boot RESTful CRUD API Examples with MySQL database
+https://www.codejava.net/frameworks/spring-boot/spring-boot-restful-crud-api-examples-with-mysql-database
+--Product
+
+Spring Boot + JPA + Hibernate + MySQL REST CRUD Example
+https://www.javainuse.com/spring/jpa
+--comments
+
+
+Spring Boot – CRUD Operations using MySQL Database
+https://www.geeksforgeeks.org/spring-boot-crud-operations-using-mysql-database/
+--Department
+
+POJO vs Java Beans
+https://www.geeksforgeeks.org/pojo-vs-java-beans/
+
+
+https://howtodoinjava.com/spring-boot2/spring-rest-request-validation/
+
+---------- CON MANEJO DE RRRORES users
+https://www.javaguides.net/2021/03/validation-in-spring-boot-rest-api-with-hibernate-validator.html
+
+Códigos de estado de respuesta HTTP
+https://developer.mozilla.org/es/docs/Web/HTTP/Status
+
+
+https://parzibyte.me/blog/2019/09/04/sistema-ventas-spring-mvc-mysql-bootstrap/
+
+https://www.baeldung.com/spring-security-login
+https://spring.io/guides/gs/securing-web/
+
+https://www.arquitecturajava.com/spring-boot-y-spring-security-custom-login/
+https://www.javaguides.net/2018/10/user-registration-module-using-springboot-springmvc-springsecurity-hibernate5-thymeleaf-mysql.html
+
+https://amoelcodigo.com/spring-security-roles-jwt/
+https://blog.softtek.com/es/autenticando-apis-con-spring-y-jwt
+
+https://medium.com/@szczypka.m/spring-boot-and-spring-security-jwt-mysql-database-bfd2df928ab5
+
+seguridad
+https://www.javadevjournal.com/spring-security/registration-with-spring-security/
+
+WebSecurityConfigurerAdapter
+
+https://github.com/bezkoder/spring-boot-spring-security-jwt-authentication
+http://localhost:8080/
+
+https://www.bezkoder.com/spring-boot-login-example-mysql/
+https://www.bezkoder.com/spring-security-refresh-token/
+
+--este es el que se usa en CTS
+spring-boot-spring-security-jwt-authentication-master
+https://www.bezkoder.com/spring-boot-jwt-authentication/
+
+https://www.bezkoder.com/spring-boot-refresh-token-jwt/#Source_Code
+
+
+imagen en base64 ejemplo 
+base 64 de una imagen
+
+
+Cerrar el puerto
+netstat -ano | findstr LISTENING | finder 8080
+
+taskill -PID  #### -f
+
+localhost:8080/usuario
+
+
+https://regex101.com/
+
+https://www.phind.com/
+
+
+Using Bean Validation Constraints
+https://javaee.github.io/tutorial/bean-validation002.html
+
+
+https://refactorizando.com/expresiones-regulares-java/
+
+https://www.arteco-consulting.com/post/tutorial-java-regexp
+
+https://www.javaguides.net/2019/12/java-regex-tutorial-regular-expressions.html
+
+https://www.liquidweb.com/kb/what-are-regular-expressions/
+
+https://www.variables.sh/what-is-regex/#:~:text=Regexes%20are%20composed%20of%20patterns,%E2%80%9Ct%E2%80%9D%20in%20a%20string.
+
+https://regex101.com/
+
+https://www.phind.com/agent?cache=clkiewd51005kmh08imfybrh0

@@ -1,0 +1,320 @@
+
+PASOS:
+Flutter: App Delivery con NodeJS, MySQL y Pasarelas de pago
+
+clase 19, 20, 21ListaPaises
+
+----- 1. Environment.dart
+adicionar ruta en archivo Environment.dart
+
+----- 2. crear el model
+
+Crear dentro de la carpeta de models el archivo: t139t_tipo_documento.dart
+
+ir a https://app.quicktype.io/ para modelar los datos 
+
+
+modelar el objeto de la tabla (ej: t139t_tipo_documento)
+
+{
+    "id":8,
+    "codigo":"CC",
+    "descripcion":"CEDULA"
+}
+
+copiar lo generado  y pegar en el archivo creado
+
+T139TTipoDocumento
+validar los campos nulos
+este archivo es el modelo (estrucutra de la tabla)
+
+----- 3. crear el archivo controller 
+
+se en la carpeta tipo_documento el archivo  tipo_documento_controller.dart
+en este archvio se validan los campos y se lanza el consumo del API
+
+void goToTipodocumentoPage() {
+   Get.toNamed('/tipo_documento');
+}
+
+Response response = await t139tTipoDocumentoProvider.save(t304eEmpresa);
+
+----- 4. crear el archivo provider
+
+En la carptea providers se crea el archivo 
+t139t_tipo_documento_provider.dart
+se crea la clase T139TTipoDocumentoProvider
+en este se fdefnie el llaamdo a la API  con le metodo post y se llama el metodo del servicio , en el caso Save
+async pemrie llamar a await, y este lo que haces es ejecutar la liena de codigo y espere a que responda
+
+----- 5.  crear el archivo page
+
+se crear la carpeta tipo_documento en la carpeta pages
+dentro de la carpeta tipo_documento se crea el archivo tipo_documento_page.dart 
+en el archivo tipo_documento_page.dart se codifican los WIDGET
+
+Este tendrá los siguiente:
+
+StatelessWidget
+Scaffold
+          _backgroundLogo(context),
+          _boxForm(context),
+          _imageUser(),
+          _buttonBack(),
+
+_boxForm
+          _textYourInfo(),
+          _textFieldCodigo(),
+          _textFieldEmail(),
+          _textFieldEstadoTipoDocumento(),
+          _buttonSave()
+		  
+----- 6. Adicionar en Opcion
+
+Se debe indicar donde ejecutar el llamado a la nueva pagina (tipo_documento)
+para el caso debe ser en el archivo 
+opcion_0102_page.dart
+
+en algun widget 
+(ejemplo  _buttonOpc0102Departamento())
+
+onPressed: () => tipoDocumentoController.goToTipoDocumentoPage(),
+
+7. adicionar el getPages en el main.dart-list/
+
+--------------------------------------------------
+
+Understanding constraints
+https://docs.flutter.dev/ui/layout/constraints#:~:text=A%20constraint%20is%20just%20a,size%20it%20wants%20to%20be.
+Ejemplo de posiciones y espacios
+
+Codelabs & workshops
+https://docs.flutter.dev/codelabs
+Ejemplos de practica
+
+Anexo:Códigos de estado HTTP
+https://developer.mozilla.org/es/docs/Web/HTTP/Status/400
+
+https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP
+print(' statusCode : ${response.statusCode}'); 201
+print(' bodyString : ${response.bodyString}');
+print(' body : ${response.body}');
+
+/opcion01 (menu ppal)
+
+
+
+ICONOS
+https://api.flutter.dev/flutter/material/Icons-class.html
+https://fonts.google.com/icons?icon.set=Material+Icons
+
+checklist_rtl_rounded
+
+  Widget _buttonOpc02Segumiento() {
+    return Container(
+      margin: EdgeInsets.only(left: 50, top: 120),
+      child: Ink(
+        decoration: const ShapeDecoration(
+          color: Color.fromARGB(255, 113, 182, 238),
+          shape: CircleBorder(),
+        ),
+        child: IconButton(
+          icon: Icon(Icons.checklist_rtl_rounded),
+          color: Colors.black,
+          highlightColor: Color.fromARGB(255, 54, 244, 101),
+          //onPressed: () => {Get.snackbar('_buttonOpcion01.', '_buttonOpcion01')},
+          onPressed: () => Get.toNamed('/opcion02'),          
+          //onPressed: () => {},
+        ),
+      ),
+    );
+  }
+
+--------------------------------------------------
+
+-- conseguir iconos
+-- quitar Get.snackbar
+-- quitar print
+-- validar correctamente los tipos de datos date e int
+-- regresar despues de guardar o limpiar los datos
+-- mensajes
+
+-- cambiar el login y el register por nombres mas indicados ( t312e_usuario.dart  Get.toNamed('/register'); )
+
+
+-- quitar:       //initialRoute: userSession.username != null ? '/opcion':'/', ver por que se deb tomar ? en el String
+
+--------------------------------------------------
+
+-- Prospectos 
+Nro
+Fecha (falta)
+Año
+Mes
+Pais
+Ciudad
+Empresa
+Producto / servicio 
+vlr implantacion
+vlr mensual
+Estado (falta)
+Dias
+direccion
+sitio web
+Tel Emporesa
+Observaciones (falta)
+Nombres 
+apellidosCargo
+Tel cel persona
+email  contacto
+
+-- Segumiento
+
+checklist_rtl_rounded
+
+--------------------------------------------------
+
+{"password":"
+La clave debe contener al menos un dígito [0-9].\n
+La clave debe contener al menos una letra en minúsculas [a-z].\n
+La clave debe contener al menos un una letra en mayúsculas [A-Z].\n
+La clave debe contener al menos un carácter especial como ! @ # & ( ).\n
+La clave debe contener una longitud de al menos 10 caracteres y un máximo de 20 caracteres.",
+"username":"
+El nombre de usuario debe constar de caracteres alfanuméricos minúsculas o mayúsculas (a-zA-Z0-9), 
+se permite tambien los signos de punto (.), guión bajo (_) y guión (-).\n
+No debe empezar ni terminar con punto (.), guión bajo (_) o guión (-) y no deben aparecer de forma consecutiva, 
+por ejemplo (Mi..usuario ó Mi._usuario).\n
+Los signos de punto (.), guión bajo (_) o guión (-) no deben aparecer de forma consecutiva, 
+por ejemplo (Mi..usuario ó Mi._usuario).\n
+El número de caracteres mínimo es de 10.\n
+El número de caracteres maximo es de 20.."}
+
+--------------------------------------------------
+
+   
+Listas
+El JSON debe ser asi:
+{"listaPais":[{"id": "62", "codigo": "1", "descripcion": "COLOMBIA", "codigoDane": "CO"}]}
+
+https://www.bezkoder.com/dart-list/
+https://www.fluttercampus.com/guide/53/how-to-make-drop-down-and-insert-options-by-php-mysql-in-flutter/
+
+
+este s del dropdown que funciono de paises
+https://blog.logrocket.com/creating-dropdown-list-flutter/
+https://www.appsloveworld.com/flutter/200/118/how-to-use-api-in-dropdown-list-in-flutter
+https://stackoverflow.com/questions/72645589/how-to-use-api-in-dropdown-list-in-flutter
+
+https://es.stackoverflow.com/questions/390551/ayuda-listview-flutter-json
+
+https://sacavix.com/2020/11/flutter-como-consumir-servicios-rest/
+
+https://pub.dev/packages/get
+https://code.tutsplus.com/es/tutorials/how-to-create-lists-in-your-app-with-flutter--cms-36937
+
+google maps
+
+https://codelabs.developers.google.com/codelabs/google-maps-in-flutter?hl=es-419#0
+
+ver id de pais municipio y departamento string o int
+y si envia o no
+
+valida los status code
+      Get.snackbar(Environment.rutaGrupoProducto, '${response.bodyString}');
+
+      if (response.statusCode == 200) {
+        if (response.body['success']) {
+          Get.snackbar('Exitoso', response.body['mensaje1']);
+        } else {
+          Get.snackbar('Error', response.body['mensaje1']);
+        }
+      } else {
+        Get.snackbar('Error', response.body['mensaje1']);
+      }
+	  
+	  
+validar cuando no se envia el id_empresa	  
+
+
+ver cuando se usa int o string en (empresa datos, producot y usuarios)
+
+        idEmpresa: 1,
+        idEstadoRegistro: 1,
+        idUsuarioCreacion: 1,
+        idUsuarioModificacion: 1,
+		
+ricardo@gmail.com
+		
+
+SELECT o.*, l.*     
+FROM ts_def_objetos o, ts_def_listas l
+WHERE o.tipo = 'VARGLOBAL', 'LISTA', 'LISTA.ADD'
+AND o.id = l.dobjeto_id(+)
+
+
+SELECT * FROM ts_def_objeto_valores
+
+
+quitar  getAllObjeto(); y reemplazar x get_xyz
+
+
+----
+
+cambiar los nombre de los opbjeto listas_dd
+
+ListaListaObjeto
+	  
+https://www.youtube.com/watch?v=a4fIXHcRju0
+
+
+
+ver trm
+https://github.com/jfajardo/TRM-Colombia
+
+https://www.youtube.com/watch?v=-w2giuxcZg4
+
+https://www.youtube.com/watch?v=YQvPaaZh0sg&t=222s
+
+
+https://zademy.com/publicacion/10/Consumir-una-API-REST-con-RestTemplate-(GET)
+https://barcelonageeks.com/como-llamar-o-consumir-una-api-externa-en-spring-boot/
+
+
+https://rickandmortyapi.com/documentation/
+https://github.com/adrianoluis/rickandmortyapi-java
+
+http://localhost:8081/country
+
+https://countriesnow.space/api/v0.1/countries/population/cities
+
+fecah y hora a sring
+https://stackoverflow.com/questions/51579546/how-to-format-datetime-in-flutter
+
+
+
+-- 17 de julio 100,000
+-- abono a cuota
+-- 
+
+
+stack 
+PageView
+
+
+como está en Departamento
+
+En T139tTipoDocumentoProvider
+// Future<Response> getList() async {
+
+y en class TipoEmpaqueController extends GetxController {
+
+
+cambiar en javaobjetoListaRepository  en ParametroListaServiceImpl
+
+mayte 24005
+
+------
+
+
+Adiconar Recuperar cuenta 

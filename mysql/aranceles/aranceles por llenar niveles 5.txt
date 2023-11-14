@@ -1,0 +1,6303 @@
+
+
+0101.20
+Código	Designación de mercancías	Notas
+0101.21	- - Reproductores de raza pura	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0101.21.00.00			- - Reproductores de raza pura
+
+0101.29	- - Los demás:
+Código	Designación de mercancías	Notas
+0101.29.10	- - - Para carrera	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0101.29.10.00			- - - Para carrera
+0101.29.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0101.29.90.00			- - - Los demás
+
+0101.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0101.30.00.00			- Asnos
+
+0101.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0101.90.00.00			- Los demás
+
+0102.20
+Código	Designación de mercancías	Notas
+0102.21	- - Reproductores de raza pura:	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0102.21.00.10			- - - Hembras	Enviar	Enviar
+0102.21.00.20			- - - Machos
+0102.29	- - Los demás:
+Código	Designación de mercancías	Notas
+0102.29.10	- - - Para lidia	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0102.29.10.00			- - - Para lidia
+0102.29.90	- - - Los demás:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0102.29.90.10			- - - - Hembras	Enviar	Enviar
+0102.29.90.20			- - - - Machos
+
+0102.30
+Código	Designación de mercancías	Notas
+0102.31	- - Reproductores de raza pura:	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0102.31.00.10			- - - Hembras	Enviar	Enviar
+0102.31.00.20			- - - Machos
+0102.39	- - Los demás:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0102.39.00.10			- - - Hembras	Enviar	Enviar
+0102.39.00.20			- - - Machos
+
+0102.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0102.90.00.10			- - Hembras	Enviar	Enviar
+0102.90.00.20			- - Machos
+
+0103.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0103.10.00.00			- Reproductores de raza pura
+Código	Designación de mercancías	Notas
+0103.91	- - De peso inferior a 50 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0103.91.00.00			- - De peso inferior a 50 kg	Enviar	Enviar
+
+0103.92	- - De peso superior o igual a 50 kg
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0103.92.00.00			- - De peso superior o igual a 50 kg
+
+0103.90
+Código	Designación de mercancías	Notas
+0103.91	- - De peso inferior a 50 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0103.91.00.00			- - De peso inferior a 50 kg
+0103.92	- - De peso superior o igual a 50 kg
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0103.92.00.00			- - De peso superior o igual a 50 kg
+
+0104.10
+Código	Designación de mercancías	Notas
+0104.10.10	- - Reproductores de raza pura	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0104.10.10.00			- - Reproductores de raza pura
+0104.10.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0104.10.90.00			- - Los demás
+
+0104.20
+Código	Designación de mercancías	Notas
+0104.20.10	- - Reproductores de raza pura	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0104.20.10.00			- - Reproductores de raza pura
+
+0104.20.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0104.20.90.00			- - Los demás
+
+0105.10
+Código	Designación de mercancías	Notas
+0105.11	- - Aves de la especie Gallus domesticus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.11.00.00			- - Aves de la especie Gallus domesticus	Enviar	
+0105.12	- - Pavos (gallipavos)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.12.00.00			- - Pavos (gallipavos)
+0105.13	- - Patos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.13.00.00			- - Patos
+0105.14	- - Gansos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.14.00.00			- - Gansos
+0105.15	- - Pintadas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.15.00.00			- - Pintadas
+
+0105.90
+Código	Designación de mercancías	Notas
+0105.94	- - Aves de la especie Gallus domesticus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.94.00.00			- - Aves de la especie Gallus domesticus
+0105.99	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0105.99.00.00			- - Los demás
+
+0106.10
+Código	Designación de mercancías	Notas
+0106.11	- - Primates	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.11.00.00			- - Primates
+0106.12	- - Ballenas, delfines y marsopas (mamÃ­feros del orden Cetacea); manatÃ­es y dugones o dugongos (mamÃ­feros del orden Sirenia); otarios y focas, leones marinos y morsas (mamÃ­feros del suborden Pinnipedia)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.12.00.00			- - Ballenas, delfines y marsopas (mamÃ­feros del orden Cetacea); manatÃ­es y dugones o dugongos (mamÃ­feros del orden Sirenia); otarios y focas, leones marinos y morsas (mamÃ­feros del suborden Pinnipedia)
+0106.13	- - Camellos y demás camélidos (Camelidas):	Enviar
+Código	Designación de mercancías	Notas
+0106.13.10	- - - Camélidos sudamericanos:	Enviar
+Código	Designación de mercancías	Notas
+0106.13.11	- - - - Llamas (Lama glama), incluidos los guanacos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.13.11.00			- - - - Llamas (Lama glama), incluidos los guanacos
+0106.13.12	- - - - Alpacas (Lama pacus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.13.12.00			- - - - Alpacas (Lama pacus)
+0106.13.19	- - - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.13.19.00			- - - - Los demás
+0106.13.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.13.90.00			- - - Los demás
+0106.14	- - Conejos y liebres	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.14.00.00			- - Conejos y liebres
+0106.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.19.00.00			- - Los demás
+
+0106.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.20.00.00			- Reptiles (incluidas las serpientes y tortugas de mar)
+
+0106.30
+Código	Designación de mercancías	Notas
+0106.31	- - Aves de rapiña	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.31.00.00			- - Aves de rapiña
+0106.32	- - Psitaciformes (incluidos los loros, guacamayos, cacatúas y demás papagayos)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.32.00.00			- - Psitaciformes (incluidos los loros, guacamayos, cacatúas y demás papagayos)
+0106.33	- - Avestruces; emúes (Dromaius novaehollandiae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.33.00.00			- - Avestruces; emúes (Dromaius novaehollandiae)
+0106.39	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.39.00.00			- - Las demás
+
+0106.40
+Código	Designación de mercancías	Notas
+0106.41	- - Abejas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.41.00.00			- - Abejas
+0106.49	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.49.00.00			- - Los demás
+
+0106.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0106.90.00.00			- Los demás
+
+0201.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0201.10.00.00			- En canales o medias canales
+
+0201.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0201.20.00.10			- - CUARTOS DELANTEROS	Enviar	Enviar
+0201.20.00.20			- - CUARTOS TRASEROS	Enviar	Enviar
+0201.20.00.30			- - CORTES DE CUARTOS DELANTEROS	Enviar	Enviar
+0201.20.00.40			- - CORTES DE CUARTOS TRASEROS
+
+0201.30
+Código	Designación de mercancías	Notas
+0201.30.00.10	- - Cortes finos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0201.30.00.10			- - Cortes finos
+0201.30.00.90	- - los demÃ¡s
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0201.30.00.91			- - - Cuartos delanteros	Enviar	Enviar
+0201.30.00.92			- - - Cuartos traseros	Enviar	Enviar
+0201.30.00.93			- - - Cortes de cuartos delanteros	Enviar	Enviar
+0201.30.00.94			- - - Cortes de cuartos traseros	Enviar	Enviar
+0201.30.00.95			- - - Carne picada; recortes (<<trimmingÂ») provenientes de la elaboraciÃ³n de cualquier corte
+
+0202.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0202.10.00.00			- En canales o medias canales
+
+0202.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0202.20.00.10			- - CUARTOS DELANTEROS	Enviar	Enviar
+0202.20.00.20			- - CUARTOS TRASEROS	Enviar	Enviar
+0202.20.00.30			- - CORTES DE CUARTOS DELANTEROS	Enviar	Enviar
+0202.20.00.40			- - CORTES DE CUARTOS TRASEROS
+
+0202.30
+Código	Designación de mercancías	Notas
+0202.30.00.10	- - Cortes finos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0202.30.00.10			- - Cortes finos
+0202.30.00.90	- - Los demÃ¡s:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0202.30.00.91			- - - Cuartos delanteros	Enviar	Enviar
+0202.30.00.92			- - - Cuartos traseros	Enviar	Enviar
+0202.30.00.93			- - - Cortes de cuartos delanteros	Enviar	Enviar
+0202.30.00.94			- - - Cortes de cuartos traseros	Enviar	Enviar
+0202.30.00.95			- - - Carne picada; recortes (<<trimmingsÂ») provenientes de la elaboraciÃ³n de cualquier corte	
+
+0203.10
+Código	Designación de mercancías	Notas
+0203.11	- - En canales o medias canales	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.11.00.00			- - En canales o medias canales
+
+0203.12	- - Piernas, paletas, y sus trozos, sin deshuesar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.12.00.00			- - Piernas, paletas, y sus trozos, sin deshuesar
+
+0203.19	- - Las demás:
+Código	Designación de mercancías	Notas
+0203.19.10	- - - Carne deshuesada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.19.10.00			- - - Carne deshuesada
+
+0203.19.20	- - - Chuletas, costillas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.19.20.00			- - - Chuletas, costillas
+
+0203.19.30	- - - Tocino con partes magras	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.19.30.00			- - - Tocino con partes magras
+
+0203.19.90	- - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.19.90.00			- - - Las demás
+
+0203.20
+Código	Designación de mercancías	Notas
+0203.21	- - En canales o medias canales	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.21.00.00			- - En canales o medias canales
+
+0203.22	- - Piernas, paletas, y sus trozos, sin deshuesar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.22.00.00			- - Piernas, paletas, y sus trozos, sin deshuesar
+
+0203.29	- - Las demás:
+Código	Designación de mercancías	Notas
+0203.29.10	- - - Carne deshuesada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.29.10.00			- - - Carne deshuesada
+
+0203.29.20	- - - Chuletas, costillas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.29.20.00			- - - Chuletas, costillas
+
+0203.29.30	- - - Tocino con partes magras	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.29.30.00			- - - Tocino con partes magras
+
+0203.29.90	- - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0203.29.90.00			- - - Las demás
+
+--------------------------------------------- ramz hasta aca en excel
+
+0204.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.10.00.00			- Canales o medias canales de cordero, frescas o refrigeradas
+
+0204.20
+Código	Designación de mercancías	Notas
+0204.21	- - En canales o medias canales	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.21.00.00			- - En canales o medias canales
+
+0204.22	- - Los demás cortes (trozos) sin deshuesar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.22.00.00			- - Los demás cortes (trozos) sin deshuesar
+
+0204.23	- - Deshuesadas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.23.00.00			- - Deshuesadas
+
+0204.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.30.00.00			- Canales o medias canales de cordero, congeladas
+
+0204.40
+Código	Designación de mercancías	Notas
+0204.41	- - En canales o medias canales	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.41.00.00			- - En canales o medias canales
+0204.42	- - Los demás cortes (trozos) sin deshuesar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.42.00.00			- - Los demás cortes (trozos) sin deshuesar	
+0204.43	- - Deshuesadas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.43.00.00			- - Deshuesadas
+
+0204.50
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0204.50.00.00			- Carne de animales de la especie caprina
+
+0205	Carne de animales de las especies caballar, asnal o mular, fresca, refrigerada o congelada.
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0205.00.00.00			Carne de animales de las especies caballar, asnal o mular, fresca, refrigerada o congelada.
+
+0206.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.10.00.00			- De la especie bovina, frescos o refrigerados
+
+0206.20
+Código	Designación de mercancías	Notas
+0206.21	- - Lenguas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.21.00.00			- - Lenguas
+
+0206.22	- - Hígados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.22.00.00			- - Hígados
+
+0206.29	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.29.00.00			- - Los demás
+
+0206.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.30.00.00			- De la especie porcina, frescos o refrigerados
+
+0206.40
+Código	Designación de mercancías	Notas
+0206.41	- - Hígados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.41.00.00			- - Hígados
+
+0206.49	- - Los demás
+Código	Designación de mercancías	Notas
+0206.49.10	- - - Piel comestible (cuero, pellejo)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.49.10.00			- - - Piel comestible (cuero, pellejo)
+
+0206.49.90	- - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.49.90.00			- - - Los demas
+
+0206.80
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.80.00.00			- Los demás, frescos o refrigerados
+
+0206.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0206.90.00.00			- Los demás, congelados
+
+0207.10
+Código	Designación de mercancías	Notas
+0207.12	- - Sin trocear, congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.12.00.00			- - Sin trocear, congelados
+
+0207.13	- - Trozos y despojos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.13.00.10			- - - Cuartos traseros	Enviar	Enviar
+0207.13.00.90			- - - Los demas
+
+0207.14	- - Trozos y despojos, congelados
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.14.00.10			- - - Cuartos traseros	Enviar	Enviar
+0207.14.00.90			- - - Los demas
+
+0207.11
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.11.00.00			- De gallo o gallina:
+
+0207.20
+Código	Designación de mercancías	Notas
+0207.24	- - Sin trocear, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.24.00.00			- - Sin trocear, frescos o refrigerados
+
+0207.25	- - Sin trocear, congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.25.00.00			- - Sin trocear, congelados
+
+0207.26	- - Trozos y despojos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.26.00.00			- - Trozos y despojos, frescos o refrigerados
+
+0207.27	- - Trozos y despojos, congelados
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.27.00.00			- - Trozos y despojos, congelados
+
+0207.40
+Código	Designación de mercancías	Notas
+0207.41	- - Sin trocear, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.41.00.00			- - Sin trocear, frescos o refrigerados
+
+0207.42	- - Sin trocear, congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.42.00.00			- - Sin trocear, congelados
+
+0207.43	- - Hígados grasos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.43.00.00			- - Hígados grasos, frescos o refrigerados	Enviar	Enviar
+
+0207.44	- - Los demás, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.44.00.00			- - Los demás, frescos o refrigerados
+
+0207.45	- - Los demás, congelados
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.45.00.00			- - Los demás, congelados
+
+0207.50
+Código	Designación de mercancías	Notas
+0207.51	- - Sin trocear, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.51.00.00			- - Sin trocear, frescos o refrigerados
+
+0207.52	- - Sin trocear, congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.52.00.00			- - Sin trocear, congelados
+
+0207.53	- - Hígados grasos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.53.00.00			- - Hígados grasos, frescos o refrigerados
+
+0207.54	- - Los demás, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.54.00.00			- - Los demás, frescos o refrigerados
+
+0207.55	- - Los demás, congelados
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.55.00.00			- - Los demás, congelados
+
+0207.60
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0207.60.00.00			- De pintada
+
+0208.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0208.10.00.00			- De conejo o liebre
+
+0208.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0208.30.00.00			- De primates
+
+0208.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0208.40.00.00			- De Ballenas, delfines y marsopas (mamíferos del orden Cetacea); de manatíes y dugones o dugongos (mamíferos del orden Sirenia); de otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia)
+
+0208.50
+
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0208.50.00.00			- De reptiles (incluidas las serpientes y tortugas de mar)
+
+0208.60
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0208.60.00.00			- De camellos y demás camélidos (Camelidae)
+
+0208.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0208.90.00.00			- Las demás	Enviar	Enviar
+
+0209.10
+Código	Designación de mercancías	Notas
+0209.10.10	- - Tocino sin partes magras	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0209.10.10.00			- - Tocino sin partes magras
+
+0209.10.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0209.10.90.00			- - Los demás
+
+0209.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0209.90.00.00			- Las demás
+
+0210.10
+Código	Designación de mercancías	Notas
+0210.11	- - Jamones, paletas, y sus trozos, sin deshuesar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.11.00.00			- - Jamones, paletas, y sus trozos, sin deshuesar	
+
+0210.12	- - Tocino entreverado de panza (panceta) y sus trozos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.12.00.00			- - Tocino entreverado de panza (panceta) y sus trozos
+
+0210.19	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.19.00.00			- - Las demás
+
+0210.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.20.00.00			- Carne de la especie bovina
+
+0210.90
+Código	Designación de mercancías	Notas
+0210.91	- - De primates	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.91.00.00			- - De primates
+
+0210.92	- - De ballenas, delfines y marsopas (mamíferos del orden Cetacea); de manatíes y dugones o dugongos (mamíferos del orden Sirenia); de otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.92.00.00			- - De ballenas, delfines y marsopas (mamíferos del orden Cetacea); de manatíes y dugones o dugongos (mamíferos del orden Sirenia); de otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia)
+
+0210.93	- - De reptiles (incluidas las serpientes y tortugas de mar)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.93.00.00			- - De reptiles (incluidas las serpientes y tortugas de mar)
+
+0210.99	- - Los demás:
+Código	Designación de mercancías	Notas
+0210.99.10	- - - Harina y polvo comestibles, de carne o de despojos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.99.10.00			- - - Harina y polvo comestibles, de carne o de despojos
+
+0210.99.90	- - - Los demás:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0210.99.90.10			- - - - Carne de aves de la partida 01.05, saladas o en salmuera	Enviar	Enviar
+0210.99.90.90			- - - - Los demás
+
+0301.10
+Código	Designación de mercancías	Notas
+0301.11	- - De agua dulce	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.11.00.10			- - - Rayas de Agua Dulce (Potamotrygon spp)	Enviar	Enviar
+0301.11.00.20			- - - Arawana Plateada (Osteoglossum bicirrhosum)	Enviar	Enviar
+0301.11.00.30			- - - Pirarucu (Arapaima gigas)	Enviar	Enviar
+0301.11.00.90			- - - Los demas	Enviar	Enviar
+
+0301.19	- - Los demás	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.19.00.00			- - Los demás	Enviar	Enviar
+
+0301.90
+Código	Designación de mercancías	Notas
+0301.91	- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster):	Enviar
+Código	Designación de mercancías	Notas
+0301.91.10	- - - Para reproducción o cria industrial	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.91.10.00			- - - Para reproducción o cria industrial	Enviar	Enviar
+
+0301.91.90	- - - Las demás	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.91.90.00			- - - Las demás	Enviar	Enviar
+
+0301.92	- - Anguilas (Anguilla spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.92.00.00			- - Anguilas (Anguilla spp.)	Enviar	Enviar
+
+0301.93	- - Carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.93.00.00			- - Carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)	Enviar	
+
+0301.94	- - Atunes comunes o de aleta azul, del Atlántico y del Pacífico (Thunnus thynnus, Thunnus orientalis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.94.00.00			- - Atunes comunes o de aleta azul, del Atlántico y del Pacífico (Thunnus thynnus, Thunnus orientalis)	Enviar	Enviar
+
+0301.95	- - Atunes del sur (Thunnus maccoyii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.95.00.00			- - Atunes del sur (Thunnus maccoyii)	Enviar	Enviar
+
+0301.99	- - Los demás:	Enviar
+Código	Designación de mercancías	Notas
+0301.99.10	- - - Para reproducción o cría industrial:	Enviar
+Código	Designación de mercancías	Notas
+0301.99.11	- - - - Tilapia	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.99.11.00			- - - - Tilapia	Enviar	Enviar
+0301.99.19	- - - - Los demás	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.99.19.00			- - - - Los demás	Enviar	Enviar
+
+0301.99.90	- - - Los demás	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0301.99.90.00			- - - Los demás	Enviar	Enviar
+
+0302.10
+Código	Designación de mercancías	Notas
+0302.11	- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.11.00.00			- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)
+
+0302.13	- - Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.13.00.00			- - Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus)
+
+0302.14	- - Salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.14.00.00			- - Salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)
+
+0302.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.19.00.00			- - Los demás	Enviar	Enviar
+
+0302.20
+Código	Designación de mercancías	Notas
+0302.21	- - Fletanes («halibut») (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.21.00.00			- - Fletanes («halibut») (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis)
+
+0302.22	- - Sollas (Pleuronectes platessa)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.22.00.00			- - Sollas (Pleuronectes platessa)
+
+0302.23	- - Lenguados (Solea spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.23.00.00			- - Lenguados (Solea spp.)	Enviar
+
+0302.24	- - Rodaballos («turbots») (Psetta maxima)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.24.00.00			- - Rodaballos («turbots») (Psetta maxima)	
+
+0302.29	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.29.00.00			- - Los demás
+
+0302.30
+Código	Designación de mercancías	Notas
+0302.31	- - Albacoras o atunes blancos (Thunnus alalunga)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.31.00.00			- - Albacoras o atunes blancos (Thunnus alalunga)
+
+0302.32	- - Atunes de aleta amarilla (rabiles) (Thunnus albacares)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.32.00.00			- - Atunes de aleta amarilla (rabiles) (Thunnus albacares)
+
+0302.33	- - Listados (bonitos de vientre rayado) (Katsuwonus pelamis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.33.00.00			- - Listados (bonitos de vientre rayado) (Katsuwonus pelamis)
+
+0302.34	- - Patudos o atunes ojo grande (Thunnus obesus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.34.00.00			- - Patudos o atunes ojo grande (Thunnus obesus)
+
+0302.35	- - Atunes comunes o de aleta azul, del Atlántico y del Pacífico (Thunnus thynnus, Thunnus orientalis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.35.00.00			- - Atunes comunes o de aleta azul, del Atlántico y del Pacífico (Thunnus thynnus, Thunnus orientalis)
+
+0302.36	- - Atunes del sur (Thunnus maccoyii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.36.00.00			- - Atunes del sur (Thunnus maccoyii)
+
+0302.39	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.39.00.00			- - Los demás
+
+0302.40
+Código	Designación de mercancías	Notas
+0302.41	- - Arenques (Clupea harengus, Clupea pallasii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.41.00.00			- - Arenques (Clupea harengus, Clupea pallasii)
+
+0302.42	- - Anchoas (Engraulis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.42.00.00			- - Anchoas (Engraulis spp.)
+
+0302.43	- - Sardinas (Sardina pilchardus, Sardinops spp.), sardinelas (Sardinella spp.) y espadines (Sprattus sprattus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.43.00.00			- - Sardinas (Sardina pilchardus, Sardinops spp.), sardinelas (Sardinella spp.) y espadines (Sprattus sprattus)
+
+0302.44	- - Caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.44.00.00			- - Caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus)
+
+0302.45	- - Jureles (Trachurus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.45.00.00			- - Jureles (Trachurus spp.)
+
+0302.46	- - Cobias (Rachycentron canadum)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.46.00.00			- - Cobias (Rachycentron canadum)
+
+0302.47	- - Peces espada (Xiphias gladius)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.47.00.00			- - Peces espada (Xiphias gladius)
+
+0302.49	- - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.49.00.00			- - Los demas
+
+0302.50
+Código	Designación de mercancías	Notas
+0302.51	- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.51.00.00			- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)
+
+0302.52	- - Eglefinos (Melanogrammus aeglefinus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.52.00.00			- - Eglefinos (Melanogrammus aeglefinus)
+
+0302.53	- - Carboneros (Pollachius virens)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.53.00.00			- - Carboneros (Pollachius virens)
+
+0302.54	- - Merluzas (Merluccius spp., Urophycis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.54.00.00			- - Merluzas (Merluccius spp., Urophycis spp.)
+
+0302.55	- - Abadejos de Alaska (Theragra chalcogramma)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.55.00.00			- - Abadejos de Alaska (Theragra chalcogramma)
+
+0302.56	- - Bacaladillas (Micromesistius poutassou, Micromesistius australis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.56.00.00			- - Bacaladillas (Micromesistius poutassou, Micromesistius australis)
+
+0302.59	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.59.00.00			- - Los demás
+
+0302.70
+Código	Designación de mercancías	Notas
+0302.71	- - Tilapias (Oreochromis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.71.00.00			- - Tilapias (Oreochromis spp.)
+
+0302.72	- - Bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.72.00.00			- - Bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.)
+
+0302.73	- - Carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.73.00.00			- - Carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)
+
+0302.74	- - Anguilas (Anguilla spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.74.00.00			- - Anguilas (Anguilla spp.)
+
+0302.79	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.79.00.00			- - Los demás
+
+0302.80
+Código	Designación de mercancías	Notas
+0302.81	- - Cazones y demás escualos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.81.00.10			- - - Cazones	Enviar	Enviar
+0302.81.00.20			- - - Tiburon de puntas blancas (Carcharhinus longimanus)	Enviar	Enviar
+0302.81.00.30			- - - Tiburon martillo (Sphyrna lewini, S. mokarran, S. Zygaena)	Enviar	Enviar
+0302.81.00.40			- - - Tiburon Sardinero (Lamna nasus)	Enviar	Enviar
+0302.81.00.50			- - - Tiburon sedoso (Carcharhinus falciformis)	Enviar	Enviar
+0302.81.00.60			- - - Tiburon zorro (Alopias vulpinus, A. pelagicus A.superciliosus)	Enviar	Enviar
+0302.81.00.90			- - - Los demas
+
+0302.82	- - Rayas (Rajidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.82.00.00			- - Rayas (Rajidae)
+
+0302.83	- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.83.00.00			- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar	Enviar
+
+0302.84	- - Róbalos (Dicentrarchus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.84.00.00			- - Róbalos (Dicentrarchus spp.)
+
+0302.85	- - Sargos (Sparidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.85.00.00			- - Sargos (Sparidae)
+
+0302.89	- - Los demas:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.89.00.10			- - - Mantarrayas (Myliobatidae; generos: Manta spp y Mobula spp)	Enviar	Enviar
+0302.89.00.90			- - - Los demas
+
+0302.90
+Código	Designación de mercancías	Notas
+0302.91	- - Higados, huevas y lechas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.91.00.00			- - Higados, huevas y lechas
+
+0302.92	- - Aletas de tiburon:	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.92.00.10			- - - De tiburon de puntas blancas (Carcharhinus longimanus)	Enviar	Enviar
+0302.92.00.20			- - - De tiburon martillo (Sphyrna lewini,S. mokarran,S.Zygaena)	Enviar	Enviar
+0302.92.00.30			- - - De tiburon sardinero (Lamna nasus)	Enviar	Enviar
+0302.92.00.40			- - - De tiburon sedoso (Carcharhinus falciformis)	Enviar	Enviar
+0302.92.00.50			- - - De tiburon zorro (Alopias vulpinus, A. pelagicus A.superciliosus)	Enviar	Enviar
+0302.92.00.90			- - - Las demas
+
+0302.99	- - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0302.99.00.00			- - Los demas
+
+0303.10
+Código	Designación de mercancías	Notas
+0303.11	- - Salmones rojos (Oncorhynchus nerka)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.11.00.00			- - Salmones rojos (Oncorhynchus nerka)
+
+0303.12	- - Los demás salmones del Pacífico (Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.12.00.00			- - Los demás salmones del Pacífico (Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus)
+
+0303.13	- - Salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.13.00.00			- - Salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)
+
+0303.14	- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.14.00.00			- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)
+
+0303.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.19.00.00			- - Los demás
+
+0303.20
+Código	Designación de mercancías	Notas
+0303.23	- - Tilapias (Oreochromis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.23.00.00			- - Tilapias (Oreochromis spp.)
+
+0303.24	- - Bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.24.00.00			- - Bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.)
+
+0303.25	- - Carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.25.00.00			- - Carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.)
+
+0303.26	- - Anguilas (Anguilla spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.26.00.00			- - Anguilas (Anguilla spp.)
+
+0303.29	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.29.00.00			- - Los demás
+
+0303.30
+Código	Designación de mercancías	Notas
+0303.31	- - Fletanes («halibut») (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.31.00.00			- - Fletanes («halibut») (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis)
+
+0303.32	- - Sollas (Pleuronectes platessa)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.32.00.00			- - Sollas (Pleuronectes platessa)
+
+0303.33	- - Lenguados (Solea spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.33.00.00			- - Lenguados (Solea spp.)
+
+0303.34	- - Rodaballos («turbots») (Psetta maxima)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.34.00.00			- - Rodaballos («turbots») (Psetta maxima)
+
+0303.39	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.39.00.00			- - Los demás
+
+0303.40
+Código	Designación de mercancías	Notas
+0303.41	- - Albacoras o atunes blancos (Thunnus alalunga)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.41.00.00			- - Albacoras o atunes blancos (Thunnus alalunga)
+
+0303.42	- - Atunes de aleta amarilla (rabiles) (Thunnus albacares)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.42.00.00			- - Atunes de aleta amarilla (rabiles) (Thunnus albacares)
+
+0303.43	- - Listados (bonitos de vientre rayado) (Katsuwonus pelamis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.43.00.00			- - Listados (bonitos de vientre rayado) (Katsuwonus pelamis)
+
+0303.44	- - Patudos o atunes ojo grande (Thunnus obesus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.44.00.00			- - Patudos o atunes ojo grande (Thunnus obesus)
+
+0303.45	- - Atunes comunes o de aleta azul, del Atlántico y del Pacífico (Thunnus thynnus, Thunnus orientalis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.45.00.00			- - Atunes comunes o de aleta azul, del Atlántico y del Pacífico (Thunnus thynnus, Thunnus orientalis)
+
+0303.46	- - Atunes del sur (Thunnus maccoyii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.46.00.00			- - Atunes del sur (Thunnus maccoyii)
+
+0303.49	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.46.00.00			- - Atunes del sur (Thunnus maccoyii)
+
+0303.50
+Código	Designación de mercancías	Notas
+0303.51	- - Arenques (Clupea harengus, Clupea pallasii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.51.00.00			- - Arenques (Clupea harengus, Clupea pallasii)
+
+0303.53	- - Sardinas (Sardina pilchardus, Sardinops spp.), sardinelas (Sardinella spp.) y espadines (Sprattus sprattus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.53.00.00			- - Sardinas (Sardina pilchardus, Sardinops spp.), sardinelas (Sardinella spp.) y espadines (Sprattus sprattus)
+
+0303.54	- - Caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.54.00.00			- - Caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus)
+
+0303.55	- - Jureles (Trachurus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.55.00.00			- - Jureles (Trachurus spp.)
+
+0303.56	- - Cobias (Rachycentron canadum)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.56.00.00			- - Cobias (Rachycentron canadum)
+
+0303.57	- - Peces espada (Xiphias gladius)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.57.00.00			- - Peces espada (Xiphias gladius)
+
+0303.59	- - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.59.00.00			- - Los demas
+
+0303.60
+Código	Designación de mercancías	Notas
+0303.63	- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.63.00.00			- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)
+
+0303.64	- - Eglefinos (Melanogrammus aeglefinus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.64.00.00			- - Eglefinos (Melanogrammus aeglefinus)
+
+0303.65	- - Carboneros (Pollachius virens)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.65.00.00			- - Carboneros (Pollachius virens)
+
+0303.66	- - Merluzas (Merluccius spp., Urophycis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.66.00.00			- - Merluzas (Merluccius spp., Urophycis spp.)
+
+0303.67	- - Abadejos de Alaska (Theragra chalcogramma)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.67.00.00			- - Abadejos de Alaska (Theragra chalcogramma)
+
+0303.68	- - Bacaladillas (Micromesistius poutassou, Micromesistius australis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.68.00.00			- - Bacaladillas (Micromesistius poutassou, Micromesistius australis)
+
+0303.69	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.69.00.00			- - Los demás
+
+0303.80
+Código	Designación de mercancías	Notas
+0303.81	- - Cazones y demás escualos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.81.00.10			- - - Cazones	Enviar	Enviar
+0303.81.00.20			- - - Tiburon de puntas blancas (Carcharhinus longimanus)	Enviar	Enviar
+0303.81.00.30			- - - Tiburon martillo (Sphyrna lewini, S. mokarran, S. Zygaena)	Enviar	Enviar
+0303.81.00.40			- - - Tiburon Sardinero (Lamna nasus)	Enviar	Enviar
+0303.81.00.50			- - - Tiburon sedoso (Carcharhinus falciformis)	Enviar	Enviar
+0303.81.00.60			- - - Tiburon zorro (Alopias vulpinus, A. pelagicus A.superciliosus)	Enviar	Enviar
+0303.81.00.90			- - - Los demas
+
+0303.82	- - Rayas (Rajidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.82.00.00			- - Rayas (Rajidae)
+
+0303.83	- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.83.00.00			- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)
+
+0303.84	- - Róbalos (Dicentrarchus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.84.00.00			- - Róbalos (Dicentrarchus spp.)
+
+0303.89	- - Los demas:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.89.00.10			- - - Mantarrayas (Myliobatidae; generos: Manta spp y Mobula spp)	Enviar	Enviar
+0303.89.00.90			- - - Los demas
+
+0303.90
+Código	Designación de mercancías	Notas
+0303.91	- - Higados, huevas y lechas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.91.00.00			- - Higados, huevas y lechas	
+
+0303.92	- - Aletas de tiburon	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.92.00.10			- - - De tiburon de puntas blancas (Carcharhinus longimanus)	Enviar	Enviar
+0303.92.00.20			- - - De tiburon martillo (Sphyrna lewini, S. mokarran, S. Zygaena)	Enviar	Enviar
+0303.92.00.30			- - - De tiburon sardinero (Lamna nasus)	Enviar	Enviar
+0303.92.00.40			- - - De tiburon sedoso (Carcharhinus falciformis)	Enviar	Enviar
+0303.92.00.50			- - - De tiburon zorro (Alopias vulpinus, A. pelagicus A.superciliosus)	Enviar	Enviar
+0303.92.00.90			- - - Las demas
+
+0303.99	- - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0303.99.00.00			- - Los demas
+
+0304.30
+Código	Designación de mercancías	Notas
+0304.31	- - Tilapias (Oreochromis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.31.00.00			- - Tilapias (Oreochromis spp.)
+
+0304.32	- - Bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.):	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.32.00.10			- - - Basa (Pangasius hypophthalmus, pangasius pangasus, pangasius sanitwongswsei)	Enviar	Enviar
+0304.32.00.90			- - - Las demás
+
+0304.33	- - Percas del Nilo (Lates niloticus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.33.00.00			- - Percas del Nilo (Lates niloticus)
+
+0304.39	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.39.00.00			- - Los demás
+
+0304.40
+Código	Designación de mercancías	Notas
+0304.41	- - Salmones del pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus), salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.41.00.00			- - Salmones del pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus), salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)
+
+0304.42	- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.42.00.00			- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)
+
+0304.43	- - Peces planos (Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae y Citharidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.43.00.00			- - Peces planos (Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae y Citharidae)
+
+0304.44	- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.44.00.00			- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae
+
+0304.45	- - Peces espada (Xiphias gladius)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.45.00.00			- - Peces espada (Xiphias gladius)
+
+0304.46	- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.46.00.00			- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)
+
+0304.47	- - Cazones y demas escualos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.47.00.00			- - Cazones y demas escualos
+
+0304.48	- - Rayas (Rajidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.48.00.00			- - Rayas (Rajidae)
+
+0304.49	- - Los demas:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.49.00.10			- - - Mantarrayas (Myliobatidae; generos: Manta spp y Mobula spp)	Enviar	Enviar
+0304.49.00.90			- - - Los demas
+
+0304.50
+Código	Designación de mercancías	Notas
+0304.51	- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.):	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.51.00.10			- - - Basa (Pangasius hypophthalmus, pangasius pangasus, pangasius sanitwongswsei)	Enviar	Enviar
+0304.51.00.90			- - - Las demás
+
+0304.52	- - Salmónidos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.52.00.00			- - Salmónidos
+
+0304.53	- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.53.00.00			- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae
+
+0304.54	- - Peces espada (Xiphias gladius)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.54.00.00			- - Peces espada (Xiphias gladius)
+
+0304.55	- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.55.00.00			- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar	Enviar
+
+
+0304.56	- - Cazones y demas escualos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.56.00.00			- - Cazones y demas escualos
+
+0304.57	- - Rayas (Rajidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.57.00.00			- - Rayas (Rajidae)
+
+0304.59	- - Los demas:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.59.00.10			- - - Mantarrayas (Myliobatidae; generos: Manta spp y Mobula spp)	Enviar	Enviar
+0304.59.00.90			- - - Los demas
+
+0304.60
+Código	Designación de mercancías	Notas
+0304.61	- - Tilapias (Oreochromis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.61.00.00			- - Tilapias (Oreochromis spp.)
+
+0304.62	- - Bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.):	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.62.00.10			- - - Basa (Pangasius hypophthalmus, pangasius pangasus, pangasius sanitwongswsei)	Enviar	Enviar
+0304.62.00.90			- - - Las demás
+
+0304.63	- - Percas del Nilo (Lates niloticus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.63.00.00			- - Percas del Nilo (Lates niloticus)
+
+0304.69	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.69.00.00			- - Los demás
+
+0304.70
+Código	Designación de mercancías	Notas
+0304.71	- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)	Enviar
+
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.71.00.00			- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)
+
+0304.72	- - Eglefinos (Melanogrammus aeglefinus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.72.00.00			- - Eglefinos (Melanogrammus aeglefinus)
+
+0304.73	- - Carboneros (Pollachius virens)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.73.00.00			- - Carboneros (Pollachius virens)
+
+0304.74	- - Merluzas (Merluccius spp., Urophycis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.74.00.00			- - Merluzas (Merluccius spp., Urophycis spp.)
+
+0304.75	- - Abadejos de Alaska (Theragra chalcogramma)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.75.00.00			- - Abadejos de Alaska (Theragra chalcogramma)	
+
+0304.79	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.79.00.00			- - Los demás
+
+0304.80
+Código	Designación de mercancías	Notas
+0304.81	- - Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus), salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.81.00.00			- - Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus), salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)
+
+0304.82	- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.82.00.00			- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)
+
+0304.83	- - Peces planos (Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae y Citharidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.83.00.00			- - Peces planos (Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae y Citharidae)
+
+0304.84	- - Peces espada (Xiphias gladius)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.84.00.00			- - Peces espada (Xiphias gladius)
+
+0304.85	- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar
+
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.85.00.00			- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)
+
+0304.86	- - Arenques (Clupea harengus, Clupea pallasii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.86.00.00			- - Arenques (Clupea harengus, Clupea pallasii)
+
+0304.87	- - Atunes (del género Thunnus), listados (bonitos de vientre rayado) (Katsuwonus pelamis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.87.00.00			- - Atunes (del género Thunnus), listados (bonitos de vientre rayado) (Katsuwonus pelamis)
+
+0304.88	- - Cazones, demas escualos y rayas (Rajidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.88.00.00			- - Cazones, demas escualos y rayas (Rajidae)
+
+0304.89	- - Los demas:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.89.00.10			- - - Mantarrayas (Myliobatidae; generos: Manta spp y Mobula spp)	Enviar	Enviar
+0304.89.00.90			- - - Los demas
+
+0304.90
+Código	Designación de mercancías	Notas
+0304.91	- - Peces espada (Xiphias gladius)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.91.00.00			- - Peces espada (Xiphias gladius)
+
+0304.92	- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.92.00.00			- - Austromerluzas antarticas y austromerluzas negras (merluzas negras, bacalaos de profundidad, nototenias negras)* (Dissostichus spp.)	
+
+0304.93	- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.):	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.93.00.10			- - - Basa (Pangasius hypophthalmus, pangasius pangasus, pangasius sanitwongswsei)	Enviar	Enviar
+0304.93.00.90			- - - Las demás
+
+0304.94	- - Abadejos de Alaska (Theragra chalcogramma)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.94.00.00			- - Abadejos de Alaska (Theragra chalcogramma)	
+
+0304.95	- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae, excepto los abadejos de Alaska (Theragra chalcogramma)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.95.00.00			- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae, excepto los abadejos de Alaska (Theragra chalcogramma)
+
+0304.96	- - Cazones y demas escualos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.96.00.00			- - Cazones y demas escualos
+
+0304.97	- - Rayas (Rajidae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.97.00.00			- - Rayas (Rajidae)
+
+0304.99	- - Los demas:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0304.99.00.10			- - - Mantarrayas (Myliobatidae; generos: Manta spp y Mobula spp)	Enviar	Enviar
+0304.99.00.90			- - - Los demas
+
+0305.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.20.00.00			- Hígados, huevas y lechas, de pescado, secos, ahumados, salados o en salmuera
+
+0305.30
+
+Código	Designación de mercancías	Notas
+0305.31	- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.31.00.00			- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)
+
+0305.32	- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.32.00.00			- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae
+
+0305.39	- - Los demás:
+Código	Designación de mercancías	Notas
+0305.39.10	- - - De bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.39.10.00			- - - De bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)
+
+0305.39.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.39.90.00			- - - Los demás
+
+
+0305.40
+Código	Designación de mercancías	Notas
+0305.41	- - Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus), salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.41.00.00			- - Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus), salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho)
+
+0305.42	- - Arenques (Clupea harengus, Clupea pallasii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.42.00.00			- - Arenques (Clupea harengus, Clupea pallasii)
+
+0305.43	- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.43.00.00			- - Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster)
+
+0305.44	- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.44.00.00			- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)
+
+0305.49	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.49.00.00			- - Los demás
+
+
+0305.50
+Código	Designación de mercancías	Notas
+0305.51	- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.51.00.00			- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)
+
+0305.52	- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.52.00.00			- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)
+
+0305.53	- - Pescados de las familias Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae y Muraenolepididae, excepto de los bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus):	Enviar
+Código	Designación de mercancías	Notas
+0305.53.10	- - - Merluzas (Merluccius spp., Urophycis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.53.10.00			- - - Merluzas (Merluccius spp., Urophycis spp.)	
+
+0305.53.90	- - - Los demas
+
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.53.90.00			- - - Los demas
+
+0305.54	- - Arenques (Clupea harengus, Clupea pallasii), anchoas (Engraulis spp.), sardinas (Sardina pilchardus, Sardinops spp.), sardinelas (Sardinella spp.), espadines (Sprattus sprattus), caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus), caballas de la India (Rastrelliger spp.), carites (Scomberomorus spp.), jureles (Trachurus spp.), pampanos (Caranx spp.), cobias (Rachycentron canadum), palometones plateados (Pampus spp.), papardas del Pacifico (Cololabis saira), macarelas (Decapterus spp.), capelanes (Mallotus villosus), peces espada (Xiphias gladius), bacoretas orientales (Euthynnus affinis), bonitos (Sarda spp.), agujas, marlines, peces vela o picudos (Istiophoridae)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.54.00.00			- - Arenques (Clupea harengus, Clupea pallasii), anchoas (Engraulis spp.), sardinas (Sardina pilchardus, Sardinops spp.), sardinelas (Sardinella spp.), espadines (Sprattus sprattus), caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus), caballas de la India (Rastrelliger spp.), carites (Scomberomorus spp.), jureles (Trachurus spp.), pampanos (Caranx spp.), cobias (Rachycentron canadum), palometones plateados (Pampus spp.), papardas del Pacifico (Cololabis saira), macarelas (Decapterus spp.), capelanes (Mallotus villosus), peces espada (Xiphias gladius), bacoretas orientales (Euthynnus affinis), bonitos (Sarda spp.), agujas, marlines, peces vela o picudos (Istiophoridae)
+
+0305.59	- - Los demás:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.59.00.00			- - Los demás:
+
+0305.60
+Código	Designación de mercancías	Notas
+0305.61	- - Arenques (Clupea harengus, Clupea pallasii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.61.00.00			- - Arenques (Clupea harengus, Clupea pallasii)
+
+0305.62	- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.62.00.00			- - Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus)
+
+0305.63	- - Anchoas (Engraulis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.63.00.00			- - Anchoas (Engraulis spp.)
+
+0305.64	- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.64.00.00			- - Tilapias (Oreochromis spp.), bagres o peces gato (Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.), carpas (Cyprinus spp., Carassius spp., Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus, Catla catla, Labeo spp., Osteochilus hasselti, Leptobarbus hoeveni, Megalobrama spp.), anguilas (Anguilla spp.), percas del Nilo (Lates niloticus) y peces cabeza de serpiente (Channa spp.)
+
+0305.69	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.69.00.00			- - Los demás
+
+0305.70
+Código	Designación de mercancías	Notas
+0305.71	- - Aletas de tiburón	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.71.00.10			- - - De tiburon de puntas blancas (Carcharhinus longimanus)	Enviar	Enviar
+0305.71.00.20			- - - De tiburon martillo (Sphyrna lewini, S. mokarran, S. Zygaena)	Enviar	Enviar
+0305.71.00.30			- - - De tiburon sardinero (Lamna nasus)	Enviar	Enviar
+0305.71.00.40			- - - De tiburon sedoso (Carcharhinus falciformis)	Enviar	Enviar
+0305.71.00.50			- - - De tiburon zorro (Alopias vulpinus, A. pelagicus A.superciliosus)	Enviar	Enviar
+0305.71.00.90			- - - Las demas
+
+0305.72	- - Cabezas, colas y vejigas natatorias, de pescado	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.72.00.00			- - Cabezas, colas y vejigas natatorias, de pescado
+
+0305.79	- - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0305.79.00.00			- - Los demas
+
+0306.10
+Código	Designación de mercancías	Notas
+0306.11	- - Langostas (Palinurus spp., Panulirus spp., Jasus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.11.00.00			- - Langostas (Palinurus spp., Panulirus spp., Jasus spp.)
+
+0306.12	- - Bogavantes (Homarus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.12.00.00			- - Bogavantes (Homarus spp.)
+
+0306.14	- - Cangrejos (excepto macruros)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.14.00.00			- - Cangrejos (excepto macruros)	Enviar	Enviar
+
+0306.15	- - Cigalas (Nephrops norvegicus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.15.00.00			- - Cigalas (Nephrops norvegicus)
+
+0306.16	- - Camarones, langostinos y demas decapodos Natantia de agua fria (Pandalus spp., Crangon crangon)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.16.00.00			- - Camarones, langostinos y demas decapodos Natantia de agua fria (Pandalus spp., Crangon crangon)
+
+0306.17	- - Los demás camarones, langostinos y otros Decápodos natantia:	Enviar
+Código	Designación de mercancías	Notas
+0306.17.10	- - - Langostinos (Géneros de la familia Penaeidae):	Enviar
+Código	Designación de mercancías	Notas
+0306.17.11	- - - - Enteros	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.11.00			- - - - Enteros
+
+0306.17.12	- - - - Colas sin caparazón	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.12.00			- - - - Colas sin caparazón
+
+0306.17.13	- - - - Colas con caparazón, sin cocer en agua o vapor	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.13.00			- - - - Colas con caparazón, sin cocer en agua o vapor
+
+0306.17.14	- - - - Colas con caparazón, cocidos en agua o vapor	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.14.00			- - - - Colas con caparazón, cocidos en agua o vapor
+
+0306.17.19	- - - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.19.00			- - - - Los demás
+
+0306.17.90	- - - Los demás:	Enviar
+Código	Designación de mercancías	Notas
+0306.17.91	- - - - Camarones de río de los géneros Macrobrachium	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.91.00			- - - - Camarones de río de los géneros Macrobrachium
+
+0306.17.99	- - - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.17.99.00			- - - - Los demás
+
+0306.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.19.00.00			- - Los demás	Enviar	Enviar
+
+0306.30
+Código	Designación de mercancías	Notas
+0306.31	- - Langostas (Palinurus spp., Panulirus spp., Jasus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.31.00.00			- - Langostas (Palinurus spp., Panulirus spp., Jasus spp.)
+
+0306.32	- - Bogavantes (Homarus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.32.00.00			- - Bogavantes (Homarus spp.)
+
+0306.33	- - Cangrejos (excepto macruros)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.33.00.00			- - Cangrejos (excepto macruros)
+
+0306.34	- - Cigalas (Nephrops norvegicus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.34.00.00			- - Cigalas (Nephrops norvegicus)
+
+0306.35	- - Camarones, langostinos y demas decapodos Natantia, de agua fria (Pandalus spp., Crangon crangon)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.35.00.00			- - Camarones, langostinos y demas decapodos Natantia, de agua fria (Pandalus spp., Crangon crangon)
+
+0306.36	- - Los demas camarones, langostinos y demas decapodos Natantia:	Enviar
+Código	Designación de mercancías	Notas
+0306.36.10	- - - Langostinos (Generos de la familia Penaeidae):	Enviar
+Código	Designación de mercancías	Notas
+0306.36.11	- - - - Para reproduccion o cria industrial	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.36.11.00			- - - - Para reproduccion o cria industrial
+
+0306.36.19	- - - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.36.19.00			- - - - Los demas
+
+0306.36.90	- - - Los demas:	Enviar
+Código	Designación de mercancías	Notas
+0306.36.91	- - - - Para reproduccion o cria industrial	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.36.91.00			- - - - Para reproduccion o cria industrial
+
+0306.36.92	- - - - Los demas camarones de rio de los generos Macrobrachium	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.36.92.00			- - - - Los demas camarones de rio de los generos Macrobrachium
+
+0306.36.99	- - - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.36.99.00			- - - - Los demas
+
+0306.39	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.39.00.00			- - Los demás
+
+0306.90
+Código	Designación de mercancías	Notas
+0306.91	- - Langostas (Palinurus spp., Panulirus spp., Jasus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.91.00.00			- - Langostas (Palinurus spp., Panulirus spp., Jasus spp.)
+
+0306.92	- - Bogavantes (Homarus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.92.00.00			- - Bogavantes (Homarus spp.)	Enviar	Enviar
+
+0306.93	- - Cangrejos (excepto macruros)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.93.00.00			- - Cangrejos (excepto macruros)
+
+0306.94	- - Cigalas (Nephrops norvegicus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.94.00.00			- - Cigalas (Nephrops norvegicus)
+
+0306.95	- - Camarones, langostinos y demas decapodos Natantia:	Enviar
+Código	Designación de mercancías	Notas
+0306.95.10	- - - Camarones de rio de los generos Macrobrachium	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.95.10.00			- - - Camarones de rio de los generos Macrobrachium
+
+0306.95.90	- - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.95.90.00			- - - Los demas
+
+0306.99	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0306.99.00.00			- - Los demás
+
+0307.10
+Código	Designación de mercancías	Notas
+0307.11	- - Vivas, frescas o refrigeradas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.11.00.00			- - Vivas, frescas o refrigeradas
+
+0307.12	- - Congeladas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.12.00.00			- - Congeladas
+
+0307.19	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.19.00.00			- - Las demás
+
+0307.20
+Código	Designación de mercancías	Notas
+0307.21	- - Vivos, frescos o refrigerados:	Enviar
+Código	Designación de mercancías	Notas
+0307.21.10	- - - Vieiras (concha de abanico) (pecten jacobaeus)	Enviar
+
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.21.10.00			- - - Vieiras (concha de abanico) (pecten jacobaeus)	
+
+0307.21.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.21.90.00			- - - Los demás
+
+0307.22	- - Congeladas	Enviar
+Código	Designación de mercancías	Notas
+0307.22.10	- - - Vieiras (concha de abanico) (pecten jacobaeus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.22.10.00			- - - Vieiras (concha de abanico) (pecten jacobaeus)	
+
+0307.22.90	- - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.22.90.00			- - - Los demas
+
+0307.29	- - Los demás:
+Código	Designación de mercancías	Notas
+0307.29.10	- - - Vieiras (concha de abanico) (pecten jacobaeus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.29.10.00			- - - Vieiras (concha de abanico) (pecten jacobaeus)	
+
+0307.29.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.29.90.00			- - - Los demás
+
+0307.30
+Código	Designación de mercancías	Notas
+0307.31	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.31.00.00			- - Vivos, frescos o refrigerados
+
+0307.32	- - Congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.32.00.00			- - Congelados
+
+0307.39	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.39.00.00			- - Los demás
+
+0307.40
+Código	Designación de mercancías	Notas
+0307.42	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.42.00.00			- - Vivos, frescos o refrigerados
+
+0307.43	- - Congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.43.00.00			- - Congelados
+
+0307.49	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.49.00.00			- - Los demás
+
+0307.50
+Código	Designación de mercancías	Notas
+0307.51	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.51.00.00			- - Vivos, frescos o refrigerados
+
+0307.52	- - Congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.52.00.00			- - Congelados
+
+0307.59	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.59.00.00			- - Los demás
+
+0307.60
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.60.00.00			- Caracoles, excepto los de mar	
+
+0307.70
+Código	Designación de mercancías	Notas
+0307.71	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.71.00.00			- - Vivos, frescos o refrigerados
+
+0307.72	- - Congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.72.00.00			- - Congelados
+
+0307.79	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.79.00.00			- - Los demás
+
+0307.80
+Código	Designación de mercancías	Notas
+0307.81	- - Abulones u orejas de mar (Haliotis spp.), vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.81.00.00			- - Abulones u orejas de mar (Haliotis spp.), vivos, frescos o refrigerados
+
+0307.82	- - Cobos (caracoles de mar) (Strombus spp.), vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.82.00.00			- - Cobos (caracoles de mar) (Strombus spp.), vivos, frescos o refrigerados
+
+0307.83	- - Abulones u orejas de mar (Haliotis spp.), congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.83.00.00			- - Abulones u orejas de mar (Haliotis spp.), congelados
+
+0307.84	- - Cobos (caracoles de mar) (Strombus spp.), congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.84.00.00			- - Cobos (caracoles de mar) (Strombus spp.), congelados
+
+0307.87	- - Los demas abulones u orejas de mar (Haliotis spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.87.00.00			- - Los demas abulones u orejas de mar (Haliotis spp.)
+
+0307.88	- - Los demas cobos (caracoles de mar) (Strombus spp.)
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.88.00.00			- - Los demas cobos (caracoles de mar) (Strombus spp.)
+
+0307.90
+Código	Designación de mercancías	Notas
+0307.91	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.91.00.00			- - Vivos, frescos o refrigerados
+
+0307.92	- - Congelados:	Enviar
+Código	Designación de mercancías	Notas
+0307.92.10	- - - Locos (chanque, caracoles de mar) (Concholepas concholepas)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.92.10.00			- - - Locos (chanque, caracoles de mar) (Concholepas concholepas)
+
+0307.92.20	- - - Lapas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.92.20.00			- - - Lapas
+
+0307.92.90	- - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.92.90.00			- - - Los demas
+
+0307.99	- - Los demás:
+Código	Designación de mercancías	Notas
+0307.99.20	- - - Locos (Chanque, caracoles de mar) (Concholepas concholepas)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.99.20.00			- - - Locos (Chanque, caracoles de mar) (Concholepas concholepas)
+
+0307.99.50	- - - Lapas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.99.50.00			- - - Lapas
+
+0307.99.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0307.99.90.00			- - - Los demás
+
+0308.10
+Código	Designación de mercancías	Notas
+0308.11	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.11.00.00			- - Vivos, frescos o refrigerados
+
+0308.12	- - Congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.12.00.00			- - Congelados
+
+0308.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.19.00.00			- - Los demás
+
+0308.20
+
+Código	Designación de mercancías	Notas
+0308.21	- - Vivos, frescos o refrigerados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.21.00.00			- - Vivos, frescos o refrigerados
+
+0308.22	- - Congelados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.22.00.00			- - Congelados
+
+0308.29	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.29.00.00			- - Los demás
+
+0308.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.30.00.00			- Medusas (Rhopilema spp.)	Enviar	Enviar
+
+0308.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0308.90.00.10			- - Corales vivos, clase Anthozoa e Hydrozoa	Enviar	Enviar
+0308.90.00.90			- - Los demas
+
+0309.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0309.10.00.00			- De pescado
+
+0309.90
+Código	Designación de mercancías	Notas
+0309.90.10	- - De crustáceos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0309.90.10.00			- - De crustáceos
+
+0309.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0309.90.90.00			- - Los demás
+
+0401.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0401.10.00.00			- Con un contenido de materias grasas inferior o igual al 1% en peso
+
+0401.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0401.20.00.00			- Con un contenido de materias grasas superior al 1% pero inferior o igual al 6%, en peso
+
+0401.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0401.40.00.00			- Con un contenido de materias grasas superior al 6 % pero inferior o igual al 10 %, en peso
+
+0401.50
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0401.50.00.00			- Con un contenido de materias grasas superior al 10 % en peso
+
+0402.10
+Código	Designación de mercancías	Notas
+0402.10.10	- - En envases de contenido neto inferior o igual a 2,5 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.10.10.00			- - En envases de contenido neto inferior o igual a 2,5 kg
+
+0402.10.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.10.90.00			- - Los demás
+
+0402.20
+Código	Designación de mercancías	Notas
+0402.21	- - Sin adición de azúcar ni otro edulcorante:	Enviar
+Código	Designación de mercancías	Notas
+0402.21.10	- - - Con un contenido de materias grasas superior o igual al 26% en peso, sobre producto seco:	Enviar
+Código	Designación de mercancías	Notas
+0402.21.11	- - - - En envases de contenido neto inferior o igual a 2,5 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.21.11.00			- - - - En envases de contenido neto inferior o igual a 2,5 kg
+
+0402.21.19	- - - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.21.19.00			- - - - Las demás
+
+0402.21.90	- - - Las demás:
+Código	Designación de mercancías	Notas
+0402.21.91	- - - - En envases de contenido neto inferior o igual a 2,5 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.21.91.00			- - - - En envases de contenido neto inferior o igual a 2,5 kg
+
+0402.21.99	- - - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.21.99.00			- - - - Las demás
+
+0402.29	- - Las demás:
+Código	Designación de mercancías	Notas
+0402.29.10	- - - Con un contenido de materias grasas superior o igual al 26% en peso, sobre producto seco:	Enviar
+Código	Designación de mercancías	Notas
+0402.29.11	- - - - En envases de contenido neto inferior o igual a 2,5 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.29.11.00			- - - - En envases de contenido neto inferior o igual a 2,5 kg
+
+0402.29.19	- - - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.29.19.00			- - - - Las demás
+
+0402.29.90	- - - Las demás:
+Código	Designación de mercancías	Notas
+0402.29.91	- - - - En envases de contenido neto inferior o igual a 2,5 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.29.91.00			- - - - En envases de contenido neto inferior o igual a 2,5 kg
+
+0402.29.99	- - - - Las demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.29.99.00			- - - - Las demas
+
+0402.90
+Código	Designación de mercancías	Notas
+0402.91	- - Sin adición de azúcar ni otro edulcorante:	Enviar
+Código	Designación de mercancías	Notas
+0402.91.10	- - - Leche evaporada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.91.10.00			- - - Leche evaporada
+
+0402.91.90	- - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.91.90.00			- - - Las demás
+
+0402.99	- - Las demás:
+Código	Designación de mercancías	Notas
+0402.99.10	- - - Leche condensada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.99.10.00			- - - Leche condensada
+
+0402.99.90	- - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0402.99.90.00			- - - Las demás
+
+0403.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0403.20.00.00			- Yogur
+
+0403.90
+Código	Designación de mercancías	Notas
+0403.90.10	- - Suero de mantequilla	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0403.90.10.00			- - Suero de mantequilla
+
+0403.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0403.90.90.00			- - Los demás
+
+0404.10
+Código	Designación de mercancías	Notas
+0404.10.10	- - Lactosuero parcial o totalmente desmineralizado	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0404.10.10.00			- - Lactosuero parcial o totalmente desmineralizado	
+
+0404.10.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0404.10.90.00			- - Los demás
+
+0404.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0404.90.00.00			- Los demás
+
+0405.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0405.10.00.00			- Mantequilla (manteca)
+
+0405.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0405.20.00.00			- Pastas lácteas para untar
+
+0405.90
+Código	Designación de mercancías	Notas
+0405.90.20	- - Grasa láctea anhidra («butteroil»)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0405.90.20.00			- - Grasa láctea anhidra («butteroil»)
+
+0405.90.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0405.90.90.00			- - Las demás
+
+0406.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.10.00.00			- Queso fresco (sin madurar), incluido el del lactosuero, y requesón
+
+0406.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.20.00.00			- Queso de cualquier tipo, rallado o en polvo
+
+0406.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.30.00.00			- Queso fundido, excepto el rallado o en polvo
+
+0406.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.40.00.00			- Queso de pasta azul y demás quesos que presenten vetas producidas por Penicillium roqueforti
+
+0406.90
+Código	Designación de mercancías	Notas
+0406.90.40	- - Con un contenido de humedad inferior al 50% en peso, calculado sobre una base totalmente desgrasada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.90.40.00			- - Con un contenido de humedad inferior al 50% en peso, calculado sobre una base totalmente desgrasada
+
+0406.90.50	- - Con un contenido de humedad superior o igual al 50% pero inferior al 56%, en peso, calculado sobre una base totalmente desgrasada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.90.50.00			- - Con un contenido de humedad superior o igual al 50% pero inferior al 56%, en peso, calculado sobre una base totalmente desgrasada
+
+0406.90.60	- - Con un contenido de humedad superior o igual al 56% pero inferior al 69%, en peso, calculado sobre una base totalmente desgrasada	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.90.60.00			- - Con un contenido de humedad superior o igual al 56% pero inferior al 69%, en peso, calculado sobre una base totalmente desgrasada
+
+0406.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0406.90.90.00			- - Los demás
+
+0407.10
+Código	Designación de mercancías	Notas
+0407.11	- - De gallina de la especie Gallus domesticus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.11.00.00			- - De gallina de la especie Gallus domesticus
+
+0407.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.19.00.00			- - Los demás
+
+0407.20
+Código	Designación de mercancías	Notas
+0407.21	- - De gallina de la especie Gallus domesticus:	Enviar
+Código	Designación de mercancías	Notas
+0407.21.10	- - - Para la producción de vacunas (libres de patógenos específicos)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.21.10.00			- - - Para la producción de vacunas (libres de patógenos específicos)
+
+0407.21.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.21.90.00			- - - Los demás
+
+0407.29	- - Los demás:
+Código	Designación de mercancías	Notas
+0407.29.10	- - - Para la producción de vacunas (libres de patógenos específicos)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.29.10.00			- - - Para la producción de vacunas (libres de patógenos específicos)
+
+0407.29.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.29.90.00			- - - Los demás
+
+0407.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0407.90.00.00			- Los demás
+
+0408.10
+Código	Designación de mercancías	Notas
+0408.11	- - Secas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0408.11.00.00			- - Secas
+
+0408.19	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0408.19.00.00			- - Las demás
+
+0408.90
+Código	Designación de mercancías	Notas
+0408.91	- - Secos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0408.91.00.00			- - Secos
+
+0408.99	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0408.99.00.00			- - Los demás
+
+0409	no tiene XX
+Código	Designación de mercancías	Notas
+0409.00.10	- En recipientes con capacidad superior o igual a 300 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0409.00.10.00			- En recipientes con capacidad superior o igual a 300 kg
+
+0409.00.90	- Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0409.00.90.00			- Los demás
+
+0410.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0410.10.00.00			- Insectos
+
+0410.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0410.90.00.00			- Los demás
+
+0501	no tiene XX
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0501.00.00.00			Cabello en bruto, incluso lavado o desgrasado; desperdicios de cabello.
+
+0502.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0501.00.00.00			Cabello en bruto, incluso lavado o desgrasado; desperdicios de cabello.
+
+0502.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0502.90.00.00			- Los demás
+
+0504	no tiene XX
+Código	Designación de mercancías	Notas
+0504.00.10	- Estómagos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0504.00.10.00			- Estómagos
+
+0504.00.20	- Tripas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0504.00.20.00			- Tripas	Enviar	Enviar
+
+0504.00.30	- Vejigas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0504.00.30.00			- Vejigas
+
+0505.10
+Código	Designación de mercancías	Notas
+0505.10	- Plumas de las utilizadas para relleno; plumón	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0505.10.00.00			- Plumas de las utilizadas para relleno; plumón
+
+0505.90	- Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0505.90.00.00			- Los demás
+
+0505.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0505.90.00.00			- Los demás
+
+0506.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0506.10.00.00			- Oseína y huesos acidulados
+
+0506.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0506.90.00.00			- Los demás
+
+0507.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0507.10.00.00			- Marfil; polvo y desperdicios de marfil	
+
+0507.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0507.90.00.10			- - Concha (caparazon) de tortuga marina	Enviar	Enviar
+0507.90.00.90			- - Los demas
+
+0508	no tiene XX
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0508.00.00.10			- Coral	Enviar	Enviar
+0508.00.00.20			- Caparazones (conchas) de caracol pala (Strombus gigas)	Enviar	Enviar
+0508.00.00.90			- Los demas
+
+0510	no tiene XX
+Código	Designación de mercancías	Notas
+0510.00.10	- Bilis, incluso desecada; glándulas y demás sustancias de origen animal utilizadas para la preparación de productos farmacéuticos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0510.00.10.00			- Bilis, incluso desecada; glándulas y demás sustancias de origen animal utilizadas para la preparación de productos farmacéuticos
+
+0510.00.90	- Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0510.00.90.00			- Los demás
+
+0511.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.10.00.00			- Semen de bovino
+
+0511.90
+Código	Designación de mercancías	Notas
+0511.91	- - Productos de pescado o de crustáceos, moluscos o demás invertebrados acuáticos; animales muertos del Capítulo 3:	Enviar
+Código	Designación de mercancías	Notas
+0511.91.10	- - - Huevas y lechas de pescado	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.91.10.00			- - - Huevas y lechas de pescado
+
+0511.91.20	- - - Despojos de pescado	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.91.20.00			- - - Despojos de pescado
+
+0511.91.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.91.90.00			- - - Los demás
+
+0511.99	- - Los demás:
+Código	Designación de mercancías	Notas
+0511.99.10	- - - Cochinilla (Dactylopius coccus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.99.10.00			- - - Cochinilla (Dactylopius coccus)	
+
+0511.99.30	- - - Semen de los demas animales	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.99.30.00			- - - Semen de los demas animales
+
+0511.99.40	- - - Embriones	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.99.40.00			- - - Embriones
+
+0511.99.90	- - - Los demás:
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0511.99.90.10			- - - - Esponjas naturales de origen animal	Enviar	Enviar
+0511.99.90.20			- - - - Crin y sus desperdicios, incluso en napas con o sin soporte	Enviar	Enviar
+0511.99.90.90			- - - - Los demás
+
+0601.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0601.10.00.00			- Bulbos, cebollas, tubérculos, raíces y bulbos tuberosos, turiones y rizomas, en reposo vegetativo
+
+0601.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0601.20.00.00			- Bulbos, cebollas, tubérculos, raíces y bulbos tuberosos, turiones y rizomas, en vegetación o en flor; plantas y raíces de achicoria
+
+0602.10
+Código	Designación de mercancías	Notas
+0602.10.10	- - Orquídeas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.10.10.00			- - Orquídeas
+
+0602.10.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.10.90.00			- - Los demás
+
+0602.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.20.00.00			- Arboles, arbustos y matas, de frutas o de otros frutos comestibles, incluso injertados
+
+0602.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.30.00.00			- Rododendros y azaleas, incluso injertados
+
+0602.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.40.00.00			- Rosales, incluso injertados
+
+0602.90
+Código	Designación de mercancías	Notas
+0602.90.10	- - Orquídeas, incluidos sus esquejes enraizados	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.90.10.00			- - Orquídeas, incluidos sus esquejes enraizados	
+
+0602.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0602.90.90.00			- - Los demás	Enviar	Enviar
+
+0603.10
+Código	Designación de mercancías	Notas
+0603.11	- - Rosas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.11.00.00			- - Rosas
+
+0603.12	- - Claveles:	Enviar
+Código	Designación de mercancías	Notas
+0603.12.10	- - - Miniatura	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.12.10.00			- - - Miniatura
+
+0603.12.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.12.90.00			- - - Los demás
+
+0603.13	- - Orquídeas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.13.00.00			- - Orquídeas
+
+0603.14	- - Crisantemos:	Enviar
+Código	Designación de mercancías	Notas
+0603.14.10	- - - Pompones	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.14.10.00			- - - Pompones
+
+0603.14.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.14.90.00			- - - Los demás
+
+0603.15	- - Azucenas (Lilium spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.15.00.00			- - Azucenas (Lilium spp.)
+
+0603.19	- - Los demás:
+Código	Designación de mercancías	Notas
+0603.19.10	- - - Gypsophila (Lluvia, ilusión) (Gypsophilia paniculata L.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.19.10.00			- - - Gypsophila (Lluvia, ilusión) (Gypsophilia paniculata L.)
+
+0603.19.20	- - - Aster	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.19.20.00			- - - Aster
+
+0603.19.30	- - - Alstroemeria	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.19.30.00			- - - Alstroemeria
+
+0603.19.40	- - - Gerbera	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.19.40.00			- - - Gerbera
+
+0603.19.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.19.90.10			- - - - Hortensias (Hydrangea spp.)	Enviar	Enviar
+0603.19.90.90			- - - - Los demas
+
+0603.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0603.90.00.00			- Los demás
+
+0604.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0604.20.00.00			- Frescos
+
+0604.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0604.90.00.00			- Los demás
+
+0701.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0701.10.00.00			- Para siembra
+
+0701.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0701.90.00.00			- Las demás
+
+0702	no tiene XX
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0702.00.00.00			Tomates frescos o refrigerados.
+
+0703.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0703.10.00.10			- - cebollas de bulbo rojo (cabezona roja) 8allium cepa L.)	Enviar	Enviar
+0703.10.00.20			- - cebollas de bulbo blanco (cabezona blanca)(Allium cepa L)	Enviar	Enviar
+0703.10.00.30			- - cebollas de bulbo amarillo (cabezona amarilla)(Allium cepa L.)	Enviar	Enviar
+0703.10.00.90			- - las demas
+
+0703.20
+Código	Designación de mercancías	Notas
+0703.20.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0703.20.10.00			- - Para siembra
+
+0703.20.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0703.20.90.00			- - Los demás
+
+0703.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0703.90.00.10			- - cebollas junca (cebolleta, cebolla larga)(Allium fistolosum L)	Enviar	Enviar
+0703.90.00.20			- - cebollÃ­n (cebollino)(Allium schoenoprasum L)	Enviar	Enviar
+0703.90.00.90			- - las demas
+
+0704.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0704.10.00.00			- Coliflores y brécoles («broccoli»)
+
+0704.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0704.20.00.00			- Coles (repollitos) de Bruselas
+
+0704.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0704.90.00.00			- Los demás
+
+0705.10
+Código	Designación de mercancías	Notas
+0705.11	- - Repolladas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0705.11.00.00			- - Repolladas
+
+0705.19	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0705.19.00.00			- - Las demás
+
+0705.20
+Código	Designación de mercancías	Notas
+0705.21	- - Endibia «witloof» (Cichorium intybus var. foliosum)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0705.21.00.00			- - Endibia «witloof» (Cichorium intybus var. foliosum)
+
+0705.29	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0705.29.00.00			- - Las demás
+
+0706.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0706.10.00.00			- Zanahorias y nabos
+
+0706.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0706.90.00.00			- Los demás
+
+0707	no tiene XX
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0707.00.00.00			Pepinos y pepinillos, frescos o refrigerados.	
+
+0708.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0708.10.00.00			- Arvejas (guisantes, chícharos) (Pisum sativum)	
+
+0708.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0708.20.00.00			- Frijoles (fréjoles, porotos, alubias, judías) (Vigna spp., Phaseolus spp.)
+
+0708.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0708.90.00.00			- Las demás
+
+0709.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.20.00.00			- Espárragos
+
+0709.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.30.00.00			- Berenjenas
+
+0709.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.40.00.00			- Apio, excepto el apionabo
+
+0709.50
+Código	Designación de mercancías	Notas
+0709.51	- - Hongos del género Agaricus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.51.00.00			- - Hongos del género Agaricus
+
+0709.52	- - Hongos del género Boletus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.52.00.00			- - Hongos del género Boletus
+
+0709.53	- - Hongos del género Cantharellus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.53.00.00			- - Hongos del género Cantharellus
+
+0709.54	- - Shiitake (Lentinus edodes)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.54.00.00			- - Shiitake (Lentinus edodes)
+
+0709.55	- - Matsutake (Tricholoma matsutake, Tricholoma magnivelare, Tricholoma anatolicum, Tricholoma dulciolens, Tricholoma caligatum)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.55.00.00			- - Matsutake (Tricholoma matsutake, Tricholoma magnivelare, Tricholoma anatolicum, Tricholoma dulciolens, Tricholoma caligatum)
+
+0709.56	- - Trufas (Tuber spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.56.00.00			- - Trufas (Tuber spp.)
+
+0709.59	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.59.00.00			- - Los demás
+
+0709.60
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.60.00.00			- Frutos de los géneros Capsicum o Pimenta
+
+0709.70
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.70.00.00			- Espinacas (incluida la de Nueva Zelanda) y armuelles
+
+0709.90
+Código	Designación de mercancías	Notas
+0709.91	- - Alcachofas (alcauciles)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.91.00.00			- - Alcachofas (alcauciles)
+
+0709.92	- - Aceitunas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.92.00.00			- - Aceitunas
+
+0709.93	- - Calabazas (zapallos) y calabacines (Cucurbita spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.93.00.00			- - Calabazas (zapallos) y calabacines (Cucurbita spp.)
+
+0709.99	- - Las demás:
+Código	Designación de mercancías	Notas
+0709.99.10	- - - Maíz dulce (Zea mays var. Saccharata)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.99.10.00			- - - Maíz dulce (Zea mays var. Saccharata
+
+0709.99.90	- - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0709.99.90.00			- - - Las demás	Enviar	Enviar
+Enviar
+
+0710.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.10.00.00			- Papas (patatas)
+
+0710.20
+Código	Designación de mercancías	Notas
+0710.21	- - Arvejas (guisantes, chícharos) (Pisum sativum)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.21.00.00			- - Arvejas (guisantes, chícharos) (Pisum sativum)
+
+0710.22	- - Frijoles (fréjoles, porotos, alubias, judías) (Vigna spp., Phaseolus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.22.00.00			- - Frijoles (fréjoles, porotos, alubias, judías) (Vigna spp., Phaseolus spp.)
+
+0710.29	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.29.00.00			- - Las demás
+
+0710.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.30.00.00			- Espinacas (incluida la de Nueva Zelanda) y armuelles
+
+0710.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.40.00.00			- Maíz dulce
+
+0710.80
+Código	Designación de mercancías	Notas
+0710.80.10	- - Espárragos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.80.10.00			- - Espárragos
+
+0710.80.20	- - Brocoli (Brassica oleracea italica)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.80.20.00			- - Brocoli (Brassica oleracea italica)
+
+0710.80.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.80.90.00			- - Las demás
+
+0710.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0710.90.00.00			- Mezclas de hortalizas
+
+0711.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0711.20.00.00			- Aceitunas
+
+0711.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0711.40.00.00			- Pepinos y pepinillos
+
+0711.50
+Código	Designación de mercancías	Notas
+0711.51	- - Hongos del género Agaricus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0711.51.00.00			- - Hongos del género Agaricus
+
+0711.59	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0711.59.00.00			- - Los demás
+
+0711.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0711.90.00.00			- Las demás hortalizas; mezclas de hortalizas
+
+0712.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.20.00.00			- Cebollas
+
+0712.30
+Código	Designación de mercancías	Notas
+0712.31	- - Hongos del género Agaricus	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.31.00.00			- - Hongos del género Agaricus
+
+0712.32	- - Orejas de Judas (Auricularia spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.32.00.00			- - Orejas de Judas (Auricularia spp.)
+
+0712.33	- - Hongos gelatinosos (Tremella spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.33.00.00			- - Hongos gelatinosos (Tremella spp.)
+
+0712.34	- - Shiitake (Lentinus edodes)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.34.00.00			- - Shiitake (Lentinus edodes)
+
+0712.39	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.39.00.00			- - Los demás
+
+
+0712.90
+Código	Designación de mercancías	Notas
+0712.90.10	- - Ajos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.90.10.00			- - Ajos
+
+0712.90.20	- - Maíz dulce para la siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.90.20.00			- - Maíz dulce para la siembra
+
+0712.90.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0712.90.90.00			- - Las demás
+
+0713.10
+Código	Designación de mercancías	Notas
+0713.10.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.10.10.00			- - Para siembra
+
+0713.10.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.10.90.00			- - Los demás
+
+0713.20
+Código	Designación de mercancías	Notas
+0713.20.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.20.10.00			- - Para siembra
+
+0713.20.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.20.90.00			- - Los demás
+
+0713.30
+Código	Designación de mercancías	Notas
+0713.31	- - Frijoles (fréjoles, porotos, alubias, judías) de las especies Vigna mungo (L) Hepper o Vigna radiata (L) Wilczek:	Enviar
+Código	Designación de mercancías	Notas
+0713.31.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.31.10.00			- - - Para siembra
+0713.31.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.31.90.00			- - - Los demás
+
+0713.32	- - Frijoles (fréjoles, porotos, alubias, judías) Adzuki (Phaseolus o Vigna angularis):	Enviar
+Código	Designación de mercancías	Notas
+0713.32.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.32.10.00			- - - Para siembra
+
+0713.32.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.32.90.00			- - - Los demás
+
+0713.33	- - Frijoles (fréjoles, porotos, alubias, judías) comunes (Phaseolus vulgaris):	Enviar
+Código	Designación de mercancías	Notas
+0713.33.10	- - - Para siembra:	Enviar
+Código	Designación de mercancías	Notas
+0713.33.11	- - - - Negro	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.33.11.00			- - - - Negro
+
+0713.33.19	- - - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.33.19.00			- - - - Los demás
+
+0713.33.90	- - - Los demás:
+Código	Designación de mercancías	Notas
+0713.33.91	- - - - Negro	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.33.91.00			- - - - Negro
+
+0713.33.92	- - - - Canario	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.33.92.00			- - - - Canario
+
+0713.33.99	- - - - Los demás
+
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.33.99.00			- - - - Los demás
+
+0713.34	- - Frijoles (fréjoles, porotos, alubias, judías)* bambara (Vigna subterranea o Voandzeia subterranea):	Enviar
+Código	Designación de mercancías	Notas
+0713.34.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.34.10.00			- - - Para siembra
+
+0713.34.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.34.90.00			- - - Los demás
+
+0713.35	- - Frijoles (fréjoles, porotos, alubias, judías)* salvajes o caupí (Vigna unguiculata):	Enviar
+Código	Designación de mercancías	Notas
+0713.35.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.35.10.00			- - - Para siembra
+
+0713.35.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.35.90.00			- - - Los demás
+
+0713.39	- - Los demás:
+Código	Designación de mercancías	Notas
+0713.39.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.39.10.00			- - - Para siembra
+
+0713.39.90	- - - Los demás:
+Código	Designación de mercancías	Notas
+0713.39.91	- - - - Pallares (Phaseolus lunatus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.39.91.00			- - - - Pallares (Phaseolus lunatus)
+
+0713.39.99	- - - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.39.99.00			- - - - Los demás
+
+0713.40
+Código	Designación de mercancías	Notas
+0713.40.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.40.10.00			- - Para siembra
+
+0713.40.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.40.90.00			- - Las demás
+
+0713.50
+Código	Designación de mercancías	Notas
+0713.50.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.50.10.00			- - Para siembra
+
+0713.50.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.50.90.00			- - Las demás
+
+0713.60
+Código	Designación de mercancías	Notas
+0713.60.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.60.10.00			- - Para siembra
+
+0713.60.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.60.90.00			- - Las demás
+
+0713.90
+Código	Designación de mercancías	Notas
+0713.90.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.90.10.00			- - Para siembra
+
+0713.90.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0713.90.90.00			- - Las demás
+
+0714.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.10.00.00			- Raíces de yuca (mandioca)
+
+0714.20
+Código	Designación de mercancías	Notas
+0714.20.10	- - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.20.10.00			- - Para siembra
+
+0714.20.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.20.90.00			- - Los demás
+
+0714.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.30.00.00			- Ñame (Dioscorea spp.)	Enviar	Enviar
+
+
+0714.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.40.00.00			- Taro (Colocasia spp.)
+
+0714.50
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.50.00.00			- Yautía (malanga) (Xanthosoma spp.)
+
+0714.90
+Código	Designación de mercancías	Notas
+0714.90.10	- - Maca (Lepidium meyenii)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.90.10.00			- - Maca (Lepidium meyenii)
+
+0714.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0714.90.90.00			- - Los demás
+
+0801.10
+Código	Designación de mercancías	Notas
+0801.11	- - Secos:	Enviar
+Código	Designación de mercancías	Notas
+0801.11.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.11.10.00			- - - Para siembra
+0801.11.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.11.90.00			- - - Los demás
+
+0801.12	- - Con la cáscara interna (endocarpio)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.12.00.00			- - Con la cáscara interna (endocarpio)	
+
+0801.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.19.00.00			- - Los demás
+
+0801.20
+Código	Designación de mercancías	Notas
+0801.21	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.21.00.00			- - Con cáscara
+
+0801.22	- - Sin cáscara
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.22.00.00			- - Sin cáscara
+
+0801.30
+Código	Designación de mercancías	Notas
+0801.31	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.31.00.00			- - Con cáscara
+
+0801.32	- - Sin cáscara
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0801.32.00.00			- - Sin cáscara
+
+0802.10
+Código	Designación de mercancías	Notas
+0802.11	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.11.00.00			- - Con cáscara
+
+0802.12	- - Sin cáscara:
+Código	Designación de mercancías	Notas
+0802.12.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.12.10.00			- - - Para siembra
+
+0802.12.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.12.90.00			- - - Los demás
+
+0802.20
+Código	Designación de mercancías	Notas
+0802.21	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.21.00.00			- - Con cáscara
+
+0802.22	- - Sin cáscara
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.22.00.00			- - Sin cáscara
+
+0802.30
+Código	Designación de mercancías	Notas
+0802.31	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.31.00.00			- - Con cáscara
+
+0802.32	- - Sin cáscara
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.32.00.00			- - Sin cáscara
+
+0802.40
+Código	Designación de mercancías	Notas
+0802.41	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.41.00.00			- - Con cáscara
+
+0802.42	- - Sin cáscara
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.42.00.00			- - Sin cáscara
+
+0802.50
+Código	Designación de mercancías	Notas
+0802.51	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.51.00.00			- - Con cáscara
+
+0802.52	- - Sin cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.52.00.00			- - Sin cáscara
+
+0802.60
+Código	Designación de mercancías	Notas
+0802.61	- - Con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.61.00.00			- - Con cáscara
+
+0802.62	- - Sin cáscara
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.62.00.00			- - Sin cáscara
+
+0802.70
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.70.00.00			- Nueces de cola (Cola spp.)
+
+0802.80
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.80.00.00			- Nueces de areca
+
+0802.90
+Código	Designación de mercancías	Notas
+0802.91	- - Piñones con cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.91.00.00			- - Piñones con cáscara
+
+0802.92	- - Piñones sin cáscara	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.92.00.00			- - Piñones sin cáscara
+
+0802.99	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0802.99.00.00			- - Los demás
+
+0803.10
+Código	Designación de mercancías	Notas
+0803.10.10	- - Frescos	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0803.10.10.00			- - Frescos
+
+0803.10.20	- - Secos
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0803.10.20.00			- - Secos
+
+
+0803.90
+Código	Designación de mercancías	Notas
+0803.90.10	- - Frescos:	Enviar
+Código	Designación de mercancías	Notas
+0803.90.11	- - - Tipo «cavendish valery»	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0803.90.11.00			- - - Tipo «cavendish valery»
+
+0803.90.12	- - - Bocadillo (manzanito, orito) (Musa acuminata)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0803.90.12.00			- - - Bocadillo (manzanito, orito) (Musa acuminata)
+
+0803.90.19	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0803.90.19.00			- - - Los demás
+
+0803.90.20	- - Secos
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0803.90.20.00			- - Secos
+
+0804.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0804.10.00.00			- Dátiles
+
+0804.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0804.20.00.00			- Higos
+
+0804.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0804.30.00.00			- Piñas (ananás
+
+0804.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0804.40.00.10			- - Variedad Hass	Enviar	Enviar
+0804.40.00.90			- - Los demás
+
+0804.50
+Código	Designación de mercancías	Notas
+0804.50.10	- - Guayabas	Enviar
+0804.50.20	- - Mangos y mangostanes
+
+0805.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.10.00.00			- Naranjas
+
+0805.20
+Código	Designación de mercancías	Notas
+0805.21	- - Mandarinas (incluidas las tangerinas y satsumas)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.21.00.00			- - Mandarinas (incluidas las tangerinas y satsumas)	
+
+0805.22	- - Clementinas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.22.00.00			- - Clementinas
+
+0805.29	- - Los demas:
+
+Código	Designación de mercancías	Notas
+0805.29.10	- - - Tangelo (Citrus reticulata x Citrus paradisis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.29.10.00			- - - Tangelo (Citrus reticulata x Citrus paradisis)	Enviar
+
+0805.29.90	- - - Los demas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.29.90.00			- - - Los demas
+
+0805.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.40.00.00			- Toronjas y pomelos
+
+0805.50
+Código	Designación de mercancías	Notas
+0805.50.10	- - Limones (Citrus limon, Citrus limonum)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.50.10.00			- - Limones (Citrus limon, Citrus limonum)
+
+0805.50.20	- - Limas (Citrus aurantifolia, Citrus latifolia):
+Código	Designación de mercancías	Notas
+0805.50.21	- - - Limón (limón sutil, limón común, limón criollo) (Citrus aurantifolia)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.50.21.00			- - - Limón (limón sutil, limón común, limón criollo) (Citrus aurantifolia)
+
+0805.50.22	- - - Lima Tahití (limón Tahití) (Citrus latifolia)
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.50.22.00			- - - Lima Tahití (limón Tahití) (Citrus latifolia)
+
+0805.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0805.90.00.00			- Los demás
+
+0806.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0806.10.00.00			- Frescas
+
+0806.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0806.20.00.00			- Secas, incluidas las pasas
+
+0807.10
+Código	Designación de mercancías	Notas
+0807.11	- - Sandías	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0807.11.00.00			- - Sandías
+
+0807.19	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0807.19.00.00			- - Los demás
+
+0807.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0807.20.00.00			- Papayas
+
+0808.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0808.10.00.00			- Manzanas
+
+0808.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0808.30.00.00			- Peras
+
+0808.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0808.40.00.00			- Membrillos
+
+0809.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0809.10.00.00			- Damascos (albaricoques, chabacanos)
+
+0809.20
+Código	Designación de mercancías	Notas
+0809.21	- - Guindas (cerezas ácidas) (Prunus cerasus)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0809.21.00.00			- - Guindas (cerezas ácidas) (Prunus cerasus)
+
+0809.29	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0809.29.00.00			- - Las demás
+
+0809.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0809.30.00.00			- Duraznos (melocotones), incluidos los griñones y nectarinas
+
+0809.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0809.40.00.00			- Ciruelas y endrinas
+
+0810.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.10.00.00			- Fresas (frutillas)
+
+0810.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.20.00.00			- Frambuesas, zarzamoras, moras y moras-frambuesa
+
+0810.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.30.00.00			- Grosellas negras, blancas o rojas y grosellas espinosas
+
+0810.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.40.00.00			- Arándanos rojos, mirtilos y demás frutos del género Vaccinium
+
+0810.50
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.50.00.00			- Kiwis
+
+0810.60
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.60.00.00			- Duriones
+
+0810.70
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.70.00.00			- Caquis (persimonios)
+
+0810.90
+Código	Designación de mercancías	Notas
+0810.90.10	- - Granadilla, «maracuyá» (parchita) y demás frutas de la pasión (Passiflora spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.90.10.10			- - - Granadilla (Passiflora ligularis)	Enviar	Enviar
+0810.90.10.20			- - - Maracuyá (Parchita) (Pasiflora edulis var. Flavicarpa)	Enviar	Enviar
+0810.90.10.30			- - - Gulupa (maracuyá morado) (Passiflora edulis var. edulis)	Enviar	Enviar
+0810.90.10.40			- - - Curuba (tumbo) (Passiflora mollisima)	Enviar	Enviar
+0810.90.10.90			- - - Las demás
+
+0810.90.20	- - Chirimoya, guanábana y demás anonas (Annona spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.90.20.00			- - Chirimoya, guanábana y demás anonas (Annona spp.)
+
+0810.90.30	- - Tomate de árbol (lima tomate, tamarillo) (Cyphomandra betacea)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.90.30.00			- - Tomate de árbol (lima tomate, tamarillo) (Cyphomandra betacea)
+
+0810.90.40	- - Pitahayas (Cereus spp.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.90.40.00			- - Pitahayas (Cereus spp.)	
+
+0810.90.50	- - Uchuvas (aguaymanto, uvillas) (Physalis peruviana)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.90.50.00			- - Uchuvas (aguaymanto, uvillas) (Physalis peruviana)
+
+0810.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0810.90.90.10			- - - Feijoa (Acca sellowiana, Feijoo sellowiana)	Enviar	Enviar
+0810.90.90.20			- - - Lulo (naranjilla) (Solanum quitoense)	Enviar	Enviar
+0810.90.90.90			- - - Los demás
+
+0811.10
+Código	Designación de mercancías	Notas
+0811.10.10	- - Con adición de azúcar u otro edulcorante	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.10.10.00			- - Con adición de azúcar u otro edulcorante
+
+0811.10.90	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.10.90.00			- - Las demás
+
+0811.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.20.00.00			- Frambuesas, zarzamoras, moras, moras-frambuesa y grosellas
+
+0811.90
+Código	Designación de mercancías	Notas
+0811.90.10	- - Con adición de azúcar u otro edulcorante	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.10.00			- - Con adición de azúcar u otro edulcorante
+
+0811.90.90	- - Los demás:
+Código	Designación de mercancías	Notas
+0811.90.91	- - - Mango (Mangifera indica L.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.91.00			- - - Mango (Mangifera indica L.)
+
+0811.90.92	- - - Camu Camu (Myrciaria dubia)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.92.00			- - - Camu Camu (Myrciaria dubia)
+
+0811.90.93	- - - Lúcuma (Lúcuma obovata)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.93.00			- - - Lúcuma (Lúcuma obovata)
+
+0811.90.94	- - - Maracuyá (parchita) (Passiflora edulis)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.94.00			- - - Maracuyá (parchita) (Passiflora edulis)	
+
+0811.90.95	- - - Guanábana (Annona muricata)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.95.00			- - - Guanábana (Annona muricata)	
+
+0811.90.96	- - - Papaya	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.96.00			- - - Papaya
+
+0811.90.99	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0811.90.99.00			- - - Los demás
+
+0812.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0812.10.00.00			- Cerezas
+
+0812.90
+Código	Designación de mercancías	Notas
+0812.90.20	- - Duraznos (melocotones), incluidos los griñones y nectarinas	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0812.90.20.00			- - Duraznos (melocotones), incluidos los griñones y nectarinas
+
+0812.90.90	- - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0812.90.90.00			- - Los demás
+
+0813.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0813.10.00.00			- Damascos (albaricoques, chabacanos)
+
+0813.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0813.20.00.00			- Ciruelas
+
+0813.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0813.30.00.00			- Manzanas
+
+0813.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0813.40.00.00			- Las demás frutas u otros frutos
+
+0813.50
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0813.50.00.00			- Mezclas de frutas u otros frutos, secos, o de frutos de cáscara de este Capítulo
+
+0814	no tiene XX
+Código	Designación de mercancías	Notas
+0814.00.10	- De limón (limón sutil, limón común, limón criollo) (Citrus aurantifolia)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0814.00.10.00			- De limón (limón sutil, limón común, limón criollo) (Citrus aurantifolia)
+
+0814.00.90	- Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0814.00.90.00			- Las demás
+
+--------------------------------------------- ramz Inicio Capitulo 09 Café, té, yerba mate y especias
+
+0901.10
+Código	Designación de mercancías	Notas
+0901.11	- - Sin descafeinar:	Enviar
+Código	Designación de mercancías	Notas
+0901.11.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.11.10.00			- - - Para siembra
+
+0901.11.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.11.90.00			- - - Los demás
+
+0901.12	- - Descafeinado
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.12.00.00			- - Descafeinado
+
+0901.20
+Código	Designación de mercancías	Notas
+0901.21	- - Sin descafeinar:	Enviar
+Código	Designación de mercancías	Notas
+0901.21.10	- - - En grano	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.21.10.00			- - - En grano
+0901.21.20	- - - Molido
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.21.20.00			- - - Molido
+
+
+0901.22	- - Descafeinado
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.22.00.00			- - Descafeinado
+
+0901.90
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0901.90.00.00			- Los demás
+
+0902.10
+Código	Designación de mercancías	Notas
+0902.10	- Té verde (sin fermentar) presentado en envases inmediatos con un contenido inferior o igual a 3 kg	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0902.10.00.00			- Té verde (sin fermentar) presentado en envases inmediatos con un contenido inferior o igual a 3 kg
+
+0902.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0902.20.00.00			- Té verde (sin fermentar) presentado de otra forma	
+
+0902.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0902.30.00.00			- Té negro (fermentado) y té parcialmente fermentado, presentados en envases inmediatos con un contenido inferior o igual a 3 kg
+
+0902.40
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0902.40.00.00			- Té negro (fermentado) y té parcialmente fermentado, presentados de otra forma
+
+----------- ramz
+
+0904.10
+Código	Designación de mercancías	Notas
+0904.11	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0904.11.00.00			- - Sin triturar ni pulverizar
+
+0904.12	- - Triturada o pulverizada
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0904.12.00.00			- - Triturada o pulverizada
+
+0904.20
+Código	Designación de mercancías	Notas
+0904.21	- - Secos, sin triturar ni pulverizar:	Enviar
+Código	Designación de mercancías	Notas
+0904.21.10	- - - Paprika (Capsicum annuum, L.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0904.21.10.00			- - - Paprika (Capsicum annuum, L.)
+
+0904.21.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0904.21.90.00			- - - Los demás
+
+0904.22	- - Triturados o pulverizados:
+Código	Designación de mercancías	Notas
+0904.22.10	- - - Paprika (Capsicum annuum, L.)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0904.22.10.00			- - - Paprika (Capsicum annuum, L.)
+
+0904.22.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0904.22.90.00			- - - Los demás
+
+0905.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0905.10.00.00			- Sin triturar ni pulverizar
+
+0905.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0905.20.00.00			- Triturada o pulverizada
+
+0906.10
+Código	Designación de mercancías	Notas
+0906.11	- - Canela (Cinnamomum zeylanicum Blume)	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0906.11.00.00			- - Canela (Cinnamomum zeylanicum Blume)
+
+0906.19	- - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0906.19.00.00			- - Las demás
+
+0906.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0906.20.00.00			- Trituradas o pulverizadas
+
+0907.10
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0907.10.00.00			- Sin triturar ni pulverizar
+
+0907.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0907.20.00.00			- Triturados o pulverizados
+
+0908.10
+Código	Designación de mercancías	Notas
+0908.11	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0908.11.00.00			- - Sin triturar ni pulverizar
+
+0908.12	- - Triturada o pulverizada
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0908.12.00.00			- - Triturada o pulverizada
+
+0908.20
+Código	Designación de mercancías	Notas
+0908.21	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0908.21.00.00			- - Sin triturar ni pulverizar	
+
+0908.22	- - Triturado o pulverizado
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0908.22.00.00			- - Triturado o pulverizado
+
+0908.30
+Código	Designación de mercancías	Notas
+0908.31	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0908.31.00.00			- - Sin triturar ni pulverizar
+
+0908.32	- - Triturados o pulverizados
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0908.32.00.00			- - Triturados o pulverizados
+
+0909.20
+Código	Designación de mercancías	Notas
+0909.21	- - Sin triturar ni pulverizar	Enviar
+Código	Designación de mercancías	Notas
+0909.21.10	- - - Para siembra	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.21.10.00			- - - Para siembra
+
+0909.21.90	- - - Los demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.21.90.00			- - - Los demás
+
+0909.22	- - Trituradas o pulverizadas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.22.00.00			- - Trituradas o pulverizadas
+
+0909.30
+Código	Designación de mercancías	Notas
+0909.31	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.31.00.00			- - Sin triturar ni pulverizar
+
+0909.32	- - Trituradas o pulverizadas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.32.00.00			- - Trituradas o pulverizadas
+
+0909.60
+Código	Designación de mercancías	Notas
+0909.61	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.61.00.00			- - Sin triturar ni pulverizar
+
+0909.62	- - Trituradas o pulverizadas
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0909.62.00.00			- - Trituradas o pulverizadas
+
+0910.10
+Código	Designación de mercancías	Notas
+0910.11	- - Sin triturar ni pulverizar	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.11.00.00			- - Sin triturar ni pulverizar
+
+0910.12	- - Triturado o pulverizado
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.12.00.00			- - Triturado o pulverizado
+
+0910.20
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.20.00.00			- Azafrán
+
+0910.30
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.30.00.00			- Cúrcuma
+
+0910.90
+Código	Designación de mercancías	Notas
+0910.91	- - Mezclas previstas en la Nota 1 b) de este Capítulo	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.91.00.00			- - Mezclas previstas en la Nota 1 b) de este Capítulo
+
+0910.99	- - Las demás:
+Código	Designación de mercancías	Notas
+0910.99.10	- - - Hojas de laurel	Enviar
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.99.10.00			- - - Hojas de laurel
+
+0910.99.90	- - - Las demás
+Código	Comp	Supl	Designación de mercancías	Perfil	Notas
+0910.99.90.00			- - - Las demás
+
+--------------------------------------------- ramz Fin  Capitulo 09 Café, té, yerba mate y especias
+
+--------------------------------------------- ramz FALTA por bajar la informacion 
+
+1001.10
+1001.90
+1002.10
+1002.90
+1003.10
+1003.90
+1004.10
+1004.90
+1005.10
+1005.90
+1006.10
+1006.20
+1006.30
+1006.40
+1007.10
+1007.90
+1008.10
+1008.20
+1008.30
+1008.40
+1008.50
+1008.60
+1008.90
+1102.20
+1102.90
+1103.10
+1103.20
+1104.10
+1104.20
+1104.30
+1105.10
+1105.20
+1106.10
+1106.20
+1106.30
+1107.10
+1107.20
+1108.10
+1108.20
+1201.10
+1201.90
+1202.30
+1202.40
+1205.10
+1205.90
+1207.10
+1207.20
+1207.30
+1207.40
+1207.50
+1207.60
+1207.70
+1207.90
+1208.10
+1208.90
+1209.10
+1209.20
+1209.30
+1209.90
+1210.10
+1210.20
+1211.20
+1211.30
+1211.40
+1211.50
+1211.60
+1211.90
+1212.20
+1212.90
+1214.10
+1214.90
+1301.20
+1301.90
+1302.10
+1302.20
+1302.30
+1401.10
+1401.20
+1401.90
+1404.20
+1404.90
+1501.10
+1501.20
+1501.90
+1502.10
+1502.90
+1504.10
+1504.20
+1504.30
+1507.10
+1507.90
+1508.10
+1508.90
+1509.20
+1509.30
+1509.40
+1509.90
+1510.10
+1510.90
+1511.10
+1511.90
+1512.10
+1512.20
+1513.10
+1513.20
+1514.10
+1514.90
+1515.10
+1515.20
+1515.30
+1515.50
+1515.60
+1515.90
+1516.10
+1516.20
+1516.30
+1517.10
+1517.90
+1521.10
+1521.90
+1602.10
+1602.20
+1602.30
+1602.40
+1602.50
+1602.90
+1604.10
+1604.20
+1604.30
+1605.10
+1605.20
+1605.30
+1605.40
+1605.50
+1605.60
+1701.10
+1701.90
+1702.10
+1702.20
+1702.30
+1702.40
+1702.50
+1702.60
+1702.90
+1703.10
+1703.90
+1704.10
+1704.90
+1803.10
+1803.20
+1806.10
+1806.20
+1806.30
+1806.90
+1901.10
+1901.20
+1901.90
+1902.10
+1902.20
+1902.30
+1902.40
+1904.10
+1904.20
+1904.30
+1904.90
+1905.10
+1905.20
+1905.30
+1905.40
+1905.90
+2001.10
+2001.90
+2002.10
+2002.90
+2003.10
+2003.90
+2004.10
+2004.90
+2005.10
+2005.20
+2005.40
+2005.50
+2005.60
+2005.70
+2005.80
+2005.90
+2007.10
+2007.90
+2008.10
+2008.20
+2008.30
+2008.40
+2008.50
+2008.60
+2008.70
+2008.80
+2008.90
+2009.10
+2009.20
+2009.30
+2009.40
+2009.50
+2009.60
+2009.70
+2009.80
+2009.90
+2101.10
+2101.20
+2101.30
+2102.10
+2102.20
+2102.30
+2103.10
+2103.20
+2103.30
+2103.90
+2104.10
+2104.20
+2106.10
+2106.90
+2201.10
+2201.90
+2202.10
+2202.90
+2204.10
+2204.20
+2204.30
+2205.10
+2205.90
+2207.10
+2207.20
+2208.20
+2208.30
+2208.40
+2208.50
+2208.60
+2208.70
+2208.90
+2301.10
+2301.20
+2302.10
+2302.30
+2302.40
+2302.50
+2303.10
+2303.20
+2303.30
+2306.10
+2306.20
+2306.30
+2306.40
+2306.50
+2306.60
+2306.90
+2309.10
+2309.90
+2401.10
+2401.20
+2401.30
+2402.10
+2402.20
+2402.90
+2403.10
+2403.90
+2404.10
+2404.90
+2504.10
+2504.90
+2505.10
+2505.90
+2506.10
+2506.20
+2508.10
+2508.30
+2508.40
+2508.50
+2508.60
+2508.70
+2510.10
+2510.20
+2511.10
+2511.20
+2513.10
+2513.20
+2515.10
+2515.20
+2516.10
+2516.20
+2516.90
+2517.10
+2517.20
+2517.30
+2517.40
+2518.10
+2518.20
+2519.10
+2519.90
+2520.10
+2520.20
+2522.10
+2522.20
+2522.30
+2523.10
+2523.20
+2523.30
+2523.90
+2524.10
+2524.90
+2525.10
+2525.20
+2525.30
+2526.10
+2526.20
+2529.10
+2529.20
+2529.30
+2530.10
+2530.20
+2530.90
+2601.10
+2601.20
+2612.10
+2612.20
+2613.10
+2613.90
+2615.10
+2615.90
+2616.10
+2616.90
+2617.10
+2617.90
+2620.10
+2620.20
+2620.30
+2620.40
+2620.60
+2620.90
+2621.10
+2621.90
+2701.10
+2701.20
+2702.10
+2702.20
+2707.10
+2707.20
+2707.30
+2707.40
+2707.50
+2707.90
+2708.10
+2708.20
+2710.10
+2710.20
+2710.90
+2711.10
+2711.20
+2712.10
+2712.20
+2712.90
+2713.10
+2713.20
+2713.90
+2714.10
+2714.90
+2801.10
+2801.20
+2801.30
+2804.10
+2804.20
+2804.30
+2804.40
+2804.50
+2804.60
+2804.70
+2804.80
+2804.90
+2805.10
+2805.30
+2805.40
+2806.10
+2806.20
+2809.10
+2809.20
+2811.10
+2811.20
+2812.10
+2812.90
+2813.10
+2813.90
+2814.10
+2814.20
+2815.10
+2815.20
+2815.30
+2816.10
+2816.40
+2818.10
+2818.20
+2818.30
+2819.10
+2819.90
+2820.10
+2820.90
+2821.10
+2821.20
+2824.10
+2824.90
+2825.10
+2825.20
+2825.30
+2825.40
+2825.50
+2825.60
+2825.70
+2825.80
+2825.90
+2826.30
+2826.90
+2827.10
+2827.20
+2827.30
+2827.40
+2827.50
+2827.60
+2828.10
+2828.90
+2829.10
+2829.90
+2830.10
+2830.90
+2831.10
+2831.90
+2832.10
+2832.20
+2832.30
+2833.10
+2833.20
+2833.30
+2833.40
+2834.10
+2834.20
+2835.10
+2835.20
+2835.30
+2836.20
+2836.30
+2836.40
+2836.50
+2836.60
+2836.90
+2837.10
+2837.20
+2839.10
+2839.90
+2840.10
+2840.20
+2840.30
+2841.30
+2841.50
+2841.60
+2841.70
+2841.80
+2841.90
+2842.10
+2842.90
+2843.10
+2843.20
+2843.30
+2843.90
+2844.10
+2844.20
+2844.30
+2844.40
+2844.50
+2845.10
+2845.20
+2845.30
+2845.40
+2845.90
+2846.10
+2846.90
+2849.10
+2849.20
+2849.90
+2852.10
+2852.90
+2853.10
+2853.90
+2901.10
+2901.20
+2902.10
+2902.20
+2902.30
+2902.40
+2902.50
+2902.60
+2902.70
+2902.90
+2903.10
+2903.20
+2903.40
+2903.50
+2903.60
+2903.70
+2903.80
+2903.90
+2904.10
+2904.20
+2904.30
+2904.90
+2905.10
+2905.20
+2905.30
+2905.40
+2905.50
+2906.10
+2906.20
+2907.10
+2907.20
+2908.10
+2908.90
+2909.10
+2909.20
+2909.30
+2909.40
+2909.50
+2909.60
+2910.10
+2910.20
+2910.30
+2910.40
+2910.50
+2910.90
+2912.10
+2912.20
+2912.40
+2912.50
+2912.60
+2914.10
+2914.20
+2914.30
+2914.40
+2914.50
+2914.60
+2914.70
+2915.10
+2915.20
+2915.30
+2915.40
+2915.50
+2915.60
+2915.70
+2915.90
+2916.10
+2916.20
+2916.30
+2917.10
+2917.20
+2917.30
+2918.10
+2918.20
+2918.30
+2918.90
+2919.10
+2919.90
+2920.10
+2920.20
+2920.30
+2920.90
+2921.10
+2921.20
+2921.30
+2921.40
+2921.50
+2922.10
+2922.20
+2922.30
+2922.40
+2922.50
+2923.10
+2923.20
+2923.30
+2923.40
+2923.90
+2924.10
+2924.20
+2925.10
+2925.20
+2926.10
+2926.20
+2926.30
+2926.40
+2926.90
+2929.10
+2929.90
+2930.10
+2930.20
+2930.30
+2930.40
+2930.60
+2930.70
+2930.80
+2930.90
+2931.10
+2931.20
+2931.40
+2931.50
+2931.90
+2932.10
+2932.20
+2932.90
+2933.10
+2933.20
+2933.30
+2933.40
+2933.52
+2933.60
+2933.70
+2933.90
+2934.10
+2934.20
+2934.30
+2934.90
+2935.10
+2935.20
+2935.30
+2935.40
+2935.50
+2935.90
+2936.20
+2936.90
+2937.10
+2937.20
+2937.50
+2937.90
+2938.10
+2938.90
+2939.10
+2939.20
+2939.30
+2939.40
+2939.50
+2939.60
+2939.70
+2939.80
+2941.10
+2941.20
+2941.30
+2941.40
+2941.50
+2941.90
+3001.20
+3001.90
+3002.10
+3002.40
+3002.50
+3002.90
+3003.10
+3003.20
+3003.30
+3003.40
+3003.60
+3003.90
+3004.10
+3004.20
+3004.30
+3004.40
+3004.50
+3004.60
+3004.90
+3005.10
+3005.90
+3006.10
+3006.30
+3006.40
+3006.50
+3006.60
+3006.70
+3006.90
+3102.10
+3102.20
+3102.30
+3102.40
+3102.50
+3102.60
+3102.80
+3102.90
+3103.10
+3103.90
+3104.20
+3104.30
+3104.90
+3105.10
+3105.20
+3105.30
+3105.40
+3105.50
+3105.60
+3105.90
+3201.10
+3201.20
+3201.90
+3202.10
+3202.90
+3204.10
+3204.20
+3204.90
+3206.10
+3206.20
+3206.40
+3206.50
+3207.10
+3207.20
+3207.30
+3207.40
+3208.10
+3208.20
+3208.90
+3209.10
+3209.90
+3212.10
+3212.90
+3213.10
+3213.90
+3214.10
+3214.90
+3215.10
+3215.90
+3301.10
+3301.20
+3301.30
+3301.90
+3302.10
+3302.90
+3304.10
+3304.20
+3304.30
+3304.90
+3305.10
+3305.20
+3305.30
+3305.90
+3306.10
+3306.20
+3306.90
+3307.10
+3307.20
+3307.30
+3307.40
+3307.90
+3401.10
+3401.20
+3401.30
+3402.30
+3402.40
+3402.50
+3402.90
+3403.10
+3403.90
+3404.20
+3404.90
+3405.10
+3405.20
+3405.30
+3405.40
+3405.90
+3501.10
+3501.90
+3502.10
+3502.20
+3502.90
+3505.10
+3505.20
+3506.10
+3506.90
+3507.10
+3507.90
+3603.10
+3603.20
+3603.30
+3603.40
+3603.50
+3603.60
+3604.10
+3604.90
+3606.10
+3606.90
+3701.10
+3701.20
+3701.30
+3701.90
+3702.10
+3702.30
+3702.40
+3702.50
+3702.90
+3703.10
+3703.20
+3703.90
+3706.10
+3706.90
+3707.10
+3707.90
+3801.10
+3801.20
+3801.30
+3801.90
+3802.10
+3802.90
+3805.10
+3805.90
+3806.10
+3806.20
+3806.30
+3806.90
+3808.50
+3808.60
+3808.90
+3809.10
+3809.90
+3810.10
+3810.90
+3811.10
+3811.20
+3811.90
+3812.10
+3812.20
+3812.30
+3815.10
+3815.90
+3822.10
+3822.90
+3823.10
+3823.70
+3824.10
+3824.30
+3824.40
+3824.50
+3824.60
+3824.80
+3824.90
+3825.10
+3825.20
+3825.30
+3825.40
+3825.50
+3825.60
+3825.90
+3827.10
+3827.20
+3827.30
+3827.40
+3827.50
+3827.60
+3827.90
+3901.10
+3901.20
+3901.30
+3901.40
+3901.90
+3902.10
+3902.20
+3902.30
+3902.90
+3903.10
+3903.20
+3903.30
+3903.90
+3904.10
+3904.20
+3904.30
+3904.40
+3904.50
+3904.60
+3904.90
+3905.10
+3905.20
+3905.30
+3905.90
+3906.10
+3906.90
+3907.10
+3907.20
+3907.30
+3907.40
+3907.50
+3907.60
+3907.70
+3907.90
+3908.10
+3908.90
+3909.10
+3909.20
+3909.30
+3909.40
+3909.50
+3911.10
+3911.20
+3911.90
+3912.10
+3912.20
+3912.30
+3912.90
+3913.10
+3913.90
+3915.10
+3915.20
+3915.30
+3915.90
+3916.10
+3916.20
+3916.90
+3917.10
+3917.20
+3917.30
+3917.40
+3918.10
+3918.90
+3919.10
+3919.90
+3920.10
+3920.20
+3920.30
+3920.40
+3920.50
+3920.60
+3920.70
+3920.90
+3921.10
+3921.90
+3922.10
+3922.20
+3922.90
+3923.10
+3923.20
+3923.30
+3923.40
+3923.50
+3923.90
+3924.10
+3924.90
+3925.10
+3925.20
+3925.30
+3925.90
+3926.10
+3926.20
+3926.30
+3926.40
+3926.90
+4001.10
+4001.20
+4001.30
+4002.10
+4002.20
+4002.30
+4002.40
+4002.50
+4002.60
+4002.70
+4002.80
+4002.90
+4005.10
+4005.20
+4005.90
+4006.10
+4006.90
+4008.10
+4008.20
+4009.10
+4009.20
+4009.30
+4009.40
+4010.10
+4010.30
+4011.10
+4011.20
+4011.30
+4011.40
+4011.50
+4011.70
+4011.80
+4011.90
+4012.10
+4012.20
+4012.90
+4013.10
+4013.20
+4013.90
+4014.10
+4014.90
+4015.10
+4015.90
+4016.10
+4016.90
+4101.20
+4101.50
+4101.90
+4102.10
+4102.20
+4103.20
+4103.30
+4103.90
+4104.10
+4104.40
+4105.10
+4105.30
+4106.20
+4106.30
+4106.40
+4106.90
+4107.10
+4107.90
+4113.10
+4113.20
+4113.30
+4113.90
+4114.10
+4114.20
+4115.10
+4115.20
+4202.10
+4202.20
+4202.30
+4202.90
+4203.10
+4203.20
+4203.30
+4203.40
+4301.10
+4301.30
+4301.60
+4301.80
+4301.90
+4302.10
+4302.20
+4302.30
+4303.10
+4303.90
+4401.10
+4401.20
+4401.30
+4401.40
+4402.10
+4402.20
+4402.90
+4403.10
+4403.20
+4403.40
+4403.90
+4404.10
+4404.20
+4406.10
+4406.90
+4407.10
+4407.20
+4407.90
+4408.10
+4408.30
+4408.90
+4409.10
+4409.20
+4410.10
+4410.90
+4411.10
+4411.90
+4412.10
+4412.30
+4412.40
+4412.50
+4412.90
+4414.10
+4414.90
+4415.10
+4415.20
+4418.10
+4418.20
+4418.30
+4418.40
+4418.50
+4418.70
+4418.80
+4418.90
+4419.10
+4419.20
+4419.90
+4420.10
+4420.90
+4421.10
+4421.20
+4421.90
+4501.10
+4501.90
+4503.10
+4503.90
+4504.10
+4504.90
+4601.20
+4601.90
+4602.10
+4602.90
+4703.10
+4703.20
+4704.10
+4704.20
+4706.10
+4706.20
+4706.30
+4706.90
+4707.10
+4707.20
+4707.30
+4707.90
+4802.10
+4802.20
+4802.40
+4802.50
+4802.60
+4804.10
+4804.20
+4804.30
+4804.40
+4804.50
+4805.10
+4805.20
+4805.30
+4805.40
+4805.50
+4805.90
+4806.10
+4806.20
+4806.30
+4806.40
+4808.10
+4808.40
+4808.90
+4809.20
+4809.90
+4810.10
+4810.20
+4810.30
+4810.90
+4811.10
+4811.40
+4811.50
+4811.60
+4811.90
+4813.10
+4813.20
+4813.90
+4814.20
+4814.90
+4816.20
+4816.90
+4817.10
+4817.20
+4817.30
+4818.10
+4818.20
+4818.30
+4818.50
+4818.90
+4819.10
+4819.20
+4819.30
+4819.40
+4819.50
+4819.60
+4820.10
+4820.20
+4820.30
+4820.40
+4820.50
+4820.90
+4821.10
+4821.90
+4822.10
+4822.90
+4823.20
+4823.40
+4823.60
+4823.70
+4823.90
+4901.10
+4901.90
+4902.10
+4902.90
+4905.20
+4905.90
+4908.10
+4908.90
+4911.10
+4911.90
+5007.10
+5007.20
+5007.90
+5101.10
+5101.20
+5101.30
+5102.10
+5102.20
+5103.10
+5103.20
+5103.30
+5105.10
+5105.20
+5105.30
+5105.40
+5106.10
+5106.20
+5107.10
+5107.20
+5108.10
+5108.20
+5109.10
+5109.90
+5111.10
+5111.20
+5111.30
+5111.90
+5112.10
+5112.20
+5112.30
+5112.90
+5202.10
+5202.90
+5204.10
+5204.20
+5205.10
+5205.20
+5205.30
+5205.40
+5206.10
+5206.20
+5206.30
+5206.40
+5207.10
+5207.90
+5208.10
+5208.20
+5208.30
+5208.40
+5208.50
+5209.10
+5209.20
+5209.30
+5209.40
+5209.50
+5210.10
+5210.20
+5210.30
+5210.40
+5210.50
+5211.10
+5211.20
+5211.30
+5211.40
+5211.50
+5212.10
+5212.20
+5301.10
+5301.20
+5301.30
+5302.10
+5302.90
+5303.10
+5303.90
+5306.10
+5306.20
+5307.10
+5307.20
+5308.10
+5308.20
+5308.90
+5309.10
+5309.20
+5310.10
+5310.90
+5401.10
+5401.20
+5402.10
+5402.20
+5402.30
+5402.40
+5402.50
+5402.60
+5403.10
+5403.30
+5403.40
+5404.10
+5404.90
+5407.10
+5407.20
+5407.30
+5407.40
+5407.50
+5407.60
+5407.70
+5407.80
+5407.90
+5408.10
+5408.20
+5408.30
+5501.10
+5501.20
+5501.30
+5501.40
+5501.90
+5502.10
+5502.90
+5503.10
+5503.20
+5503.30
+5503.40
+5503.90
+5504.10
+5504.90
+5505.10
+5505.20
+5506.10
+5506.20
+5506.30
+5506.40
+5506.90
+5508.10
+5508.20
+5509.10
+5509.20
+5509.30
+5509.40
+5509.50
+5509.60
+5509.90
+5510.10
+5510.20
+5510.30
+5510.90
+5511.10
+5511.20
+5511.30
+5512.10
+5512.20
+5512.90
+5513.10
+5513.20
+5513.30
+5513.40
+5514.10
+5514.20
+5514.30
+5514.40
+5515.10
+5515.20
+5515.90
+5516.10
+5516.20
+5516.30
+5516.40
+5516.90
+5601.20
+5601.30
+5602.10
+5602.20
+5602.90
+5603.10
+5603.90
+5604.10
+5604.90
+5607.20
+5607.40
+5607.50
+5607.90
+5608.10
+5608.90
+5701.10
+5701.90
+5702.10
+5702.20
+5702.30
+5702.40
+5702.50
+5702.90
+5703.10
+5703.20
+5703.30
+5703.90
+5704.10
+5704.20
+5704.90
+5801.10
+5801.20
+5801.30
+5801.90
+5802.10
+5802.20
+5802.30
+5804.10
+5804.20
+5804.30
+5806.10
+5806.20
+5806.30
+5806.40
+5807.10
+5807.90
+5808.10
+5808.90
+5810.10
+5810.90
+5901.10
+5901.90
+5902.10
+5902.20
+5902.90
+5903.10
+5903.20
+5903.90
+5904.10
+5904.90
+5906.10
+5906.90
+5911.10
+5911.20
+5911.30
+5911.40
+5911.90
+6001.10
+6001.20
+6001.90
+6002.40
+6002.90
+6003.10
+6003.20
+6003.30
+6003.40
+6003.90
+6004.10
+6004.90
+6005.20
+6005.30
+6005.40
+6005.90
+6006.10
+6006.20
+6006.30
+6006.40
+6006.90
+6101.20
+6101.30
+6101.90
+6102.10
+6102.20
+6102.30
+6102.90
+6103.10
+6103.20
+6103.30
+6103.40
+6104.10
+6104.20
+6104.30
+6104.40
+6104.50
+6104.60
+6105.10
+6105.20
+6105.90
+6106.10
+6106.20
+6106.90
+6107.10
+6107.20
+6107.90
+6108.10
+6108.20
+6108.30
+6108.90
+6109.10
+6109.90
+6110.10
+6110.20
+6110.30
+6110.90
+6111.20
+6111.30
+6111.90
+6112.10
+6112.20
+6112.30
+6112.40
+6114.20
+6114.30
+6114.90
+6115.10
+6115.20
+6115.30
+6115.90
+6116.10
+6116.90
+6117.10
+6117.80
+6117.90
+6201.20
+6201.30
+6201.40
+6201.90
+6202.20
+6202.30
+6202.40
+6202.90
+6203.10
+6203.20
+6203.30
+6203.40
+6204.10
+6204.20
+6204.30
+6204.40
+6204.50
+6204.60
+6205.20
+6205.30
+6205.90
+6206.10
+6206.20
+6206.30
+6206.40
+6206.90
+6207.10
+6207.20
+6207.90
+6208.10
+6208.20
+6208.90
+6209.20
+6209.30
+6209.90
+6210.10
+6210.20
+6210.30
+6210.40
+6210.50
+6211.10
+6211.20
+6211.30
+6211.40
+6212.10
+6212.20
+6212.30
+6212.90
+6213.20
+6213.90
+6214.10
+6214.20
+6214.30
+6214.40
+6214.90
+6215.10
+6215.20
+6215.90
+6217.10
+6217.90
+6301.10
+6301.20
+6301.30
+6301.40
+6301.90
+6302.10
+6302.20
+6302.30
+6302.40
+6302.50
+6302.60
+6302.90
+6303.10
+6303.90
+6304.10
+6304.20
+6304.90
+6305.10
+6305.20
+6305.30
+6305.90
+6306.10
+6306.20
+6306.30
+6306.40
+6306.90
+6307.10
+6307.20
+6307.90
+6310.10
+6310.90
+6401.10
+6401.90
+6402.10
+6402.20
+6402.90
+6403.10
+6403.20
+6403.40
+6403.50
+6403.90
+6404.10
+6404.20
+6405.10
+6405.20
+6405.90
+6406.10
+6406.20
+6406.90
+6506.10
+6506.90
+6601.10
+6601.90
+6603.20
+6603.90
+6702.10
+6702.90
+6704.10
+6704.20
+6704.90
+6802.10
+6802.20
+6802.90
+6804.10
+6804.20
+6804.30
+6805.10
+6805.20
+6805.30
+6806.10
+6806.20
+6806.90
+6807.10
+6807.90
+6809.10
+6809.90
+6810.10
+6810.90
+6811.40
+6811.80
+6812.80
+6812.90
+6813.20
+6813.80
+6814.10
+6814.90
+6815.10
+6815.20
+6815.90
+6902.10
+6902.20
+6902.90
+6903.10
+6903.20
+6903.90
+6904.10
+6904.90
+6905.10
+6905.90
+6907.10
+6907.20
+6907.30
+6907.40
+6907.90
+6909.10
+6909.90
+6910.10
+6910.90
+6911.10
+6911.90
+6913.10
+6913.90
+6914.10
+6914.90
+7002.10
+7002.20
+7002.30
+7003.10
+7003.20
+7003.30
+7004.20
+7004.90
+7005.10
+7005.20
+7005.30
+7007.10
+7007.20
+7009.10
+7009.90
+7010.10
+7010.20
+7010.90
+7011.10
+7011.20
+7011.90
+7013.10
+7013.20
+7013.30
+7013.40
+7013.90
+7015.10
+7015.90
+7016.10
+7016.90
+7017.10
+7017.20
+7017.90
+7018.10
+7018.20
+7018.90
+7019.10
+7019.60
+7019.70
+7019.80
+7019.90
+7101.10
+7101.20
+7102.10
+7102.20
+7102.30
+7103.10
+7103.90
+7104.10
+7104.20
+7104.90
+7105.10
+7105.90
+7106.10
+7106.90
+7108.10
+7108.20
+7110.10
+7110.20
+7110.30
+7110.40
+7112.30
+7112.90
+7113.10
+7113.20
+7114.10
+7114.20
+7115.10
+7115.90
+7116.10
+7116.20
+7117.10
+7117.90
+7118.10
+7118.90
+7201.10
+7201.20
+7201.50
+7202.10
+7202.20
+7202.30
+7202.40
+7202.50
+7202.60
+7202.70
+7202.80
+7202.90
+7203.10
+7203.90
+7204.10
+7204.20
+7204.30
+7204.40
+7204.50
+7205.10
+7205.20
+7206.10
+7206.90
+7207.10
+7207.20
+7208.10
+7208.20
+7208.30
+7208.40
+7208.50
+7208.90
+7209.10
+7209.20
+7209.90
+7210.10
+7210.20
+7210.30
+7210.40
+7210.50
+7210.60
+7210.70
+7210.90
+7211.10
+7211.20
+7211.90
+7212.10
+7212.20
+7212.30
+7212.40
+7212.50
+7212.60
+7213.10
+7213.20
+7213.90
+7214.10
+7214.20
+7214.30
+7214.90
+7215.10
+7215.50
+7215.90
+7216.10
+7216.20
+7216.30
+7216.40
+7216.50
+7216.60
+7216.90
+7217.10
+7217.20
+7217.30
+7217.90
+7218.10
+7218.90
+7219.10
+7219.20
+7219.30
+7219.90
+7220.10
+7220.20
+7220.90
+7222.10
+7222.20
+7222.30
+7222.40
+7224.10
+7224.90
+7225.10
+7225.30
+7225.40
+7225.50
+7225.90
+7226.10
+7226.20
+7226.90
+7227.10
+7227.20
+7227.90
+7228.10
+7228.20
+7228.30
+7228.40
+7228.50
+7228.60
+7228.70
+7228.80
+7229.20
+7229.90
+7301.10
+7301.20
+7302.10
+7302.30
+7302.40
+7302.90
+7304.10
+7304.20
+7304.30
+7304.40
+7304.50
+7304.90
+7305.10
+7305.20
+7305.30
+7305.90
+7306.10
+7306.20
+7306.30
+7306.40
+7306.50
+7306.60
+7306.90
+7307.10
+7307.20
+7307.90
+7308.10
+7308.20
+7308.30
+7308.40
+7308.90
+7310.10
+7310.20
+7312.10
+7312.90
+7314.10
+7314.20
+7314.30
+7314.40
+7314.50
+7315.10
+7315.20
+7315.80
+7315.90
+7318.10
+7318.20
+7319.40
+7319.90
+7320.10
+7320.20
+7320.90
+7321.10
+7321.80
+7321.90
+7322.10
+7322.90
+7323.10
+7323.90
+7324.10
+7324.20
+7324.90
+7325.10
+7325.90
+7326.10
+7326.20
+7326.90
+7403.10
+7403.20
+7406.10
+7406.20
+7407.10
+7407.20
+7408.10
+7408.20
+7409.10
+7409.20
+7409.30
+7409.40
+7409.90
+7410.10
+7410.20
+7411.10
+7411.20
+7412.10
+7412.20
+7415.10
+7415.20
+7415.30
+7418.10
+7418.20
+7419.20
+7419.80
+7501.10
+7501.20
+7502.10
+7502.20
+7505.10
+7505.20
+7506.10
+7506.20
+7507.10
+7507.20
+7508.10
+7508.90
+7601.10
+7601.20
+7603.10
+7603.20
+7604.10
+7604.20
+7605.10
+7605.20
+7606.10
+7606.90
+7607.10
+7607.20
+7608.10
+7608.20
+7610.10
+7610.90
+7612.10
+7612.90
+7614.10
+7614.90
+7615.10
+7615.20
+7616.10
+7616.90
+7801.10
+7801.90
+7804.10
+7804.20
+7901.10
+7901.20
+7903.10
+7903.90
+8001.10
+8001.20
+8101.10
+8101.90
+8102.10
+8102.90
+8103.20
+8103.30
+8103.90
+8104.10
+8104.20
+8104.30
+8104.90
+8105.20
+8105.30
+8105.90
+8106.10
+8106.90
+8108.20
+8108.30
+8108.90
+8109.20
+8109.30
+8109.90
+8110.10
+8110.20
+8110.90
+8112.10
+8112.20
+8112.30
+8112.40
+8112.50
+8112.60
+8112.90
+8201.10
+8201.30
+8201.40
+8201.50
+8201.60
+8201.90
+8202.10
+8202.20
+8202.30
+8202.40
+8202.90
+8203.10
+8203.20
+8203.30
+8203.40
+8204.10
+8204.20
+8205.10
+8205.20
+8205.30
+8205.40
+8205.50
+8205.60
+8205.70
+8205.90
+8207.10
+8207.20
+8207.30
+8207.40
+8207.50
+8207.60
+8207.70
+8207.80
+8207.90
+8208.10
+8208.20
+8208.30
+8208.40
+8208.90
+8211.10
+8211.90
+8212.10
+8212.20
+8212.90
+8214.10
+8214.20
+8214.90
+8215.10
+8215.20
+8215.90
+8301.10
+8301.20
+8301.30
+8301.40
+8301.50
+8301.60
+8301.70
+8302.10
+8302.20
+8302.30
+8302.40
+8302.50
+8302.60
+8305.10
+8305.20
+8305.90
+8306.10
+8306.20
+8306.30
+8307.10
+8307.90
+8308.10
+8308.20
+8308.90
+8309.10
+8309.90
+8311.10
+8311.20
+8311.30
+8311.90
+8401.10
+8401.20
+8401.30
+8401.40
+8402.10
+8402.20
+8402.90
+8403.10
+8403.90
+8404.10
+8404.20
+8404.90
+8405.10
+8405.90
+8406.10
+8406.80
+8406.90
+8407.10
+8407.20
+8407.30
+8407.90
+8408.10
+8408.20
+8408.90
+8409.10
+8409.90
+8410.10
+8410.90
+8411.10
+8411.20
+8411.80
+8411.90
+8412.10
+8412.20
+8412.30
+8412.80
+8412.90
+8413.10
+8413.20
+8413.30
+8413.40
+8413.50
+8413.60
+8413.70
+8413.80
+8413.90
+8414.10
+8414.20
+8414.30
+8414.40
+8414.50
+8414.60
+8414.70
+8414.80
+8414.90
+8415.10
+8415.20
+8415.80
+8415.90
+8416.10
+8416.20
+8416.30
+8416.90
+8417.10
+8417.20
+8417.80
+8417.90
+8418.10
+8418.20
+8418.30
+8418.40
+8418.50
+8418.60
+8418.90
+8419.10
+8419.20
+8419.30
+8419.40
+8419.50
+8419.60
+8419.80
+8419.90
+8420.10
+8420.90
+8421.10
+8421.20
+8421.30
+8421.90
+8422.10
+8422.20
+8422.30
+8422.40
+8422.90
+8423.10
+8423.20
+8423.30
+8423.80
+8423.90
+8424.10
+8424.20
+8424.30
+8424.40
+8424.80
+8424.90
+8425.10
+8425.30
+8425.40
+8426.10
+8426.20
+8426.30
+8426.40
+8426.90
+8427.10
+8427.20
+8427.90
+8428.10
+8428.20
+8428.30
+8428.40
+8428.60
+8428.70
+8428.90
+8429.10
+8429.20
+8429.30
+8429.40
+8429.50
+8430.10
+8430.20
+8430.30
+8430.40
+8430.50
+8430.60
+8431.10
+8431.20
+8431.30
+8431.40
+8432.10
+8432.20
+8432.30
+8432.40
+8432.80
+8432.90
+8433.10
+8433.20
+8433.30
+8433.40
+8433.50
+8433.60
+8433.90
+8434.10
+8434.20
+8434.90
+8435.10
+8435.90
+8436.10
+8436.20
+8436.80
+8436.90
+8437.10
+8437.80
+8437.90
+8438.10
+8438.20
+8438.30
+8438.40
+8438.50
+8438.60
+8438.80
+8438.90
+8439.10
+8439.20
+8439.30
+8439.90
+8440.10
+8440.90
+8441.10
+8441.20
+8441.30
+8441.40
+8441.80
+8441.90
+8442.30
+8442.40
+8442.50
+8443.10
+8443.30
+8443.90
+8445.10
+8445.20
+8445.30
+8445.40
+8445.90
+8446.10
+8446.20
+8446.30
+8447.10
+8447.20
+8447.90
+8448.10
+8448.20
+8448.30
+8448.40
+8448.50
+8450.10
+8450.20
+8450.90
+8451.10
+8451.20
+8451.30
+8451.40
+8451.50
+8451.80
+8451.90
+8452.10
+8452.20
+8452.30
+8452.90
+8453.10
+8453.20
+8453.80
+8453.90
+8454.10
+8454.20
+8454.30
+8454.90
+8455.10
+8455.20
+8455.30
+8455.90
+8456.10
+8456.20
+8456.30
+8456.40
+8456.50
+8456.90
+8457.10
+8457.20
+8457.30
+8458.10
+8458.90
+8459.10
+8459.20
+8459.30
+8459.40
+8459.50
+8459.60
+8459.70
+8460.10
+8460.20
+8460.30
+8460.40
+8460.90
+8461.20
+8461.30
+8461.40
+8461.50
+8461.90
+8462.10
+8462.20
+8462.30
+8462.40
+8462.50
+8462.60
+8462.90
+8463.10
+8463.20
+8463.30
+8463.90
+8464.10
+8464.20
+8464.90
+8465.10
+8465.20
+8465.90
+8466.10
+8466.20
+8466.30
+8466.90
+8467.10
+8467.20
+8467.80
+8467.90
+8468.10
+8468.20
+8468.80
+8468.90
+8470.10
+8470.20
+8470.30
+8470.50
+8470.90
+8471.30
+8471.40
+8471.50
+8471.60
+8471.70
+8471.80
+8471.90
+8472.10
+8472.30
+8472.90
+8473.10
+8473.20
+8473.30
+8473.40
+8473.50
+8474.10
+8474.20
+8474.30
+8474.80
+8474.90
+8475.10
+8475.20
+8475.90
+8476.20
+8476.80
+8476.90
+8477.10
+8477.20
+8477.30
+8477.40
+8477.50
+8477.80
+8477.90
+8478.10
+8478.90
+8479.10
+8479.20
+8479.30
+8479.40
+8479.50
+8479.60
+8479.70
+8479.80
+8479.90
+8480.10
+8480.20
+8480.30
+8480.40
+8480.50
+8480.60
+8480.70
+8481.10
+8481.20
+8481.30
+8481.40
+8481.80
+8481.90
+8482.10
+8482.20
+8482.30
+8482.40
+8482.50
+8482.80
+8482.90
+8483.10
+8483.20
+8483.30
+8483.40
+8483.50
+8483.60
+8483.90
+8484.10
+8484.20
+8484.90
+8485.10
+8485.20
+8485.30
+8485.80
+8485.90
+8486.10
+8486.20
+8486.30
+8486.40
+8486.90
+8487.10
+8487.90
+8501.10
+8501.20
+8501.30
+8501.40
+8501.50
+8501.60
+8501.70
+8501.80
+8502.10
+8502.20
+8502.30
+8502.40
+8504.10
+8504.20
+8504.30
+8504.40
+8504.50
+8504.90
+8505.10
+8505.20
+8505.90
+8506.10
+8506.30
+8506.40
+8506.50
+8506.60
+8506.80
+8506.90
+8507.10
+8507.20
+8507.30
+8507.50
+8507.60
+8507.80
+8507.90
+8508.10
+8508.60
+8508.70
+8509.40
+8509.80
+8509.90
+8510.10
+8510.20
+8510.30
+8510.90
+8511.10
+8511.20
+8511.30
+8511.40
+8511.50
+8511.80
+8511.90
+8512.10
+8512.20
+8512.30
+8512.40
+8512.90
+8513.10
+8513.90
+8514.10
+8514.20
+8514.30
+8514.40
+8514.90
+8515.10
+8515.20
+8515.30
+8515.80
+8515.90
+8516.10
+8516.20
+8516.30
+8516.40
+8516.50
+8516.60
+8516.70
+8516.80
+8516.90
+8517.10
+8517.60
+8517.70
+8518.10
+8518.20
+8518.30
+8518.40
+8518.50
+8518.90
+8519.20
+8519.30
+8519.80
+8521.10
+8521.90
+8522.10
+8522.90
+8523.20
+8523.40
+8523.50
+8523.80
+8524.10
+8524.90
+8525.50
+8525.60
+8525.80
+8526.10
+8526.90
+8527.10
+8527.20
+8527.90
+8528.40
+8528.50
+8528.60
+8528.70
+8529.10
+8529.90
+8530.10
+8530.80
+8530.90
+8531.10
+8531.20
+8531.80
+8531.90
+8532.10
+8532.20
+8532.30
+8532.90
+8533.10
+8533.20
+8533.30
+8533.40
+8533.90
+8535.10
+8535.20
+8535.30
+8535.40
+8535.90
+8536.10
+8536.20
+8536.30
+8536.40
+8536.50
+8536.60
+8536.70
+8536.90
+8537.10
+8537.20
+8538.10
+8538.90
+8539.10
+8539.20
+8539.30
+8539.40
+8539.50
+8539.90
+8540.10
+8540.20
+8540.40
+8540.60
+8540.70
+8540.80
+8540.90
+8541.10
+8541.20
+8541.30
+8541.40
+8541.50
+8541.60
+8541.90
+8542.30
+8542.90
+8543.10
+8543.20
+8543.30
+8543.40
+8543.70
+8543.90
+8544.10
+8544.20
+8544.30
+8544.40
+8544.60
+8544.70
+8545.10
+8545.20
+8545.90
+8546.10
+8546.20
+8546.90
+8547.10
+8547.20
+8547.90
+8549.10
+8549.20
+8549.30
+8549.90
+8601.10
+8601.20
+8602.10
+8602.90
+8603.10
+8603.90
+8606.10
+8606.30
+8606.90
+8607.10
+8607.20
+8607.30
+8607.90
+8701.10
+8701.20
+8701.30
+8701.90
+8702.10
+8702.20
+8702.30
+8702.40
+8702.90
+8703.10
+8703.20
+8703.30
+8703.40
+8703.50
+8703.60
+8703.70
+8703.80
+8703.90
+8704.10
+8704.20
+8704.30
+8704.40
+8704.50
+8704.60
+8704.90
+8705.10
+8705.20
+8705.30
+8705.40
+8705.90
+8707.10
+8707.90
+8708.10
+8708.20
+8708.30
+8708.40
+8708.50
+8708.70
+8708.80
+8708.90
+8709.10
+8709.90
+8711.10
+8711.20
+8711.30
+8711.40
+8711.50
+8711.60
+8711.90
+8713.10
+8713.90
+8714.10
+8714.20
+8714.90
+8716.10
+8716.20
+8716.30
+8716.40
+8716.80
+8716.90
+8802.10
+8802.20
+8802.30
+8802.40
+8802.60
+8805.10
+8805.20
+8806.10
+8806.20
+8806.90
+8807.10
+8807.20
+8807.30
+8807.90
+8901.10
+8901.20
+8901.30
+8901.90
+8903.10
+8903.20
+8903.30
+8903.90
+8905.10
+8905.20
+8905.90
+8906.10
+8906.90
+8907.10
+8907.90
+9001.10
+9001.20
+9001.30
+9001.40
+9001.50
+9001.90
+9002.10
+9002.20
+9002.90
+9003.10
+9003.90
+9004.10
+9004.90
+9005.10
+9005.80
+9005.90
+9006.10
+9006.30
+9006.40
+9006.50
+9006.60
+9006.90
+9007.10
+9007.20
+9007.90
+9008.50
+9008.90
+9010.10
+9010.50
+9010.60
+9010.90
+9011.10
+9011.20
+9011.80
+9011.90
+9012.10
+9012.90
+9013.10
+9013.20
+9013.80
+9013.90
+9014.10
+9014.20
+9014.80
+9014.90
+9015.10
+9015.20
+9015.30
+9015.40
+9015.80
+9015.90
+9017.10
+9017.20
+9017.30
+9017.80
+9017.90
+9018.10
+9018.20
+9018.30
+9018.40
+9018.50
+9018.90
+9019.10
+9019.20
+9021.10
+9021.20
+9021.30
+9021.40
+9021.50
+9021.90
+9022.10
+9022.20
+9022.30
+9022.90
+9024.10
+9024.80
+9024.90
+9025.10
+9025.80
+9025.90
+9026.10
+9026.20
+9026.80
+9026.90
+9027.10
+9027.20
+9027.30
+9027.50
+9027.80
+9027.90
+9028.10
+9028.20
+9028.30
+9028.90
+9030.10
+9030.20
+9030.30
+9030.40
+9030.80
+9030.90
+9031.10
+9031.20
+9031.40
+9031.80
+9031.90
+9032.10
+9032.20
+9032.80
+9032.90
+9101.10
+9101.20
+9101.90
+9102.10
+9102.20
+9102.90
+9103.10
+9103.90
+9105.10
+9105.20
+9105.90
+9106.10
+9106.90
+9108.10
+9108.20
+9108.90
+9109.10
+9109.90
+9110.10
+9110.90
+9111.10
+9111.20
+9111.80
+9111.90
+9112.20
+9112.90
+9113.10
+9113.20
+9113.90
+9114.30
+9114.40
+9114.90
+9201.10
+9201.20
+9201.90
+9202.10
+9202.90
+9205.10
+9205.90
+9207.10
+9207.90
+9208.10
+9208.90
+9209.30
+9209.90
+9301.10
+9301.20
+9301.90
+9303.10
+9303.20
+9303.30
+9303.90
+9305.10
+9305.20
+9305.90
+9306.20
+9306.30
+9306.90
+9401.10
+9401.20
+9401.30
+9401.40
+9401.50
+9401.60
+9401.70
+9401.80
+9401.90
+9402.10
+9402.90
+9403.10
+9403.20
+9403.30
+9403.40
+9403.50
+9403.60
+9403.70
+9403.80
+9403.90
+9404.10
+9404.20
+9404.30
+9404.40
+9404.90
+9405.10
+9405.20
+9405.30
+9405.40
+9405.50
+9405.60
+9405.90
+9406.10
+9406.20
+9406.90
+9701.20
+9701.90
+9702.10
+9702.90
+9703.10
+9703.90
+9705.10
+9705.20
+9705.30
+9706.10
+9706.90
+9801.10
+9801.90
+9807.10
+9807.20

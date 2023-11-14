@@ -1,0 +1,86 @@
+Aprende SQL desde CERO hasta AVANZADO como un PROFESIONAL
+
+drop database if exist db_name
+create database if not exist db_name;
+use db_name;
+
+describe table_name
+
+truncate table_name --> borra  las secuencias 
+
+fecha de mysql
+aaaa-mm-dd
+
+concat_ws
+
+XOR  --> o cumple una condicion o cumple la otra, pero no las dos al mismo tiempo
+where proveedor = 'HP' XOR precio >= 100 )
+
+REGEXP -->
+where proveedor REGEXP 'logi'
+where proveedor REGEXP ['H']
+where proveedor REGEXP ['h']
+where proveedor REGEXP ['A-C']  --Desdde la A hasta la C
+where proveedor REGEXP '^h'     --que cominece con h
+where proveedor REGEXP 'o.i'    --que contenga o, luego culaquier caracter y luego una i
+where proveedor REGEXP 'o..i'   --que contenga o, luego culaquier caracter y luego una i
+where proveedor REGEXP 'a.*a'   --que contenga a dos veces???
+
+
+--> cambiar el nombre de campo
+alter table table_name change cantidad stock int;
+
+join
+left join 
+rigth join
+inner join -- descarta los que no coindicen
+straight --> siempre lee las tabla de izquierda a derecha
+
+
+
+variables de usuario
+
+crear tabla apartir de un sql
+create table_name_new 
+select distinct columna_name_old as columna_name_new 
+from table_name_old 
+
+update con join
+
+update en cascada 
+
+delete join
+
+delete en cascada 
+
+check table table_name fast quick
+tipos de chqueo de tablas:
+quick
+fast
+changed
+medium
+extended
+
+repair table table_name
+
+encriptar:
+encode y decode
+
+subconsultas 
+
+select column_name from table_name where column_name operardo (subsonsulta)
+
+select column_name operador (subsonsulta) from table_name 
+
+
+any some y all (ver funcionamiento)
+
+crear vistas a partir de vistas
+
+
+insert y update datos en vistas -- se puede hacer update sobre la vista y este se inserta o se actualiza
+en la tabla original
+si no cumple con la condicion de la vista, no lo inserta o actualiza en la vista
+(validar cuando sean varias tablas de las cuales se crea la vista )
+
+--------- --------- --------- --------- --------- 

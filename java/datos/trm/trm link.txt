@@ -1,0 +1,5 @@
+https://github.com/jfajardo/TRM-Colombia
+
+
+guía consumo del servicio web de la trm
+http://repository.unipiloto.edu.co/bitstream/handle/20.500.12277/9853/06.%20ANEXO%20F%20%20-%20Manual%20de%20Consumo%20Web%20Services%20TRM.pdf?sequence=7

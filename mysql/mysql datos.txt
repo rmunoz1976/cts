@@ -1,0 +1,232 @@
+
+
+CTS Compañia
+Compañia de Consumo, Tecnologia y Servicios
+
+CTS Company
+Consumer, Technology and Services Company
+
+WebCTSCompany
+GeoFinderExp
+GFE
+ExpFinder
+GeoFind
+ShowMeExport
+SME
+Global OM
+Group OLMU
+OM Group
+MO Group
+CS global
+CS group
+
+
+Intermediary
+
+Version MySQL DB 8.0.17
+Version Workbench  8.0.17
+
+Puerto: 
+3306
+
+BD
+bdcts
+
+Usuario Root de la BD:
+!1976_34SY@_R00t
+
+Version de Spring Boot 2.6.7
+
+http://localhost:8080/
+
+
+jdk 18
+
+2048
+1024
+512
+256
+128
+64
+32
+16
+8
+4
+2
+
+update bdcts.t170t_pais_trm set valor = 9999999999999999.9999
+where id > 0 ;
+
+---------- ---------- ---------- ---------- ---------- 
+
+https://www.anerbarrena.com/alter-table-mysql-5050/
+
+---------- ---------- ---------- ---------- ---------- 
+
+INSERT INTO tbl
+(
+id_estado_registro, id_usuario_creacion, fecha_creacion, id_usuario_modificacion, fecha_modificacion) VALUES 
+(
+1, 122, '2022-12-28 00:00:00.000000', 122, '2022-12-28 00:00:00.000000');
+
+insert into t304e_empresa (   id,  codigo,  nit,  dv,  nombre_corto,  nombre_largo,  sigla,  email,  estado_empresa ) 
+values ( 1,'1',1,1,'1','1','1','1',1 );
+
+---------- ---------- ---------- ---------- ---------- 
+
+SET FOREIGN_KEY_CHECKS = 0;
+drop TABLE `t312e_usuario`;
+SET FOREIGN_KEY_CHECKS = 1;
+
+---------- ---------- ---------- ---------- ---------- 
+
+SET FOREIGN_KEY_CHECKS = 0;
+ALTER TABLE `bdcts`.`t150t_usuarios` 
+CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro' ;
+SET FOREIGN_KEY_CHECKS = 1;
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE `bdcts`.`t104t_estado_registro` DROP INDEX `id_UNIQUE`;
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE t104t_estado_registro ADD CONSTRAINT id_UNIQUE UNIQUE (id)
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE `bdcts`.`t040t_compania` CHANGE COLUMN `fecha` `fecha` DATETIME(6) NULL DEFAULT NULL ;
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE bdcts.t582m_producto_empaque ADD id_marca INT(11) 
+COMMENT 'Identificador de la marca del empaque del producto'
+NOT NUL AFTER valor_unidad_medida;
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE t582m_producto_empaque ADD CONSTRAINT fk_t582m_14 FOREIGN KEY (id_color) REFERENCES t344e_marca(id);
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE `bdcts`.`t582m_producto_empaque`  CHANGE COLUMN `id_marca` `id_marca` INT(11) NOT NULL COMMENT 'Identificador de la marca del empaque del producto' ;
+
+---------- ---------- ---------- ---------- ---------- 
+
+ALTER TABLE t314e_usuario_rol ADD UNIQUE INDEX usuario_rol_UNIQUE (id_usuario, id_rol);
+
+validar  los nombres de foreing kwey
+validar  los comentarios 
+
+
+
+Generar diagrama entidad relación de una base de datos MySQL Workbench
+https://www.javierrguez.com/generar-diagrama-entidad-relacion-mysql/
+
+
+Exportar base de datos MySQL con WorkBench
+https://www.youtube.com/watch?v=lKRCll87qBE
+
+
+SELECT * FROM bdintermediary.t020c_compania_app;
+version
+00010001-01.01.001A-202308021144
+
+Version 
+
+1235678901234567890123456789012
+cia.app-xx.yy.zz?-yyyymmddhhss
+001.001-01.01.01A-202308021144
+
+cia  = Código compañia.
+.    = Punto de separación.
+app  = Codigo de la aplicacion.
+-    = Guión de separación.
+xx   = Versíon principal.
+.    = Punto de separación.
+yy   = Cambio mayor / adiciÓn funcionalidad / adición módulo.
+.    = Punto de separación.
+zz   = Solucion de error o parche en error menor.
+?    = Identifica
+       con A la versión es inestable no se puede pasar a producción.
+	   con B si se puede pasar con algunos bugs en calidad de pruebas.
+	   con P si ya se puede pasar a producción.
+-    = Guión de separación.
+yyyy = Año de generación de la versión.
+mm   = Mes de generación de la versión.
+dd   = Dia de generación de la versión.
+hh   = Hora de generación de la versión.
+mm   = Minuto de generación de la versión.
+ss   = Segundo de generación de la versión.
+
+
+
+
+
+SELECT * FROM bdcts.t582m_producto_empaque;
+;
+
+SELECT 
+p.nombre_corto producto, te.descripcion empaque, tm.descripcion material, 
+-- mm2.descripcion, 
+pe.valor_alto alto, um2.simbolo,
+pe.valor_largo largo, um2.simbolo,
+pe.valor_ancho ancho,  um2.simbolo,
+-- mm1.descripcion, 
+pe.valor_unidad_medida und, um1.simbolo, 
+m.descripcion marca, c.descripcion color,
+-- pe.id,  
+-- pe.id_producto, p.codigo, p.nombre_corto,
+-- pe.id_tipo_empaque, te.codigo, te.descripcion,
+-- te.id_tipo_material, tm.codigo, tm.descripcion,
+-- pe.id_unidad_medida, um.codigo, um.descripcion,
+-- pe.id_marca, m.codigo, m.descripcion,
+-- pe.id_color, c.codigo, c.descripcion
+mn.simbolo, pe.valor_precio precio, mn.descripcion moneda
+FROM 
+bdcts.t582m_producto_empaque pe,
+bdcts.t528m_producto p,
+bdcts.t336e_tipo_empaque te,
+bdcts.t333e_tipo_material tm,
+bdcts.t134t_unidad_medida um1,
+bdcts.t134t_unidad_medida um2,
+bdcts.t344e_marca m,
+bdcts.t350e_color c,
+bdcts.t132t_magnitud_medida mm1,
+bdcts.t132t_magnitud_medida mm2,
+bdcts.t156t_moneda mn
+WHERE pe.id_producto = p.id
+AND pe.id_tipo_empaque = te.id
+AND te.id_tipo_material = tm.id
+AND pe.id_um_masa = um1.id
+AND pe.id_um_longitud = um2.id
+AND pe.id_marca = m.id
+AND pe.id_color = c.id
+AND um1.id_magnitud_medida= mm1.id
+AND um2.id_magnitud_medida= mm2.id
+AND pe.id_moneda = mn.id
+;
+
+
+
+SELECT p.descripcion pais, d.descripcion departamento, m.descripcion municipio
+FROM bdcts.t146t_pais p, bdcts.t148t_departamento d, bdcts.t150t_municipio m
+WHERE p.id = d.id_pais
+AND d.id = m.id_departamento
+;
+
+SELECT p.descripcion pais, m.descripcion moneda, m.simbolo 
+FROM bdcts.t358e_moneda_pais mp, t146t_pais p, bdcts.t156t_moneda m
+WHERE mp.id_pais = p.id 
+AND mp.id_moneda = m.id 
+;
+
+SELECT te.id, te.descripcion empaque, tm.id, tm.descripcion material
+FROM bdcts.t336e_tipo_empaque te, bdcts.t333e_tipo_material tm
+WHERE te.id_tipo_material = tm.id;
+
+
+Falta
+SELECT * FROM bdcts.t306e_empresa_datos;
+SELECT * FROM bdcts.t304e_empresa;
+

@@ -1,0 +1,242 @@
+libro git
+https://git-scm.com/book/en/v2
+
+---------------- ---------------- ---------------- ---------------- ----------------
+
+https://www.youtube.com/watch?v=VdGzPZ31ts8
+Aprende GIT ahora! curso completo GRATIS desde cero
+14/11/2023
+
+https://git-scm.com/
+
+git --version
+git version 2.42.0.windows.2
+
+
+
+git config --global user.name "ramz"
+//queda con rmunoz1976
+
+git config --global user.email ricardo.munoz.zapata@gmail.com
+git config --global core.editor "code --wait"
+
+//ver configuracion
+git config --global  -e
+
+--user A Windows (CR/LF)
+git config --global core.autocrlf true
+
+--user B Linux/Mac (LF)
+git config --global core.autocrlf input
+
+//Listado de configuraciónes
+git -h
+
+
+//listar archivos
+ls 
+
+// En que ruta se está
+pwd
+
+//moverse entre carperta
+cd C:\cts
+
+//Devolver directorio anterior
+cd ..
+
+//clear
+limpiar pantalla
+
+//nuevo directorio
+mkdir nuevo_dir
+
+//inicializar un directorio git (se debe estar dentro del directorio)
+git init
+
+//mostrar directorios ocultos
+ls -a 
+
+// entrar al directorio git
+ cd .git
+
+// ver archivos los archivos que se usan para gestionar los proyectos
+ls -a
+
+
+//borrar directorio
+git rm -r nombre_directorio 
+
+//borrar archivo
+git rm  nombre_archivo
+
+--nos devolvemos al directorio donde vamos a trabajar
+
+---------- Flujo de trabajo 24:30
+
+Seleccionar solo los archivos y pasar a Stage --git add
+Se seleccionar solo los cambios que hicimos y pasar a Commit --git commit
+Se pasan los cambios a Server --git push
+
+Para eliminar un archivo se debe ejecutar el mismo paso con los comandos anteriores
+
+se crea un archivo en la ruta: archivo01
+
+// ver el estado actaul del repositorio
+git status
+
+// adicionar archivo al git
+git add archivo01
+
+
+git commit 
+//Se abre VSCode, se adiciona el mensaje de commit en el archivo, se guarda y se cierra VSCode
+code .
+
+git add archivo02
+
+git commit -m "eliminar archivo02"
+
+//borrar el archivo y dejar listo para comitear
+git rm archivo01.txt
+
+// sacar algún cambio que se pasa a la etapa de stage
+git restore --staged archivo01.txt
+
+//recuperar el archivo
+git restore archivo01.txt
+
+//renombrar archivo
+mv archivo02.txt archivo03.txt
+
+//renombrar archivo dejandolo para commit
+git mv archivo03.txt archivo02.txt
+
+git commit -m "devolviendo nombre de archivo"
+
+
+---------- Ignorar archivos para que no sean incluidos 
+
+//arbir VSCode
+code .
+
+crear un archivo .env
+
+crear un archivo .gitignore
+
+git add .gitignore
+git commit -m "agregar gitignore"
+git status
+
+
+git status -s
+
+//ver diferencia
+git diff --staged
+git diff 
+
+//ver todos los cambios
+git log 
+(para salir con q)
+
+git log --oneline
+
+//otro ??
+git log --stat
+
+
+---------- 55:05 Merge a la rama de MAIN
+//en que rama se está trabajando
+git branch
+
+//crear nueva rama 
+git checkout -b nombre_rama
+
+//eliminar rama
+git branch -d nombre_rama
+
+NOTA: Esto hace commit directo sin pasar por Stage
+git commit -m "ver si se peude directo el commit" archivo02.txt
+
+// muestra el contenido el contenido
+cat archivo02.txt
+
+//cambiar de rama
+git checkout nombre_rama 
+git checkout master
+
+//Traer los cambios de la ramaB a la rama de master
+
+en la rama Master 
+git merge ramaB
+
+---------- 1:00:52 Usar GitHub 
+
+https://github.com/
+
+https://github.com/rmunoz1976/cts
+
+copiar y ejecutar 
+git remote add origin https://github.com/rmunoz1976/cts.git
+
+copiar y ejecutar
+git push -u origin master
+
+
+en github ir al icono del profile en Settings / Developer Settings
+en Personal Access Token
+personal access token
+Nombre del token : CtsWindows
+No expira
+Genera el token, se copia : 
+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
+
+copiar y ejecutar
+git push -u origin master
+
+-u para crear la rama de master  en github
+
+
+//Se pueden subrir los cambios con 
+git push
+
+si hay una nueva rama y se quiere subir al githuib pero no se requiere hacer el merge con master
+ejemplo
+
+git checkout -b ramaC
+
+git push --set-upstream origin ramac
+
+git push -u origen ramaC
+
+
+Nota: Salir del editor
+Tecla Escape
+q
+:q!
+
+git reset --eliminar cambio, se pierden los commit
+git revert -- elimina un commit en especifico y hace otro commit
+
+git pull -- cuando se trabaja en github se hace un cambio se debe hacer un: git pull
+
+
+
+---------------- ---------------- ---------------- ---------------- ----------------
+
+https://www.youtube.com/watch?v=PW_A-lOpVV0
+
+bluuweb.github.io/desarrollo-web-bluuweb/07-01/#¿que-es-github
+https://bluuweb.github.io/desarrollo-web-bluuweb/07-01-git/#enlaces
+
+
+---------------- ---------------- ---------------- ---------------- ----------------
+
+https://www.youtube.com/watch?v=mBYSUUnMt9M
+
+---------------- ---------------- ---------------- ---------------- ----------------
+
+https://www.youtube.com/watch?v=3GymExBkKjE
+
+
+---------------- ---------------- ---------------- ---------------- ----------------

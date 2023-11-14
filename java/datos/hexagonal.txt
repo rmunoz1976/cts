@@ -1,0 +1,557 @@
+hexagonal
+
+https://www.youtube.com/watch?v=CycNkSXfXy8
+
+Implementación de arquitecturas hexagonales
+
+Dominio (capa) esta en el centro de la aplicacion
+
+y va a ser usada en la capa de aplicacion
+aqui se usa la casos de uso o servicios
+
+se divide en dos parte
+Primary --> puertos primario
+Secondary --> puertos secundario
+
+
+Adaptador de entrada 
+Adaptador de salida
+
+
+No podemos acoplar los CU con los adaptadores
+no puede ser que controlador vaya directamente al CU
+necesitamos una capa de abstraccion ( interface ) en el medio 
+Ejemplo 
+una app que tiene la bd Pstg y se debe cambiar la bd a MySql
+
+       CU         OutPut   Repository
+	  Service     Port*
+	  
+OutPut Port: solo se debe cambiar est punto para la conexion a la nueva BD  MySql
+
+OutPut Port: postgresRepositoryInterface
+OutPut Adapter:  postgresAdapter
+
+Debe ser mas general el nombre
+
+
+In   --> In    <-- Apl -->  Out    <-- Out
+Adap     Port       !       Port       Adap
+                 Dominio    
+
+No se implementa iguales los In Out Adap
+
+El In Adap hace uso del In Port
+El In Port será implentado por el CU
+El CU no va a implementar el Out Port va a ser uso del Out Port 
+El Out Port va a ser implementado por el Out Adap
+
+de afuera hacia adentro
+infra --> aplic --> dom
+
+/domain
+Capa Dominio : donde van las entidades
+
+Capa Aplicacion: donde va la logica del negocio. Metodos sin depender de base de datos.
+CU login logout crear usuario 
+
+Capa Infraestructura: 
+Donde van los detalles, puertos y adaptadores ( Out Port / Out Adap)
+conexciona bd todo de entrada y salida
+
+/infra/outputport/EntityRepository
+  interface EntityRepository
+    save()
+    getAll()
+  
+/infra/outputadapter/postgresRepository
+  postgresRepository implements EntityRepository
+
+/infra/inputport/CustumerInputPort
+  interface CustumerInputPort
+  
+/infra/inputport/OrdersInputPort
+  interface OrdersInputPort
+
+/infra/inputadapter
+  CustomerAPI
+  @RestController
+  
+/infra/inputadapter
+  OrdersAPI
+  @RestController
+  
+/CustomerUseCase
+  CustomerUseCase implements CustumerInputPort
+   entityRepository EntityRepository
+  
+/OrdersUseCase
+  OrdersUseCase implements OrdersInputPort
+  entityRepository EntityRepository
+   
+*****
+
+API:  https://aws.amazon.com/es/what-is/api/
+cliente envia solicitud
+servidor  envia respuesta 
+app movil de consulta los datos del clima 
+(cliente) --------------- (servidor)
+
+tipos de APIs:
+-SOAP con xml
+-RPC
+-WebSocket
+-REST:  define un conjunto de funciones como GET, PUT, DELETE
+servidores intercambian datos mediante HTTP.
+
+¿Cómo proteger una API de REST?
+1. Tokens de autenticación 
+2. Claves de API 
+
+¿Dónde puedo encontrar nuevas API?
+Rapid API: 
+Public APIs: 
+APIForThat y APIList: 
+
+
+*****
+
+
+SOLID:
+https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/
+
+** 1. Principio de responsabilidad única ( PRU )
+   S – Single Responsability Principle (SRP) 
+
+Una clase debe hacer una cosa y, por lo tanto, debe tener una sola razón para cambiar.
+
+class Libro {
+	String nombre;
+	String nombreAutor;
+	int anyo;
+	int precio;
+	String isbn;
+
+	public Libro(String nombre, String nombreAutor, int anyo, int precio, String isbn) {
+		this.nombre = nombre;
+		this.nombreAutor = nombreAutor;
+		this.anyo = anyo;
+        this.precio = precio;
+		this.isbn = isbn;
+	}
+}
+
+---------
+
+public class Factura {
+	private Libro libro;
+	private int cantidad;
+	private double tasaDescuento;
+	private double tasaImpuesto;
+	private double total;
+
+	public Factura(Libro libro, int cantidad, double tasaDescuento, double tasaImpuesto) {
+		this.libro = libro;
+		this.cantidad = cantidad;
+		this.tasaDescuento = tasaDescuento;
+		this.tasaImpuesto = tasaImpuesto;
+		this.total = this.calculaTotal();
+	}
+
+	public double calculaTotal() {
+	        double precio = ((libro.precio - libro.precio * tasaDescuento) * this.cantidad);
+		double precioConImpuestos = precio * (1 + tasaImpuesto);
+		return precioConImpuestos;
+	}
+
+	public void imprimeFactura() {
+            System.out.println(cantidad + "x " + libro.nombre + " " +          libro.precio + "$");
+            System.out.println("Tasa de Descuento: " + tasaDescuento);
+            System.out.println("Tasa de Impuesto: " + tasaImpuesto);
+            System.out.println("Total: " + total);
+	}
+        public void guardarArchivo(String nombreArchivo) {
+	// Crea un archivo con el nombre dado y escribe la factura.
+	}
+}
+
+Los metodos imprimeFactura y guardarArchivo deben estar en otra clase cada uno indepedniente.
+
+** 2. Principio de apertura y cierre ( PAC )
+   O – Open/Closed Principle (OCP) 
+
+Las clases deban estar abiertas a la extensión y cerradas a la modificación.
+
+Para esto se usa las interfaces y las clases abstractas
+
+interface FacturaPersistencia {
+    public void guardar(Factura factura);
+}
+
+public class BaseDeDatosPersistencia implements FacturaPersistencia {
+    @Override
+    public void guardar(Factura factura) {
+        // Guardar en la base de datos
+    }
+}
+
+public class ArchivoPersistencia implements FacturaPersistencia {
+    @Override
+    public void guardar(Factura factura) {
+        // Guardar en archivo
+    }
+}
+
+                 LIBRO
+				   ¡
+FAC_IMPR  -->    FACT
+                   ¡
+BD_PERSIST --> INTERF_FAC_PER <-- ARCH_PERSIST
+
+** 3. Principio de sustitución de Liskov ( SL )
+   L – Liskov Substitution Principle (LSP) 
+
+Establece que las subclases deben ser sustituibles por sus clases base.
+
+Clase Persona 
+nombre
+apellido
+numeroDocumento
+tarjetaDebito
+
+Clase Niño Extends Persona  --(un niño no tiene TarjetaDebito)
+nombre
+apellido
+numeroDocumento
+tarjetaDebito
+
+-----
+
+Clase Persona 
+nombre
+apellido
+numeroDocumento
+
+Clase Adulto Extends Persona
+numeroDocumento
+TarjetaDebito
+
+Clase niño Extends Persona
+numeroDocumento
+
+** 4. Principio de segregación de interfaces( PSI )
+   I – Interface Segretation Principle (ISP) 
+
+se trata de separar las interfaces.
+
+public interface Estacionamiento {
+	void aparcarCoche(); // Reducir el recuento de puntos vacíos en 1
+	void sacarCoche(); // Aumenta los espacios vacíos en 1
+	void getCapacidad(); // Devuelve la capacidad del coche
+	double calcularTarifa(Coche coche); // Devuelve el precio en función del número de horas.
+	void hacerPago(Coche coche);
+}
+
+class Coche {}
+
+-----
+
+public class EstacionamientoGratis implements Estacionamiento {
+	@Override
+	public void aparcarCoche() {}
+
+	@Override
+	public void sacarCoche() {}
+
+	@Override
+	public void getCapacidad() {}
+
+	@Override
+	public double calcularTarifa(Coche coche) { return 0; }
+
+	@Override
+	public void hacerPago(Coche coche) { throw new Exception("Estacionamiento es gratis");	}
+}
+
+Debe ser:
+
+                                               Int Estac 
+                                               Paga x Hr
+                                                    ! 
+Int Estac Gratis <-- Int Estacionamiento --> Int Estac Pagar
+                                                    ¡ 
+                                               Int Estac 
+                                               Paga x Hr
+
+
+
+** 5. Principio de inversión de dependencia ( PID )
+D – Dependency Inversion Principle (DIP) 
+Los módulos de alto nivel no deberían depender de los módulos de bajo nivel. Ambos deberían depender de abstracciones.
+Las abstracciones no deberían depender de los detalles. Los detalles deben depender de abstracciones.
+
+Clase BOTON                     Clase LAMPARA
+-Inst lampara: Lampara   ----->  
+pulsar()                        Encender()
+                                Apagar()
+
+El problema de este modelo es que el botón está demasiado acoplado a la lámpara innecesariamente, a este botón le costaría encender y apagar un motor por ejemplo, porque ya tiene la lampara dentro de su estructura.
+
+Debe ser:
+
+Clase             Clase
+LAMPARA           BOTON
+  ¡                 ¡
+Lampara           Boton
+
+o mejor así:
+
+Clase             Clase
+LAMPARA           BOTON
+  ¡                 ¡
+Adaptador         Boton
+Boton 
+  ¡
+Lampara				   
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+https://www.youtube.com/watch?v=eNFAJbWCSww
+Arq Hexa vs Vertical Slicing
+
+-- Cursos
+  --aplicacion
+    --CursoCreator
+
+  --dominio
+    --CursoEntity
+	--CursoRepository
+	
+  --infraestructura
+    --MySqlCursoRepository
+
+-- Estudiantes
+  --aplicacion
+    --CursoCreator
+
+  --domino
+    --CursoEntity
+	--CursoRepository
+	
+  --infraestructura	
+    --MySqlCursoRepository
+
+
+------ OTRA 
+https://www.youtube.com/watch?v=3UCHQPa-nf4
+Qué es la arquitectura hexagonal y como aplicarla en un proyecto Spring Boot
+https://github.com/elivarl/arquitectura-hexagonal-ejemplo-practico
+
+--domain
+  --dto
+  --model
+    --Product
+	  public class Product { -- campos, rectricciones Corazon de la aplicacion -- 
+        
+		private Integer id;
+		private String name;
+		
+  --puerto
+      ProductRepository
+	  public interface ProductRepository {-- para que la capa de infraestructura se conecte al modelo
+	    
+		Product saveProduct(Product product);
+	    
+		void deleteProduct(Interger id);
+	  
+--application
+  --comando
+  --service
+    --DomainProductService:
+	    public class DomainProductService implements ProductService { 
+		
+		private final ProductRepository productRepository (se define en la capa domain)
+		
+		@Override
+		public Product saveProduct(Product product) {
+		
+		@Override
+		deleteProduct(Interger id) {
+		
+	--ProductService:
+	    public interface ProductService { --esta se implementa en DomainProductService 
+		  
+		  Product saveProduct(Product product);
+	      
+		  void deleteProduct(Interger id);
+
+  
+--infrastructure
+  --entity 
+    --ProductEntity
+	  public class ProductEntity {
+	    private Integer id
+	    private String name
+	    @NotBlank(message = 'Nombre producto')
+	  
+  --adaptador --implementaciones especificas
+    --ProductCrudRepositoryMySql
+	  public interface ProductCrudRepositoryMySql extends CrudRepository <ProductEntity, Integer>
+	  
+	--ProductRepositoryMySql
+	  public class ProductRepositoryMySql implements ProductRepository { -- implementa desde el puerto en la capa de dominio
+
+  --conf
+    --BeanProductConfiguration --une la capa de aplication con la capa de infraestructura
+      public class BeanProductConfiguration { 
+	  
+	  @Bean
+	  ProductService productBeanService ( 
+	    
+  --exceptions
+    --Error
+	--ExceptionConf
+	--ResorceNotFoundException
+	--Response
+	
+  --rest
+    --Controller
+	  --ProductController --no debe tener logica de negocio, ni excepciones
+	    public class ProductController { --expone el servicio e inyectamos una clase ProductService de la capa de aplication
+	   
+    --Mapper
+
+--------
+
+Dominio: Limpio de cualquier dependencia, frameworkm api, lenguaje, de una bd,
+de un servicio, de un consumo de un azure, aws; solo debe estar entidades logica de negocio, calculos. Todo lo que no es creado por el dearrollador es una dependencia externa.
+
+Cunado el dominio o reglas del negocio sea muy complejo, o hacer un testing muy complejo,
+,mucha escalabilidad.
+
+no esta dada en DDD (guiado por el dominio)
+
+
+bcolombia  
+-- spring boot bancolombia plugin arquitectura limpia
+https://www.youtube.com/watch?v=_yad01cof5M
+https://www.youtube.com/watch?v=S5EklZXZSf4
+https://www.youtube.com/watch?v=A5GLSB8S3hs
+https://www.youtube.com/watch?v=b1UlDGoJ3uQ
+https://www.youtube.com/watch?v=mESOPG4ahls
+
+
+--application 3
+--domain 1
+  --model: modelos
+      -- Usuario (Clase)
+	     public class Usuario {
+		   // no usar libreria en el dominio aunque p.e lombok, 
+		   // es decir los getter and setter podrian ser manuales
+		   private Long id;
+		   private String nombre;
+		   private String apellido;
+		private String correo;
+		
+      -- gateways 
+	     UsuarioGateway (interfaz)
+		   public interface UsuarioGateway {
+	         Usuario guardar(Usuario usuario);
+		     void eliminar(Long id);
+		     Usuario buscarPorId(Long id);
+
+  --userCase : logica de negocio
+    -- UsuarioUserCase (clase)
+	   @RequiredArgsConstructor
+	   //@Service no esta bien por que se viola la Arq Limpia.
+	   public class UsuarioUserCase {
+	
+  	     private final UsuarioGateway usuarioGateway;
+	  
+	     public Usuario guardar (Usuario usuario ) ...
+	       return usuarioGateway.guardar(usuario)
+		
+         public void eliminar (Long id ) ...		
+	       usuarioGateway.eliminar(id)
+		
+	     public Usuario buscarPorId(Long id) ...
+	       usuarioGateway.buscarPorId(Id)
+	
+--infrastructure 2
+  --driver_adapters 
+    // dependencias o externalidades, adaptadores, no es propia de java,
+    // modulo que adapta y traduce al lenguage de dominio, interacciones con subsistemas e 
+	// infraestructura externa al dominio (API, BD, file).
+    --jpa_repository
+	    -- UsuarioData  (Clase) (es la entidad de JPA)
+           public class UsuarioData {
+		   @Entity
+		   @Table(name="")
+         
+		-- UsuarioDataGatewayImpl (interface)
+		   @Required
+		   @RequiredArgsConstructor
+		   public class UsuarioDataGatewayImpl implements usuarioGateway { 
+		     private final MapperUsuario mapperUsuario;
+			 private final UsuarioDataJpaRepository repository;
+		   
+		     @Override
+		     public Usuario guardar( Usuario usuario ) {
+			   var data = mapperUsuario.toData(usuario);
+		       return mapperUsuario.toUsuario(repository.save(data));
+			   
+		     @Override
+		     public void eliminar(Long id ) {
+			   repository.deleteBy(id);
+
+             @Override
+		     public Usuario buscarPorId(Long id) {
+			   var usuario = repository.findById(id);
+			   return mapperUsuario.toUsuario(usuario.get());
+			 }
+		
+		-- UsuarioDataJpaRepository (interface)
+		   public interface UsuarioDataJpaRepository extends JpaRepository<UsuarioData, Long>
+		   
+	--s3_repository
+	
+  --entry_points : cuales son los end point que voy a exponer (rest)
+    UsuarioController (clase)
+	@RestController
+	@RequestMapping("/api/")
+	@RequiredArgsConstructor
+	public class UsuarioController { 
+	  private final UsuarioUserCase usuarioUseCase;
+	  @GetMapping("")
+	  public ResponseEntity<Usuario> findById(@RequestParam("id") Long id){
+	  
+	    var usuario = useCase.buscarPorID(id);
+	  }
+	
+  --mapper:
+    -- MapperUsuario (clase)
+	   @Component --Si se puede usar por ser la capar de infraestructura
+	   public class MapperUsuario {
+	     public Usuario toUsuario (UsuarioDate usuarioDate){
+	       return new Usuario (
+		 
+         public UsuarioDate toData(Usuario usuario){		 
+           return new UsuarioData (
+
+  --application.config
+    UseCaseConfig (clase)
+	@Configuration
+	public class UseCaseConfig {
+	  @Bean
+	  public UsuarioUserCase ( UsuarioGateway usuarioGateway ) {
+	    retunr new UsuarioUserCase ( usuarioGateway) ;
+	  }
+	}
+	
+--------
+
+--ver link
+Ejemplo de Arquitectura Hexagonal con Spring Data
+https://refactorizando.com/ejemplo-de-arquitectura-hexagonal/

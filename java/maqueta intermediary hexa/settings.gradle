@@ -1,0 +1,11 @@
+rootProject.name = 'intermediary'
+
+include 'model'
+include 'usecase'
+include 'entry-point'
+include 'mysql-dbadapter'
+
+project(':model').projectDir = file('./domain/model')
+project(':usecase').projectDir = file('./application/usecase')
+project(':entry-point').projectDir = file('./infrastructure/entry-point')
+project(':mysql-dbadapter').projectDir = file('./infrastructure/driven-adapter/mysql-dbadapter')

@@ -1,0 +1,77 @@
+Flutter: App Delivery con NodeJS, MySQL y Pasarelas de pago
+
+
+15 corriendo app prueba
+
+ver opciones  de desarrollador en cel a5
+depuracion por usb
+aparce a atravez del usb el cel aprece como device en la lista
+
+16 gestor de estado
+
+getx fluter
+emulador
+
+ 
+
+17 creando pantalla principal
+
+_metodo = es privado
+
+metodo = es publico
+
+
+al la nueva caprta e llama assets
+
+la ruta debe ser full  en el assets 
+
+
+https://api.flutter.dev/flutter/widgets/Image/Image.asset.html
+
+
+18 creando pantalla principal 2
+
+
+19 navegar entre psrtanllas
+
+20 creando pantalla  de registro
+
+
+21 trabajando con formularios
+
+22 CREAR SERVER DE NODEJS
+
+
+24 instal my sql
+
+25 es para ios
+
+26 crear tbl en mysql
+
+
+27 conectarse a la bd desde mys
+
+
+28 creando nuevo usuario desde app
+
+<uses-permission android:name="android-permission.INTERNET"/>
+
+android:usesCleartextTraffic="true">
+
+
+
+
+NOTAs:::::
+
+Cuando  se hacen cambios en andorid o ios se ejecuta:
+flutter clean
+y luego 
+flutter pub get
+para que se reconstruya
+
+quitar : http 0.13.5 icon indicating copy to clipboard operation
+
+ALT + SHIFT + A = comentar bloque
+
+
+

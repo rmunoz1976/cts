@@ -1,0 +1,6 @@
+Entity --> Crear entidad
+Repository --> Crud
+Server --> logica del micro servicio
+Controller --> Consumo del EndPoint
+
+---------- ---------- ---------- ---------- ---------- 

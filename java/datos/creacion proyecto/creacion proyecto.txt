@@ -1,0 +1,88 @@
+https://start.spring.io/
+
+ver imagen 
+start_spring_io
+
+crear carpetas en el raiz 
+ application
+ domain
+ infrastructure
+
+crear model como module y pasar al domain
+
+copiar en el settings.gradle lo sgte: 
+project(':model').projectDir = file('./domain/model')
+
+crear usecase como module y pasar al application
+
+copiar en el settings.gradle lo sgte: 
+project(':usecase').projectDir = file('./application/usecase')
+
+En infrastructure crear carpeta: driven-adapter
+
+crear entry-point como module y pasar al infrastructure
+project(':entry-point').projectDir = file('./infrastructure/entry-point')
+
+crear mysql-dbadapter como module y pasar al infrastructure/driven-adapter
+
+copiar en el settings.gradle lo sgte: 
+project(':mysql-dbadapter').projectDir = file('./infrastructure/driven-adapter/mysql-dbadapter')
+
+Eliminar el src de afuera (el que se crea al generar el proyecto)
+
+Pasar de build.gradle general a la de driven-adapter
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+Pasar de build.gradle general a la de entry-point
+implementation 'org.springframework.boot:spring-boot-starter-web:3.0.12'
+NOT: Tener en cuenta la version.
+
+
+Eliminar archivo main de domain, application e infrastructure\driven-adapter
+solo queda el archivo main del entry-point
+
+copiar en el build.gradle del entry-point lo sgte:
+id 'org.springframework.boot' version '3.0.12'
+
+En el main del entry-point se deb cambiar por lo sgte:
+
+-----
+
+package co.com.cts;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Main {
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class,args);
+    }
+}
+-----
+
+
+en C:\cts\jcts\intermediary\infrastructure\driven-adapter\mysql-dbadapter\src\main\resources\
+crear el archivo application.properties
+y codificar las propiedades de conexion a la bd, en este caso de MySql:
+
+-----
+
+spring.datasource.url=jdbc:mysql://localhost:3306/bdintermediary
+spring.datasource.username=root
+spring.datasource.password=!1976_34SY@_R00t
+
+#Mostrar SQL queries que se realizan
+spring.jpa.show-sql = true 
+
+#generate optimization hibernate SQL
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+
+-----
+
+crear bd en MySql
+
+-----
+
+Ejecutar 

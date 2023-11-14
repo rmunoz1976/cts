@@ -1,0 +1,31 @@
+--------------------------------------------- original
+
+http://localhost:8084/api/auth/refreshtoken
+
+{
+"username":"zkoder",
+"password":"12345678"
+}
+
+http://localhost:8084/api/auth/signup
+
+{
+"username":"zkoder",
+"email":"zkoder@gmail.com",
+"password":"12345678",
+"role":["user"]
+}
+
+http://localhost:8084/api/auth/signin
+
+{
+"username":"zkoder",
+"password":"12345678"
+}
+
+
+userName = 'rmunoz#089386';
+email = 'ricardo@gmail.com';
+password = 'ricardoAz0.';
+
+ricardoAz0.

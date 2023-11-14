@@ -1,0 +1,262 @@
+
+
+
+
+---verificar la generación del email
+@Column(name = "email", nullable = false)
+@NotEmpty(message = "El email no debe estar vacío.")
+@Email(regexp = "^[-_A-Za-z0-9.]+.([-_A-Za-z0-9.])+@[A-Za-z0-9]+(.[A-Za-z]{2,}+)")
+private String email;
+
+
+validar cuando se envia en postman un string y el dato es numerico en  FLUTTER
+por ejemplo usuarios tiene tipo de documento y numero documento
+
+validar el token
+
+validar cuando se envia en postman un string y el dato es numerico en JSON 
+
+http://localhost:8085/api/proyecto/ws/cts/usuario/Save/
+
+{
+"idTipoDocumento":56,
+"numeroDocumento":"m5466",
+"primerNombre":"tirsicdardo",
+"segundoNombre":"",
+"primerApellido":"timudsnoz",
+"segundoApellido":"",
+"nombreCompleto":"",
+"numeroCelular":"",
+"username":"",
+"password":"ricardoAz0.",
+"email":"t1ridcaf5rdo@gmail.com",
+"idEmpresa":1,
+"idEstadoRegistro":1,
+"idUsuarioCreacion":1,
+"idUsuarioModificacion":1
+}
+
+Quitar servicios no usados
+
+Corregir las posible sugerencias de intellij
+
+--ojo ver el one TO many de rol y usuario
+jpa many to one bezkoder example
+https://www.adictosaltrabajo.com/2020/04/02/hibernate-onetoone-onetomany-manytoone-y-manytomany/
+
+--formato de usuario  y pasword
+https://mkyong.com/regular-expressions/how-to-validate-username-with-regular-expression/#:~:text=Username%20consists%20of%20alphanumeric%20characters,the%20first%20or%20last%20character.&text=The%20number%20of%20characters%20must%20be%20between%205%20to%2020.
+^[a-zA-Z0-9]([._-](?![._-])|[a-zA-Z0-9]){3,18}[a-zA-Z0-9]$
+
+add javaDoc
+
+add sawgger
+
+add junit
+
+------------------ mensaje para constraints
+
+-- la tabla no existe o no es el nombre 
+{
+    "estado": "error",
+    "mensaje1": "could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet",
+    "mensaje2": "java.sql.SQLSyntaxErrorException: Table 'bdcts.t040t_compania' doesn't exist"
+}
+
+------------------
+
+-- insertando  en subgrupoproducto con una empresa que no existe
+{
+    "estado": "saveError",
+    "mensaje1": "java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`bdcts`.`t525m_subgrupo_producto`, CONSTRAINT `fk_t525m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`))",
+    "mensaje2": ""
+}
+
+------------------
+
+-- el campo no existe t310e_rol
+{
+    "estado": "error",
+    "mensaje1": "could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement",
+    "mensaje2": "java.sql.SQLException: Field 'id_rol' doesn't have a default value"
+}
+
+------------------
+
+--insertando un tipo de documento en usuario que no exsite 
+{
+    "success": false,
+    "codigo": "",
+    "estado": "error",
+    "mensaje1": "could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement",
+    "mensaje2": "java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`bdcts`.`t312e_usuario`, CONSTRAINT `fk_t312e_02` FOREIGN KEY (`id_tipo_documento`) REFERENCES `t139t_tipo_documento` (`id`))"
+}
+
+
+------------------
+
+cuando se insert un char con mayor longitud q el campo
+
+{
+"codigo":"33",
+"descripcion":"fffddfffdfs",
+"simbolo":"fffddfffdfs"
+}
+
+{
+    "success": false,
+    "codigo": "",
+    "estado": "error",
+    "mensaje1": "could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement",
+    "mensaje2": "com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'simbolo' at row 1"
+}
+
+
+------------------------------------------------------------------------------------------
+
+
+NOTA
+
+primero  sigup
+https://www.bezkoder.com/spring-boot-jwt-authentication/
+Login an account: POST /api/auth/signin
+
+En postman
+http://localhost:8082/api/proyecto/ws/api/auth/signup
+http://localhost:8081/api/auth/signup
+
+
+como guardar imagen con bufer image
+como recibir multi path form desde spring boot
+
+	
+-- como adjuntar la validacion del user en java sin la realcion de FK
+
+validar este cambio 
+    @GetMapping("/List2")
+    public List<DepartamentoEntity> list2() {
+        return departamentoService.list2();
+    }
+	
+
+Falta validar	
+El campo codiog de la tabla t320e_objeto no puede tener  espacios 
+
+
+{"id":"3","idTipoParametro":"4644","fechaInicio":"2023/01/20","fechaFinal":"2023/02/20","orden":"9","codigo":"9","descripcion":"9","referencia":"9","valorNumerico":"9","valorAlfanumerico":"9","valorBooleano":"1","idEmpresa":"1","idEstadoRegistro":"1","idUsuarioCreacion":"1","idUsuarioModificacion":"1"}
+
+
+{
+"id":"3",
+"idTipoParametro":"4644",
+"fechaInicio":"2023/01/20",
+"fechaFinal":"2023/02/20",
+"orden":"9",
+"codigo":"9",
+"descripcion":"9",
+"referencia":"9",
+"valorNumerico":"9",
+"valorAlfanumerico":"9",
+"valorBooleano":"1",
+"idEmpresa":"1",
+"idEstadoRegistro":"1",
+"idUsuarioCreacion":"1",
+"idUsuarioModificacion":"1"
+}
+--ok
+    {
+        "idTipoParametro": 4644,
+        "fechaInicio": "2023-06-09T15:11:41.701439",
+        "fechaFinal": "2023-06-09T15:11:41.701439",
+        "orden": 6,
+        "codigo": "6",
+        "descripcion": "CONSOLIDAR",
+        "referencia": "C",
+        "valorNumerico": 0,
+        "valorAlfanumerico": 6,
+        "valorBooleano": 0,
+        "idEmpresa": 1,
+        "idEstadoRegistro": 1,
+        "idUsuarioCreacion": 1,
+        "fechaCreacion": "2023-06-09T15:11:41.701439",
+        "idUsuarioModificacion": 1,
+        "fechaModificacion": "2023-06-09T15:11:41.701439"
+    }
+	
+	
+validar longitud de campos en java
+en Entity
+@Size(max=30)
+	
+
+validar el mensaje2 cuando la fecha de modificacion not null en la bdcts
+
+	
+	{
+    "fechaSeguimiento":"2023/05/05",
+    "observacion":"2222222",
+    "compromiso":"22222",
+    "idEmpresa":1,
+    "idEstadoRegistro":1,
+    "idUsuarioCreacion":1
+}
+	
+	{
+    "success": false,
+    "codigo": "",
+    "estado": "error",
+    "mensaje1": "ERR1014 - Ya existe un segumiento para la fecha generada. Por favor intente de nuevo.",
+    "mensaje2": "java.sql.SQLIntegrityConstraintViolationException: Column 'fecha_modificacion' cannot be null"
+	
+	
+adicionar validacion para finalizar fecha final en 
+bdcts.t324e_parametro_lista;
+
+
+{
+"codigo":"hhfsgsfdgsdgsfdgsdfgsgsfdggfsfgsgsgsgfsgsdfgsfdgfsdghh",
+"descripcion":"gdhdgsgsgsfdgsgsgsdgfsgsfdgh",
+"codigoDane":""
+}
+
+
+could not execute statement; SQL [n/a]
+
+intentar generar un error en update 
+
+
+quitar
+    ERR1801("ERR1801", "ERR1801 - No se pudo adicionar el dato."),
+    ERR1802("ERR1802", "ERR1802 - No se pudo actualizar el dato."),
+validar lo anterior en usuario y cambiar para estandarizar
+
+
+validar fecha modficacion cuando no es nula en la tabla
+ProductoEmpaqueEntity
+    "mensaje1": "MER9141 - Error de integridad en columna",
+    "mensaje2": "java.sql.SQLIntegrityConstraintViolationException: Column 'fecha_modificacion' cannot be null"
+
+Adicionar a todas la tablas los campos
+
+    @Column(name = "id_estado_registro")
+    private Long idEstadoRegistro;
+
+    @Column(name = "id_usuario_creacion")
+    private Long idUsuarioCreacion;
+
+    @Column(name = "fecha_creacion")
+    private LocalDateTime fechaCreacion;
+
+    @Column(name = "id_usuario_modificacion")
+    private Long idUsuarioModificacion;
+
+    @Column(name = "fecha_modificacion")
+    private LocalDateTime fechaModificacion;
+
+
+Telefono validar con prefijo de zona o pais 
+ 
+
+validar hora, minuto in y segundos en fecha_final de t324e_parametro_lista
+2023-05-05 00:00:00.000000
+

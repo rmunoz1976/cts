@@ -1,0 +1,687 @@
+
+https://www.youtube.com/watch?v=zERjoHoQKQ4&list=PLCKuOXG0bPi0sIn-nDsi7ma9OV6MEMkxj&index=5
+Flutter Móvil: De cero a experto 2023 
+Fernando Herrera
+
+en el escritorio crear carpeta flutter
+dentro crear 01-dart-intro
+se toma y se deja caer en VSC
+01_hello_world.dart
+se copia y se pega
+
+----- S2-L03 tipos variables
+
+final String vlbe = 'abc';
+//mas rapido con final
+
+bool? isAlive
+puede ser false, true o null
+
+final abilities = ['impostor']
+final abilities = <String>['impostor']
+final List<String> abilities = ['impostor']
+cualquiera de las 3 se puede
+
+
+----- S2-L04 Dynamic Type
+
+siempre es nulo, y puede venir  nulo en cualquier momento
+cualquier valor puede ser permitido
+
+----- S2-L05 Maps Type
+
+final Map<String, dynamic> vble = 
+{
+  'name' : 'abc',
+  'kg': 100,
+  'otros': Map<int, String>  
+  {
+    1: 'uno',
+    2: 'dos'
+  }
+};
+
+print ('back: ${ vble['otros'][1]}');
+--imprime:  back: uno
+
+
+----- S2-L06 List iterables Sets
+
+final numbers = [1,22,33,4,555,6];
+
+un elemento que se puede iterar y se ve con parentesis ()
+
+toSet excluye los duplicados y van en llaves {}
+
+numbers.toSet().toList();
+
+final numMayor5 = numbers.where(( int num) 
+{
+  return num > 5;
+}
+);
+
+
+----- S2-L07 Funciones y parametros
+
+
+int addf ( int a, int b ) {
+return a + b;
+}
+
+int addf ( int a, int b ) => a + b;
+
+//opcional b
+
+int addf ( int a, [int? b] ) {
+b = b ?? 0;
+b ?? = 0;
+// ?? confirmar 
+return a + b;
+}
+
+
+int addf ( int a, [int b = 0] ) {
+return a + b;
+}
+
+----- S2-L08 parametros con nombres
+
+print ( strfun (name: 'rdo', msg : 'hi'));
+String strfun ({required String name, String msg = 'Hola'}) 
+{
+return '$msq Rdo'
+}
+
+
+
+----- S2-L09 Clases
+concepto en Flutter
+curso de programcion para principiantes de Fernando	Herrera
+https://www.udemy.com/course/introduccion-a-la-programacion-desde-cero-para-principiantes/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA-WebIndex_la.ES_cc.LATAM&utm_term=_._ag_120316893258_._ad_504879908808_._kw__._de_c_._dm__._pl__._ti_dsa-449490803887_._li_1029279_._pd__._&matchtype=&gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVjMez_2ZqMNJpcVoufZy27AjL41wJpTnAWEbgi9rOp4f-yRvMSLmUEaAjgCEALw_wcB
+Introducción a la programación desde cero para principiantes
+
+https://cursos.devtalles.com/courses/programacion-para-principiantes
+
+
+void main () {
+
+//final wolv es de tipo Hero
+//new no es necesario
+final Hero wolv = new Hero('Logan','Regenarse');
+// o asi tambien
+//final wolv = new Hero('Logan','Regenarse');
+
+print (wolv);
+print (wolv.name);
+print (wolv.power);
+
+}
+
+class Hero {
+//son opcionales ?
+ String? name;
+ String? power;
+ 
+ //Constructor es la funcion q se va a llamar cuando se inicialice la instancia
+ //tiene exactamente el nombre de la clase
+ 
+ //Hero ( String pName, String pPower) 
+ //: name = pName,
+ //  power = pPower;
+
+ Hero(this.name, this.power);
+}
+
+----- S2-L10 @override
+
+
+void main () {
+
+final Hero wolv = Hero(name: 'Logan', power:'Regenarse');
+//imprime sin poder
+final Hero wolv = Hero(name: 'Logan');
+
+print (wolv);
+//cuando se envia print se llama el toString
+//print (wolv.toString());
+print (wolv.name);
+print (wolv.power);
+
+}
+
+class Hero {
+
+ String? name;
+ String? power;
+ 
+ Hero({
+ required this.name, 
+ required this.power = 'sin poder'
+ // this.power = 'sin poder'
+ 
+ } 
+ 
+ @override
+ String toString(){
+  return '$name - $power';
+ }
+)
+
+
+----- S2-L11 Name constructores
+//multiples constructores, dependiendo de sus arguemntos crear instancias basdas en esos argumentos
+//forma de crear instancias con difentes tipos de argumentos
+
+
+
+void main (){
+
+// esto es lo que se recibe de una peticion hhtp
+final Map<String , dynamic> rawjson = {
+'isAlive': true,  
+'power': 'Money', // 'trepar'
+'name': 'Tony'  // 'Spiderman'
+);
+
+
+final ironman = Hero.fromJson ( rawjson );
+
+
+class Hero {
+String name;
+String power;
+bool isAlive;
+
+Hero({
+required this.name,
+required this.power,
+required this.isAlive
+});
+}
+
+//construtor con nombre
+Hero.fromJson ( Map<String, dynamic> json){
+ : name = json ['name'] ?? 'no name found',
+   power = json ['power'] ?? 'no power found',
+   isAlive = json ['isAlive'] ?? 'no isAlive found';
+}
+
+
+ @override
+ String toString(){
+  return '$name, $power, isAlive:  ${isAlive ? 'yes', : 'no'}';
+ }
+ 
+
+----- S2-L12 Getter y Setter
+
+void main () {
+
+final mySquared = Squared(side:10);
+print ('Area : ${mySquared.area()}');  
+
+}
+
+class Squared{
+//double side ; //publica
+final double _side ; //privada solo visible dentro de la clase
+
+Squared ({required required double side }) 
+_side := _side;
+
+double get area {
+  return _side * _side;
+}
+
+set side (double value)
+{print ( 'setting new value  $ value');
+if (value < 0 ) throw 'valor >= 0 ';
+_side = value;
+}
+
+double calclular () {
+return _side * _side;
+}
+
+}
+
+----- S2-L13 Aserciones
+
+Squared ({required required double side }) 
+: assert (side >= 0, 'size must be >= 0'), 
+_side := _side;
+
+
+----- S2-L14 Clases abstractas
+
+//Molde para crear otros moldes
+
+void main () {
+  final windPlat = ePLanta();
+}
+
+enum PLantType  { nuclear, wind, water}
+
+
+abstract class ePLanta{
+
+  double energyLeft;
+  PLantType type;  //nuclear , wind, water
+  
+  // constructor 
+  ePLanta ({
+  required this.energyLeft,
+  required this.type
+  })
+  
+  void consumeEnergy ( double amount );
+
+}
+
+
+----- S2-L15 Extends
+
+
+void main () {
+  final windPlat = windPlat(initEnergy :100 );
+
+  print (windPlat);
+}
+
+enum PLantType  { nuclear, wind, water}
+
+
+abstract class ePLanta{
+
+  double energyLeft;
+  PLantType type;  //nuclear , wind, water
+  
+  // constructor 
+  ePLanta ({
+  required this.energyLeft,
+  required this.type
+  })
+  
+  void consumeEnergy ( double amount );
+
+}
+
+
+// extends extender o heredar de una clase 
+// se debe extender todos los metodos 
+// es mas general
+class WindPLant extends ePLanta {
+
+  WindPLant ({required double initEnergy})
+    :super( energyLeft :  initEnergy, type: PLantType.wind )
+	
+  @override	
+  void consumeEnergy ( double amount ){
+  energyLeft -= amount;
+  }
+  
+  
+class 
+}
+
+----- S2-L16 Implements
+
+// implements
+// se debe poner explicitamente los override 
+// se puede implementar solo un metodo 
+// es mas especifico
+
+
+----- S2-L17 Mixins
+// En Dart es muy utilizados
+
+
+----- S2-L18 Dart - Ejercicio con Mixins
+
+// En Dart es muy utilizados
+// palabra reservada: with 
+
+class Delfin extends Mamifero with Nadador{}
+class Murcielago extends Mamifero with Voladro, Caminante{}
+
+
+
+----- S2-L19 Futures
+
+Future
+delayed
+.catchError
+
+----- S2-L20 Async - Await
+
+Async: un metodo o funcion regresa un Future de forma obligada
+Future <String> httpGet (String url ) async {}
+
+Await: Esperar el resultado
+await Future.delayed (const Duration(seconds: 1 ));
+return 'tenemos un valor de peticion'
+
+el main puede ser async 
+void main() async 
+
+
+----- S2-L21 Try, on, catch y finally
+
+Cuando el Future falla
+
+void main() 
+  print 'inicio programa'
+  try
+    xyz()
+    print 'exito'
+  // on Exception  --basado en el tipo de excepcion
+  on Exception catch (err) // basado en el tipo de excepcion
+    print 'tenemos una excpetion'
+  catch (err)
+    print 'algo terrible sucedio: $err'
+  finally // siempre ejecute esta linea
+    print 'fin try'
+
+  print 'fin programa'
+
+  
+Future xyz {  
+  
+  await Future 
+  
+  // throw Exception ('no hay parametros')
+   throw ('error peticion')
+
+}
+
+----- S2-L22 Streams
+
+// pueden ser retornados y usados como objetos, funciones o metodos
+// flujo de informacion que puede emitir valores periodiamente, una vez o nunca.
+
+
+void main()
+{
+  emitnumbers().listen( (value) {
+  print ('Stream value: $value');
+  });
+}
+
+Stream <int> emitnumbers() {
+  return Stream.periodic(const Duration (seconds:1), (value){
+  print ('desde periodic $value')
+    return value;
+  }).take(5);
+}
+
+
+----- S2-L23 Async* - Await
+
+Async* = La funcion regresa un String
+
+void main()
+{
+  emitnumbers().listen( ( int value) {
+  print ('Stream value: $value');
+  });
+}
+
+
+Stream <int> emitnumbers() async* {
+  
+  final valuesToEmit = [1,2,3,4,5];
+  
+  for (int i in valuesToEmit) {
+  await Future.delayed ( const Duration(seconds: 1));
+  yield i; //no puede ser 'return' por que son emisiones
+  }
+  
+}
+
+----- [S3/L00] Flutter Móvil: De cero a experto 2023 - Introducción y temas puntuales de la sección 3
+
+mac y windows hay configuraciones diferentes
+
+dispositivo emulado
+android
+validar la configuracion del pc
+2 gb es poco en disco
+puede ser 4 gb de storage o 5gb
+
+
+----- [S3/L01] Flutter Móvil: De cero a experto 2023 - Windows: Instalación de Android Studio
+
+Validar que lo marcado esté instalado
+instalar otros plug (Dart y Flutter) para poder trabajar desde And studio
+
+----- [S3/L02] Flutter Móvil: De cero a experto 2023 - Windows: Instalación de Windows
+
+----- [S3/L03] Flutter Móvil: De cero a experto 2023 - Windows: Emuladores
+
+Configurar del dispositio emulado
+Tarjeta de video
+
+
+Android Studio
+more actions
+virtual device manager
+Create New Virtual Device 
+
+(pixel 7 pro)
+
+new hardware profiles
+device name : s23
+6.9
+1440 x 3088
+
+Memory () dar lo mas que se pueda 4 
+seleccionar y next
+selecionar la version de andorid
+(Ejemplo Tiramisu)
+
+importante seleccionar el API level
+Ejemplo: S23 API 33
+
+Grapichs: si se tiene tarjeto de video independiente , se debe selccionar
+dado que aumenta el performance
+
+click en Hide Advance Setting
+
+Quick boot
+multi core de 4
+RAM 4 gb (lo mas que se pueda)
+internal storage 4 gb
+
+
+
+----- [S3/L04] Flutter Móvil: De cero a experto 2023 - Windows: probar dispositivo
+
+
+comand palett crtl shift P
+buscar : flutter new proyect
+seleccionar a primera opcion
+
+CSP-- buscar flutter - select device - F5 
+
+----- [S3/L05] Flutter Móvil: De cero a experto 2023 - MAC
+----- [S3/L06] Flutter Móvil: De cero a experto 2023 - MAC
+----- [S3/L07] Flutter Móvil: De cero a experto 2023 - MAC
+----- [S3/L08] Flutter Móvil: De cero a experto 2023 - MAC
+----- [S3/L09] Flutter Móvil: De cero a experto 2023 - MAC
+----- [S3/L10] Flutter Móvil: De cero a experto 2023 - MAC
+
+----- [S3/L11] Flutter Móvil: De cero a experto 2023 - Windows / Mac / Android físico
+en el celular 
+
+settings
+about this phone
+build numbers
+tap varias veces hata el ping
+
+settings
+system
+use developer optinos
+usb debuggin activar
+Stay away
+
+VS code 
+pixel 7 pro
+
+
+----- [S4/L00] Flutter Móvil: De cero a experto 2023 - Introducción y temas puntuales de la sección 4
+
+----- [S4/L01] Flutter Móvil: De cero a experto 2023 - Exposición | ¿Qué es Flutter?
+
+Toma de pub.dev un repositorio de muchos paquetes
+Codigo base para web 
+Codigo base para windows linux y mac
+Codigo base para ios y android
+Codigo base para embebido
+
+----- [S4/L02] Flutter Móvil: De cero a experto 2023 - Hello World App | Explicando archivos y directorios
+
+crear la carpeta de flutter
+nombre del proyecto es en minuscula y separado por guion bajo
+
+.dart_tool-- conf propias de dart
+.idea -- conf trabajando con intelij idea
+android -- codigo de java , ciertas configuracion por ejmplo de uso para la camara
+lib -- codigo fuente main.dart 
+test -- test automatioc de la aplicacion
+.gitignore -- (ignorados para darles segumientos, no hace falgta que lo suban)
+
+----- [S4/L03] Flutter Móvil: De cero a experto 2023 - Explicación de directorios | Parte 2
+
+.metadata -- no se hacen conf
+analysis_options.yaml -- no se hacen conf
+hello_wordl_app.iml -- usado por intelj idea
+pubspeck.lock -- seguimiento a las versiones del proyecto
+pubspeck.yaml -- archivo de conf 
+
+[S4/L04] Flutter Móvil: De cero a experto 2023 - Hola Mundo
+
+StatelessWidget
+StatefullWidget
+
+Todos los StatelessWidget necesitan un built
+
+con CTRL+. se muestran  los widget
+
+----- [S4/L05] Flutter Móvil: De cero a experto 2023 - Scaffold Widget y buenas prácticas
+
+Scaffold -- da las bases de un diseño de material
+
+Add key constructor
+
+quitar banner
+CTRL+espaciadora -- buscar banner
+
+----- [S4/L06] Flutter Móvil: De cero a experto 2023 - Estructura de directorios | Nueva Pantalla
+
+Screen cubre toda la pantalla y tiene un Scaffold
+
+----- [S4/L07] Flutter Móvil: De cero a experto 2023 - Contador | Diseño de la pantalla
+
+Algunos solo reciben un child (hijo) otros variso hijos (children) por ej widget Colum o Row
+
+cual es la regla para saber cuando poner constante y cuando no
+es cuando no se va a modificar (tener en cuenta si se modifica en runtime)
+
+la propiedad mainAxisAlignment está esperando un objeto de tipo mainAxisAlignment
+que sería como un Enum 
+
+----- [S4/L08] Flutter Móvil: De cero a experto 2023 - Material Design 3
+
+
+en el main.dart
+theme: ThemeDate(
+ useMaterial3: true
+)
+colorSchemeSeed : Colors.red
+
+
+----- [S4/L09] Flutter Móvil: De cero a experto 2023 - Cambiar el estado de la aplicación
+
+cambiar el estado de un widget 
+
+StatelessWidget no tiene estado
+se cambia a un StatefullWidget ( no usarlo tanto, pero son el corazon de cualquier animación de la app)
+CTRL+.
+
+El rayo es hotReload
+cuando se renderice la pantalla
+
+setState() -- es pra renderiza y cambiar el estado 
+se debe tener en cuenta donde se pone dado que renderizara segun la posicion
+
+----- [S4/L10] Flutter Móvil: De cero a experto 2023 - Tarea | Cambiar la palabra clicks
+
+----- [S4/L11] Flutter Móvil: De cero a experto 2023 - AppBar y Acciones
+
+Renombrar : Fnc F2
+
+leading en el appBar
+
+actions -- lista de widgets
+** volver a ver ** hay un ejemplo de varios widgets usando Column y varios FloatingActionButton 
+
+const SizBox(heigth: 10),
+
+Nota: curso gratuito de VS code
+
+----- [S4/L12] Flutter Móvil: De cero a experto 2023 - Widgets personalizados
+
+Ser mas reducido en el codigo
+Tener poco nivel de identificacion
+
+cursor encima del widgetque se quiere extraer 
+CTRL + .
+Extract Widget (no siempre va a funcionar por ejemplo si tiene una dependencia del setState())
+
+paremetrizar : final IconData icon;
+
+
+----- [S4/L13] Flutter Móvil: De cero a experto 2023 - VoidCallback | Función como argumento
+
+paremetrizar : onPressed VoidCallback
+
+onPressed: null -- no pueden dar click en los botones
+
+enbaleFeedback -- sonido acustico o vibracion
+elevation -- sombra
+backgroundColor Colors.yellow
+
+
+----- [S5/L00] Flutter Móvil: De cero a experto 2023 - Introducción y temas puntuales de la sección 5
+
+----- [S5/L01] Flutter Móvil: De cero a experto 2023 - Inicio de App | YesNo App
+
+mateapp -- Snippets
+
+FilledButton.tonal ()-- boton lleno
+
+----- [S5/L02] Flutter Móvil: De cero a experto 2023 - Estilo global de la aplicación
+
+main.dart 
+theme-- es mejor separarlo
+como se quiere que se muestren los textos, appbar, Scaffold
+se crear otro archivo: app_them.dart
+
+ ThemeData
+   useMaterial3: true
+
+NOTA: _ guion bajo es para hacerlo privado y solo se puede usar en el archivo
+
+assert (aserciones)
+
+----- [S5/L03] Flutter Móvil: De cero a experto 2023 - Chat Screen
+
+leadinge: espacio antes de titulo
+CircleAvatar se envuelve en un Padding
+backGroundImage: -- proveedor de imagenes
+
+
+----- [S5/L04] Flutter Móvil: De cero a experto 2023 - ListView | área de los mensajes
+
+----- 
