@@ -8,25 +8,19 @@ https://github.com/axiftaj/Flutter-Rest-Api-Tutorials-With-Example
 https://www.tutorialspoint.com/flutter/flutter_accessing_rest_api.htm
 https://blog.codemagic.io/rest-api-in-flutter/
 https://www.geeksforgeeks.org/implementing-rest-api-in-flutter/
-
-
 https://morioh.com/p/c35b6c567a62
 https://www.djamware.com/post/5f308ef7185c336b811b362a/flutter-tutorial-consume-crud-rest-api-android-and-ios-apps
 https://strapi.io/blog/how-to-build-a-simple-crud-application-using-flutter-and-strapi
 https://medium.com/app-dev-community/flutter-crud-application-using-php-rest-api-bb585c4d7d9c
 
-
 curso facil
 Flutter: Tu guía completa de desarrollo para IOS y Android
 
-
-
-
-curso  de sql y java
+curso de sql y java
 Flutter: App Delivery con NodeJS, MySQL y Pasarelas de pago
 
 curso avanzo
 Flutter Avanzado: Lleva tu conocimiento al siguiente nivel
 
-
 Falta : Recuperar contraseña / Olvidaste tu password 
+

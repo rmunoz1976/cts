@@ -1,0 +1,31 @@
+https://www.udemy.com/course/spring-boot-recetas-para-el-trabajo-diario-introduccion/learn/lecture/10756040#overview
+Spring Boot Recetas para el trabajo diario (Introducción)
+web: Game Code 
+
+Spring Boot:
+Tiene un servidor Tomcat
+Selecciona dependencias automaticamente
+Se puede desde InteliJ o desde start.spring.io
+Para pagina web y servicio REST
+Por defecto lo consume REST
+11. Inyeccion de depenencias: contenedor de instancias 
+13. Archivo de Propiedades : puede cambiarse la extension a yml con su estructura
+ 
+--------- --------- --------- --------- --------- 
+https://www.udemy.com/course/spring-boot-2-recetas-para-el-trabajo-diario-spring-mvc/learn/lecture/13042532#overview
+Spring boot 2: Recetas para el trabajo diario (Spring MVC)
+
+
+--------- --------- --------- --------- --------- 
+https://www.udemy.com/course/spring-boot-en-simples-pasos/
+Spring boot en simples pasos  
+
+
+--------- --------- --------- --------- --------- 
+https://www.udemy.com/course/spring-boot-restful-web-services-tutorial-free-course/learn/lecture/29680280?start=0#overview
+Spring Boot 3 Restful Web Services Tutorial - Free Course 
+
+--------- --------- --------- --------- --------- 
+
+--------- --------- --------- --------- --------- 
+

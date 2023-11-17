@@ -1,0 +1,131 @@
+
+https://www.udemy.com/course/introduccion-a-la-metodologia-scrum/learn/lecture/33472302#overview
+Introducción a la metodología Scrum
+
+---------- 4 Pilares
+a. Software funcionando por sobre la documentación detallada
+b. Respuesta ante le cambio por sobre la Seguir un plan
+c. Colaboración con el cliente por sobre la Negocacion contraactual
+d. Individuos e interacciones por sobre la Procesos y herramientas
+
+
+---------- 12 principios ágiles
+1. Satisfacción al cliente. 
+La prioridad es satisfacer al cliente mediante la entrega temprana y continua de software con valor.
+
+2. Cambios. 
+Los cambios son bienvenidos en cualquier etapa del proyecto. Los procesos ágiles aprovechan el cambio para adaptarse a las necesidades del negocio y para proporcionar ventaja competitiva al cliente.
+
+3. Software funcional. 
+Entrega de software funcional en un periodo corto (entre dos semanas y dos meses).
+
+4. Colaboración. 
+Los responsables del negocio y los desarrolladores trabajan juntos durante todo el proyecto. La colaboración facilita la comunicación del equipo de trabajo con el cliente y esto también beneficia al usuario final del producto.
+
+5. Individuos motivados. 
+El éxito de los proyectos está determinado, en gran medida, por individuos que se sienten motivados. Se debe garantizar un buen entorno de trabajo y dar al equipo independencia para tomar decisiones y ejecutar las actividades relacionadas con el proyecto.
+
+6. Comunicación cara a cara. 
+Es el método más eficiente y efectivo de comunicar información al equipo.
+
+7. Progreso. 
+El software funcionando es la principal medida de progreso.
+
+8. Desarrollo sostenible. 
+El ritmo de desarrollo debe ser constante a lo largo de las iteraciones.
+
+9. Mejora continua. 
+Está determinada por la excelencia técnica y el buen diseño a lo largo del proceso, en cada una de las iteraciones, el equipo puede identificar fácilmente qué hizo bien y qué puede mejorar.
+
+10. Simplicidad. 
+El arte de maximizar la cantidad de trabajo no realizado es esencial. Se deben contemplar requerimientos bien definidos y un alcance claro para aprovechar al máximo los resultados de las tareas ejecutadas.
+
+11. Autoorganización. 
+Las mejores arquitecturas, requisitos y diseños emergen de equipos autoorganizados.
+
+12. Autoevaluación. 
+El equipo tiene la capacidad de ajustar y perfeccionar su comportamiento.
+
+---------- Scrum
+
+El empirismo es la base de Scrum
+
+---------- Pilares Scrum
+
+Trasparencia
+Inspección
+Adaptacion
+
+---------- Valores de Scrum
+Compromiso: apoyo mutuo
+Enfoque: cumplir objetivo
+Franqueza: abiertos, sinceros, bloqueo, nueva oportunidad
+Respeto: capaces e independientes
+Coraje: superar problemas complejos
+
+---------- Scrum Team: 
+Unidad cohesionada de profesionales cuyo objetivo es el producto
+multifuncional, autogestion
+10 personas maximo
+Scrum Master / Producto Owner / Developers
+
+----- Agile Team: 
+Conocimiento de Scrum / Colaboracion / Altamente motivados / Proactivos
+Expertos técnicos / Auto organización / Buen miembro del equipo / Independientes
+Responsables / Intuitivos / Orientados a los objetivos
+
+----- Developers: Las personas que desarrollan el producto 
+
+----- Producto Owner: Dueño del producto
+Conoce las necesidades Stakeholders  (los que usan el producto)
+Conocimiento / Autoridad / Disponibilidad
+Maximizar le valor del producto
+Es el responsable aunque delegue
+La organización debe respetar sus decisiones
+
+----- Scrum Master: Guiar, enfocar, elimina impedimentos o bloqueos, 
+que se lleven los eventos de scrum de manera positiva, entoncrar tecnicas, 
+entender la necesidad, facilita la colaboracion
+
+Responsable de:
+Eficacia: que? Cumplimiento de metas (medios) Poroc desperdicio
+Eficiencia: como? Uso de recursos (fines) Grandes logros
+Efectividad: para que? Impacto del resultado 
+
+----- Stakeholders: GRupo de personas que se ven afectadas o beneficiadas por el producto.
+
+---------- Eventos del Scrum 
+
+5 Eventos
+
+----- Sprints: Contenedor de eventos
+----- Sprints Plannign 
+----- Daily Scrum: 15 minutos
+----- Sprint Review: revison del sprint, puede hager cambios, 4 horas
+----- Sprint Retrospective: Aumentar productividad, ultimo evento del sprint
+
+   ---------------------------------------
+   |                                     |
+   |      ------------                   |
+   !      !          ¡                   ¡
+Planning ---> Daily ---> Review --> Retrospective
+
+             Product 
+			 Backlog 
+			 Refinement
+
+
+Definir el mismo lugar, dia y hora par alas reuniones.
+No debe ser mayor a un mes.
+
+---------- Artefactos de Scrum
+
+Product Backlog es el objetivo del backlog
+lista emergente y ordenada de lo que se necesita mejorar
+
+
+Sprint Backlog es el objetivo del spring
+plan realizado por y para los dearrolladores
+
+Increment es la definicion de terminado
+Es la finalizacion del producto por cada entrega

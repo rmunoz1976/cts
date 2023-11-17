@@ -1,7 +1,5 @@
 
 
-
-
 ---verificar la generación del email
 @Column(name = "email", nullable = false)
 @NotEmpty(message = "El email no debe estar vacío.")

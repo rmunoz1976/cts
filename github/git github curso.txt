@@ -1,7 +1,14 @@
+
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
+
+github Desktop
+
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
+
 libro git
 https://git-scm.com/book/en/v2
 
----------------- ---------------- ---------------- ---------------- ----------------
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
 
 https://www.youtube.com/watch?v=VdGzPZ31ts8
 Aprende GIT ahora! curso completo GRATIS desde cero
@@ -72,7 +79,7 @@ git rm  nombre_archivo
 
 --nos devolvemos al directorio donde vamos a trabajar
 
----------- Flujo de trabajo 24:30
+---------------- ---------------- ---------------- Flujo de trabajo 24:30
 
 Seleccionar solo los archivos y pasar a Stage --git add
 Se seleccionar solo los cambios que hicimos y pasar a Commit --git commit
@@ -82,7 +89,7 @@ Para eliminar un archivo se debe ejecutar el mismo paso con los comandos anterio
 
 se crea un archivo en la ruta: archivo01
 
-// ver el estado actaul del repositorio
+// ver el estado actual del repositorio
 git status
 
 // adicionar archivo al git
@@ -115,7 +122,7 @@ git mv archivo03.txt archivo02.txt
 git commit -m "devolviendo nombre de archivo"
 
 
----------- Ignorar archivos para que no sean incluidos 
+---------------- ---------------- ---------------- Ignorar archivos para que no sean incluidos 
 
 //arbir VSCode
 code .
@@ -145,7 +152,8 @@ git log --oneline
 git log --stat
 
 
----------- 55:05 Merge a la rama de MAIN
+---------------- ---------------- ---------------- 55:05 Merge a la rama de MAIN
+
 //en que rama se está trabajando
 git branch
 
@@ -170,11 +178,14 @@ git checkout master
 en la rama Master 
 git merge ramaB
 
----------- 1:00:52 Usar GitHub 
+---------------- ---------------- ---------------- 1:00:52 Usar GitHub 
 
 https://github.com/
 
 https://github.com/rmunoz1976/cts
+
+En el boton New, crear un nuevo repositorio
+
 
 copiar y ejecutar 
 git remote add origin https://github.com/rmunoz1976/cts.git
@@ -182,10 +193,17 @@ git remote add origin https://github.com/rmunoz1976/cts.git
 copiar y ejecutar
 git push -u origin master
 
+si eso no da, se ejecutar esto: 
 
-en github ir al icono del profile en Settings / Developer Settings
-en Personal Access Token
-personal access token
+git push 
+
+y generalemnte debería ejecutarse asi 
+
+git push --set-upstream origin master
+
+en github ir al icono del profile en Settings / Developer Settings ( Lista del lado izquierdo al final )
+en opcion de Personal Access Token
+seleccionar Personal Access Token
 Nombre del token : CtsWindows
 No expira
 Genera el token, se copia : 
@@ -221,22 +239,41 @@ git revert -- elimina un commit en especifico y hace otro commit
 git pull -- cuando se trabaja en github se hace un cambio se debe hacer un: git pull
 
 
-
----------------- ---------------- ---------------- ---------------- ----------------
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
 
 https://www.youtube.com/watch?v=PW_A-lOpVV0
+Git y Github: Curso desde cero [Tutorial en Español]
 
 bluuweb.github.io/desarrollo-web-bluuweb/07-01/#¿que-es-github
 https://bluuweb.github.io/desarrollo-web-bluuweb/07-01-git/#enlaces
 
 
----------------- ---------------- ---------------- ---------------- ----------------
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
 
 https://www.youtube.com/watch?v=mBYSUUnMt9M
+Aprende Git y GitHub - Curso desde Cero
 
----------------- ---------------- ---------------- ---------------- ----------------
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
 
 https://www.youtube.com/watch?v=3GymExBkKjE
+Curso de GIT y GITHUB desde CERO para PRINCIPIANTES
+
+---------------- ---------------- ---------------- ---------------- ---------------- ----------------
 
 
----------------- ---------------- ---------------- ---------------- ----------------
+Nombre del token : CtsWindows
+No expira
+TOKEN:
+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  
+
+Nombre del token : ramzWindows 
+No expira
+TOKEN:
+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
+
+Git hub
+ricardo.munoz.zapata@gmail.com
+Password
+  Luis@1976
+  cts.2023.11
+

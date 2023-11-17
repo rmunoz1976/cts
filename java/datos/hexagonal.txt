@@ -1,7 +1,6 @@
 hexagonal
 
 https://www.youtube.com/watch?v=CycNkSXfXy8
-
 Implementación de arquitecturas hexagonales
 
 Dominio (capa) esta en el centro de la aplicacion
@@ -318,35 +317,9 @@ Lampara
 --------------------------------------------------
 --------------------------------------------------
 
-https://www.youtube.com/watch?v=eNFAJbWCSww
-Arq Hexa vs Vertical Slicing
-
--- Cursos
-  --aplicacion
-    --CursoCreator
-
-  --dominio
-    --CursoEntity
-	--CursoRepository
-	
-  --infraestructura
-    --MySqlCursoRepository
-
--- Estudiantes
-  --aplicacion
-    --CursoCreator
-
-  --domino
-    --CursoEntity
-	--CursoRepository
-	
-  --infraestructura	
-    --MySqlCursoRepository
-
-
------- OTRA 
 https://www.youtube.com/watch?v=3UCHQPa-nf4
 Qué es la arquitectura hexagonal y como aplicarla en un proyecto Spring Boot
+
 https://github.com/elivarl/arquitectura-hexagonal-ejemplo-practico
 
 --domain
@@ -435,7 +408,7 @@ no esta dada en DDD (guiado por el dominio)
 
 
 bcolombia  
--- spring boot bancolombia plugin arquitectura limpia
+-- spring boot bancolombia plugin arquitectura limpia #1
 https://www.youtube.com/watch?v=_yad01cof5M
 https://www.youtube.com/watch?v=S5EklZXZSf4
 https://www.youtube.com/watch?v=A5GLSB8S3hs

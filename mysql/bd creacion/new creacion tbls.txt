@@ -1,0 +1,438 @@
+-- en el de jwt
+INSERT INTO roles (id,name) VALUES (1,'ROLE_USER');
+INSERT INTO roles (id,name) VALUES (2,'ROLE_MODERATOR');
+INSERT INTO roles (id,name) VALUES (3,'ROLE_ADMIN');
+
+--------
+
+INSERT INTO t010c_compania (id,codigo,nit,dv,nombre_corto,nombre_largo,sigla,fecha) 
+VALUES (1,'1',123456789,1,'MyCompany','MyCompanyLarge','MC','2022-12-28');
+
+INSERT INTO t104t_estado_registro (id,codigo,descripcion) VALUES (1,'1','ACTIVO');
+INSERT INTO t104t_estado_registro (id,codigo,descripcion) VALUES (2,'2','INACTIVO');
+INSERT INTO t104t_estado_registro (id,codigo,descripcion) VALUES (3,'3','ELIMINADO');
+
+INSERT INTO t310e_rol (id,codigo,descripcion,tipo) VALUES (1,1,'USUARIO','ROLE_USER');
+INSERT INTO t310e_rol (id,codigo,descripcion,tipo) VALUES (2,2,'MODERADOR','ROLE_MODERATOR');
+INSERT INTO t310e_rol (id,codigo,descripcion,tipo) VALUES (3,3,'ADMINISTRADOR','ROLE_ADMIN');
+
+insert into t304e_empresa (  id,  codigo,  nit,  dv,  nombre_corto,  nombre_largo,  sigla,  email,  estado_empresa ) 
+values ( 1,'1',1,1,'1','1','1','1',1 ) 
+
+INSERT INTO t312e_usuario (id,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,nombre_completo,numero_celular,username,password,email,id_empresa,id_estado_registro,id_usuario_creacion,fecha_creacion,id_usuario_modificacion,fecha_modificacion) 
+VALUES (1,'ADMIN','ADMIN','ADMIN','ADMIN','ADMIN ADMIN ADMIN ADMIN','0','ADMIN','ADMIN','ADMIN@gmail.com',1,1,1,'2023-03-13 11:50:34.869648',1,'2023-04-05 09:22:52.784258');
+
+INSERT INTO  (id,codigo,descripcion,tipo,id_empresa,id_estado_registro,id_usuario_creacion,fecha_creacion,id_usuario_modificacion,fecha_modificacion) VALUES (1,'VARIABLE_GLOBAL','Parámetro variable global','ADMIN',1,1,1,'2023-06-09 15:11:41.701439',1,'2023-06-09 15:11:41.701439');
+INSERT INTO  (id,codigo,descripcion,tipo,id_empresa,id_estado_registro,id_usuario_creacion,fecha_creacion,id_usuario_modificacion,fecha_modificacion) VALUES (2,'LISTA','Parámetro tipo lista','ADMIN',1,1,1,'2023-06-09 15:18:28.191209',1,'2023-06-09 15:18:28.191209');
+INSERT INTO  (id,codigo,descripcion,tipo,id_empresa,id_estado_registro,id_usuario_creacion,fecha_creacion,id_usuario_modificacion,fecha_modificacion) VALUES (3,'SUBLISTA','Parámetro tipo sublista','ADMIN',1,1,1,'2023-06-09 15:33:51.070400',1,'2023-06-09 15:33:51.070400');
+
+
+CREATE TABLE `t010c_compania` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(4) NOT NULL COMMENT 'Código de la compañiia',
+  `nit` int(11) NOT NULL COMMENT 'Nit de la compañiia',
+  `dv` int(11) NOT NULL COMMENT 'Dígito de verificación de la compañiia',
+  `nombre_corto` varchar(256) NOT NULL COMMENT 'Nombre corto de la compañiia',
+  `nombre_largo` varchar(256) NOT NULL COMMENT 'Nombre largo de la compañiia',
+  `sigla` varchar(32) NOT NULL COMMENT 'Sigla de la compañiia',
+  `fecha` date NOT NULL COMMENT 'Fecha de la compañiia',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena los datos de la compañia.';
+
+
+CREATE TABLE `t104t_estado_registro` (
+  `id` int(11) NOT NULL COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(4) NOT NULL COMMENT 'Código del estado',
+  `descripcion` varchar(32) NOT NULL COMMENT 'Descripción del estado',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descripcion_UNIQUE` (`descripcion`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena los estados de los registros.';
+
+
+CREATE TABLE `t152t_territorio` (
+  `id` int(11) NOT NULL COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(4) NOT NULL COMMENT 'Código del territorio',
+  `descripcion` varchar(32) NOT NULL COMMENT 'Descripción del territorio',
+  `id_territorio` int(11) NOT NULL COMMENT 'Id del territorio padre',
+  `codigo_dane` varchar(16) NOT NULL COMMENT 'Código DANE del territorio',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena los estados de los territorios.';
+
+
+CREATE TABLE `t304e_empresa` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código de la empresa',
+  `nit` int(11) NOT NULL COMMENT 'Nit de la empresa',
+  `dv` int(11) NOT NULL COMMENT 'Dígito de verificación de la empresa',
+  `nombre_corto` varchar(128) NOT NULL COMMENT 'Nombre corto de la empresa',
+  `nombre_largo` varchar(256) NOT NULL COMMENT 'Nombre largo de la empresa',
+  `sigla` varchar(64) NOT NULL COMMENT 'Sigla de la empresa',
+  `email` varchar(256) NOT NULL COMMENT 'Email de la empresa',
+  `estado_empresa` int(11) NOT NULL COMMENT 'Indica el estado de la empresa (0=Inactivo / 1=Activo )',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `nombre_corto_UNIQUE` (`nombre_corto`),
+  UNIQUE KEY `nombre_largo_UNIQUE` (`nombre_largo`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena las empresas.';
+
+
+CREATE TABLE `t310e_rol` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código del rol',
+  `descripcion` varchar(64) NOT NULL COMMENT 'Descripción del rol',
+  `tipo` varchar(16) NOT NULL COMMENT 'Tipo del rol (solo puede tener estos valores: ROLE_USER, ROLE_MODERATOR, ROLE_ADMIN)',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `nombre_UNIQUE` (`descripcion`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los roles';
+
+
+CREATE TABLE `t312e_usuario` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `primer_nombre` varchar(32) NOT NULL COMMENT 'Primer nombre del usuario',
+  `segundo_nombre` varchar(32) DEFAULT NULL COMMENT 'Segundo nombre del usuario',
+  `primer_apellido` varchar(32) NOT NULL COMMENT 'Primer apellido del usuario',
+  `segundo_apellido` varchar(32) DEFAULT NULL COMMENT 'Segundo apellido del usuario',
+  `nombre_completo` varchar(128) NOT NULL COMMENT 'Nombre completo del usuario',
+  `username` varchar(45) DEFAULT NULL COMMENT 'Username del usuario',
+  `password` varchar(256) NOT NULL COMMENT 'Password del usuario',
+  `email` varchar(256) NOT NULL COMMENT 'email del usuario',
+  `id_rol` int(11) NOT NULL COMMENT 'Identificador del rol',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `username_UNIQUE` (`username`),
+  KEY `idx_t312e_01` (`id_empresa`),
+  CONSTRAINT `fk_t312e_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los usuarios.';
+
+
+CREATE TABLE `t320e_objeto` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(64) NOT NULL COMMENT 'Código del objeto',
+  `descripcion` varchar(1024) NOT NULL COMMENT 'Descripcion del objeto',
+  `tipo` varchar(16) NOT NULL COMMENT 'Tipo de objeto (solo puede tener estos valores: LISTA, VALOR, VBLEGLOBAL)',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  KEY `idx_t320m_01` (`id_empresa`),
+  KEY `idx_t320m_02` (`id_estado_registro`),
+  KEY `idx_t320m_03` (`id_usuario_creacion`),
+  KEY `idx_t320m_04` (`id_usuario_modificacion`),
+  CONSTRAINT `fk_t320m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t320m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t320m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t320m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4630 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los objetos usados.';
+
+
+CREATE TABLE `t322e_objeto_valor` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `id_objeto` int(11) NOT NULL COMMENT 'Identificador del objeto',
+  `fecha_inicio` datetime(6) NOT NULL COMMENT 'Fecha de inicio del valor del objeto',
+  `fecha_final` datetime(6) DEFAULT NULL COMMENT 'Fecha de finalización del valor del objeto',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código del valor',
+  `referencia` varchar(32) NOT NULL COMMENT 'Referencia del valor',
+  `descripcion` varchar(64) NOT NULL COMMENT 'Descripción del valor',
+  `valor_numerico` int(11) NOT NULL COMMENT 'Valor numerico o decimal',
+  `valor_alfanumerico` int(11) NOT NULL COMMENT 'Valor alfanumerico',
+  `valor_booleano` int(11) NOT NULL COMMENT 'Valor booleano (solo puede tener estos valores: 1=VERDADERO, 0=FALSO)',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `idx_t322m_01` (`id_empresa`),
+  KEY `idx_t322m_02` (`id_estado_registro`),
+  KEY `idx_t322m_03` (`id_usuario_creacion`),
+  KEY `idx_t322m_04` (`id_usuario_modificacion`),
+  KEY `idx_t322m_10` (`id_objeto`),
+  CONSTRAINT `fk_t322m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t322m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t322m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t322m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t322m_10` FOREIGN KEY (`id_objeto`) REFERENCES `t320e_objeto` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4630 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los valores de los objetos usados.';
+
+
+
+CREATE TABLE `t324e_objeto_lista` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `id_objeto` int(11) NOT NULL COMMENT 'Identificador del objeto',
+  `fecha_inicio` datetime(6) NOT NULL COMMENT 'Fecha de inicio del item de la lista',
+  `fecha_final` datetime(6) DEFAULT NULL COMMENT 'Fecha de finalización del item de la lista',
+  `orden` int(11) NOT NULL COMMENT 'Orden de salida del item de la lista',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código del item de la lista',
+  `referencia` varchar(32) NOT NULL COMMENT 'Referencia del item de la lista',
+  `descripcion` varchar(64) NOT NULL COMMENT 'Descripción del item de la lista',
+  `valor_numerico` int(11) NOT NULL COMMENT 'Valor numerico o decimal del item de la lista',
+  `valor_alfanumerico` int(11) NOT NULL COMMENT 'Valor alfanumerico del item de la lista',
+  `valor_booleano` int(11) NOT NULL COMMENT 'Valor booleano del item de la lista (solo puede tener estos valores: 1=VERDADERO, 0=FALSO)',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `idx_t324m_01` (`id_empresa`),
+  KEY `idx_t324m_02` (`id_estado_registro`),
+  KEY `idx_t324m_03` (`id_usuario_creacion`),
+  KEY `idx_t324m_04` (`id_usuario_modificacion`),
+  KEY `idx_t324m_10` (`id_objeto`),
+  CONSTRAINT `fk_t324m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t324m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t324m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t324m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t324m_10` FOREIGN KEY (`id_objeto`) REFERENCES `t320e_objeto` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4630 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los valores de los objetos usados.';
+
+
+
+CREATE TABLE `t522m_grupo_producto` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código del grupo de productos',
+  `descripcion` varchar(64) NOT NULL COMMENT 'Descripción del grupo de productos',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descripcion_UNIQUE` (`descripcion`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `idx_t522m_01` (`id_empresa`),
+  KEY `idx_t522m_02` (`id_estado_registro`),
+  KEY `idx_t522m_03` (`id_usuario_creacion`),
+  KEY `idx_t522m_04` (`id_usuario_modificacion`),
+  CONSTRAINT `fk_t522m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t522m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t522m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t522m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información los grupos de productos.';
+
+
+CREATE TABLE `t525m_subgrupo_producto` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código del grupo de productos',
+  `descripcion` varchar(64) NOT NULL COMMENT 'Descripción del grupo de productos',
+  `id_grupo_producto` int(11) NOT NULL COMMENT 'Identificador del grupo de producto',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `descripcion_UNIQUE` (`descripcion`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `idx_t525m_01` (`id_empresa`),
+  KEY `idx_t525m_02` (`id_estado_registro`),
+  KEY `idx_t525m_03` (`id_usuario_creacion`),
+  KEY `idx_t525m_04` (`id_usuario_modificacion`),
+  KEY `idx_t525m_10` (`id_grupo_producto`),
+  CONSTRAINT `fk_t525m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t525m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t525m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t525m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t525m_10` FOREIGN KEY (`id_grupo_producto`) REFERENCES `t522m_grupo_producto` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información los grupos de productos.';
+
+
+CREATE TABLE `t528m_producto` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(16) NOT NULL COMMENT 'Código el producto',
+  `nombre_corto` varchar(64) NOT NULL COMMENT 'Nombre corto del producto',
+  `nombre_largo` varchar(128) NOT NULL COMMENT 'Nombre largo del producto',
+  `ruta_imagen` varchar(512) DEFAULT NULL COMMENT 'Ruta de la imagen grande',
+  `nombre_imagen` varchar(128) DEFAULT NULL COMMENT 'Ruta de la imagen mediana',
+  `id_subgrupo_producto` int(11) NOT NULL COMMENT 'Identificador del subgrupo de producto',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `nombre_corto_UNIQUE` (`nombre_corto`),
+  UNIQUE KEY `nombre_largo_UNIQUE` (`nombre_largo`),
+  UNIQUE KEY `ruta_imagen_g_UNIQUE` (`ruta_imagen`),
+  UNIQUE KEY `ruta_imagen_m_UNIQUE` (`nombre_imagen`),
+  KEY `idx_t528m_01` (`id_empresa`),
+  KEY `idx_t528m_02` (`id_estado_registro`),
+  KEY `idx_t528m_03` (`id_usuario_creacion`),
+  KEY `idx_t528m_04` (`id_usuario_modificacion`),
+  KEY `idx_t528m_10` (`id_subgrupo_producto`),
+  CONSTRAINT `fk_t528m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t528m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t528m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t528m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t528m_10` FOREIGN KEY (`id_subgrupo_producto`) REFERENCES `t525m_subgrupo_producto` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena los productos.';
+
+
+CREATE TABLE `t543m_nivel_arancel` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(32) NOT NULL COMMENT 'Código del nivel de arancel',
+  `descripcion` varchar(128) NOT NULL COMMENT 'Descripción del nivel de arancel',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `descripcion_UNIQUE` (`descripcion`),
+  KEY `idx_t543m_01` (`id_empresa`),
+  KEY `idx_t543m_02` (`id_estado_registro`),
+  KEY `idx_t543m_03` (`id_usuario_creacion`),
+  KEY `idx_t543m_04` (`id_usuario_modificacion`),
+  CONSTRAINT `fk_t543m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t543m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t543m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t543m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los niveles de arancel.';
+
+
+CREATE TABLE `t546m_concepto_arancel` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(16) NOT NULL COMMENT 'Descripción del concepto de arancel',
+  `descripcion` varchar(512) NOT NULL COMMENT 'Descripción del concepto de arancel',
+  `tipo_lista` int(11) NOT NULL COMMENT 'Tipo de lista de valores',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  UNIQUE KEY `descripcion_UNIQUE` (`descripcion`),
+  KEY `idx_t546m_01` (`id_empresa`),
+  KEY `idx_t546m_02` (`id_estado_registro`),
+  KEY `idx_t546m_03` (`id_usuario_creacion`),
+  KEY `idx_t546m_04` (`id_usuario_modificacion`),
+  CONSTRAINT `fk_t546m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t546m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t546m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t546m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de los conceptos de arancel.';
+
+
+CREATE TABLE `t549m_estructura_arancel` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `codigo` varchar(32) NOT NULL COMMENT 'Código de la estructura de arancel',
+  `descripcion` varchar(1024) NOT NULL COMMENT 'Descripción de la estructura de arancel',
+  `id_nivel` int(11) NOT NULL COMMENT 'Identificador del nivel de arancel',
+  `id_estructura` int(11) NOT NULL COMMENT 'Identificador del nivel padre del arancel',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `codigo_UNIQUE` (`codigo`),
+  KEY `idx_t549m_01` (`id_empresa`),
+  KEY `idx_t549m_02` (`id_estado_registro`),
+  KEY `idx_t549m_03` (`id_usuario_creacion`),
+  KEY `idx_t549m_04` (`id_usuario_modificacion`),
+  KEY `idx_t549m_10` (`id_nivel`),
+  CONSTRAINT `fk_t549m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t549m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t549m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t549m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t549m_10` FOREIGN KEY (`id_nivel`) REFERENCES `t543m_nivel_arancel` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información de la estructura de arancel.';
+
+
+CREATE TABLE `t564m_prod_aran` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `id_producto` int(11) NOT NULL COMMENT 'Identificador del producto para el arancel',
+  `id_estructura_arancel` int(11) NOT NULL COMMENT 'Identificador de la estructura del arancel',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `idx_t564m_01` (`id_empresa`),
+  KEY `idx_t564m_02` (`id_estado_registro`),
+  KEY `idx_t564m_03` (`id_usuario_creacion`),
+  KEY `idx_t564m_04` (`id_usuario_modificacion`),
+  KEY `idx_t564m_10` (`id_producto`),
+  KEY `idx_t564m_11` (`id_estructura_arancel`),
+  CONSTRAINT `fk_t564m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t564m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t564m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t564m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t564m_10` FOREIGN KEY (`id_producto`) REFERENCES `t528m_producto` (`id`),
+  CONSTRAINT `fk_t564m_11` FOREIGN KEY (`id_estructura_arancel`) REFERENCES `t549m_estructura_arancel` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información del producto y la estructura de arancel.';
+
+
+CREATE TABLE `t567m_prod_aran_perfil` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'Consecutivo único del registro',
+  `id_prod_aran` int(11) NOT NULL COMMENT 'Identificador del producto y arancel',
+  `id_concepto_arancel` int(11) NOT NULL COMMENT 'Identificador del concepto para el arancel',
+  `tipo_accion` int(11) NOT NULL COMMENT 'Acción del concepto de arancel',
+  `id_empresa` int(11) NOT NULL COMMENT 'Identificador de la empresa',
+  `id_estado_registro` int(11) NOT NULL COMMENT 'Identificador del estado del registro',
+  `id_usuario_creacion` int(11) NOT NULL COMMENT 'Identificador del usuario que creó el registro',
+  `fecha_creacion` datetime(6) NOT NULL COMMENT 'Fecha de creación el registro',
+  `id_usuario_modificacion` int(11) NOT NULL COMMENT 'Identificador del usuario que modificó el registro',
+  `fecha_modificacion` datetime(6) NOT NULL COMMENT 'Fecha de la última modificación del registro',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `idx_t567m_01` (`id_empresa`),
+  KEY `idx_t567m_02` (`id_estado_registro`),
+  KEY `idx_t567m_03` (`id_usuario_creacion`),
+  KEY `idx_t567m_04` (`id_usuario_modificacion`),
+  KEY `idx_t567m_10` (`id_prod_aran`),
+  KEY `idx_t567m_11` (`id_concepto_arancel`),
+  CONSTRAINT `fk_t567m_01` FOREIGN KEY (`id_empresa`) REFERENCES `t304e_empresa` (`id`),
+  CONSTRAINT `fk_t567m_02` FOREIGN KEY (`id_estado_registro`) REFERENCES `t104t_estado_registro` (`id`),
+  CONSTRAINT `fk_t567m_03` FOREIGN KEY (`id_usuario_creacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t567m_04` FOREIGN KEY (`id_usuario_modificacion`) REFERENCES `t312e_usuario` (`id`),
+  CONSTRAINT `fk_t567m_10` FOREIGN KEY (`id_prod_aran`) REFERENCES `t564m_prod_aran` (`id`),
+  CONSTRAINT `fk_t567m_11` FOREIGN KEY (`id_concepto_arancel`) REFERENCES `t546m_concepto_arancel` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='Almacena la información del concepto para el producto arancel.';
+
+
+
+
